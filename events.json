@@ -45,21 +45,20 @@
     "url": "https://www.census.gov/retail/index.html"
   },
   {
+    "uid": "fudan-interim-expected-2026-08-18",
+    "date": "2026-08-17",
+    "summary": "上海复旦2026年中报董事会",
+    "description": "公司正式公告董事会将于8月17日审议并批准2026年中期业绩及可能的中期股息；具体公告发布时间以港交所披露为准。验证FPGA、NOR与SLC NAND收入/毛利、扣非利润、经营现金流、应收及存货。",
+    "category": "持仓财报",
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304051.pdf"
+  },
+  {
     "uid": "xiaomi-interim-2026-08-18",
     "date": "2026-08-18",
     "summary": "小米集团2026年中期业绩",
-    "description": "披露日期按公司/港交所安排，具体发布时间以公告为准。验证手机毛利与库存、汽车交付及取消率、汽车毛利、现金消耗与研发投入。",
+    "description": "公司已确认8月18日召开董事会审议未经审计的中期业绩，具体发布时间以港交所公告为准。验证手机毛利与库存、汽车交付及取消率、汽车毛利、现金消耗与研发投入。",
     "category": "持仓财报",
-    "url": "https://ir.mi.com/zh-hans"
-  },
-  {
-    "uid": "fudan-interim-expected-2026-08-18",
-    "date": "2026-08-18",
-    "summary": "[预约披露] 上海复旦2026年中报",
-    "description": "交易所预约披露日，不代表盘中具体发布时间，变更须以公司公告为准。验证FPGA、NOR与SLC NAND收入/毛利、扣非利润、经营现金流、应收及存货。",
-    "category": "持仓财报",
-    "url": "https://www.fmsh.com/investor/investor_6.shtml",
-    "status": "TENTATIVE"
+    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0717/2026071700987.pdf"
   },
   {
     "uid": "fomc-minutes-2026-08-19",
@@ -96,6 +95,15 @@
     "description": "区分存储涨价叙事与公司自身量价利兑现；重点比较扣非利润、FPGA/NVM结构、经营现金流、应收和存货，单独评估H股估值与AH价差。",
     "category": "持仓复盘",
     "url": "https://www.fmsh.com/investor/investor_6.shtml"
+  },
+  {
+    "uid": "hpq-pre-results-review-2026-08-24",
+    "start_utc": "2026-08-24T16:00:00Z",
+    "duration_minutes": 45,
+    "summary": "HP FY26 Q3财报前承保线复核",
+    "description": "财报前2个交易日更新一致预期与分析师修订，核对最新DRAM/NAND合约价、PC出货、渠道库存和股价隐含波动；提前写明Q3、Q4及FY27指引的通过线与减仓触发器，避免由当日动量替代基本面判断。",
+    "category": "持仓复盘",
+    "url": "https://investor.hp.com/news-events/news/news-details/2026/HP-Inc--to-Announce-Third-Quarter-Fiscal-2026-Earnings-on-August-26-2026-and-to-Attend-Upcoming-Investor-Conferences/default.aspx"
   },
   {
     "uid": "us-pce-2026-08-26",
@@ -323,7 +331,7 @@
     "uid": "spacex-q3-date-check-2026-10-20",
     "date": "2026-10-20",
     "summary": "[研究检查] SpaceX 3Q26披露与AI ROIC节点",
-    "description": "这不是公司确认的财报日；检查官方披露安排，并准备复核AI税后ROIC、CapEx/GW、外部客户续约、Starlink现金贡献及解禁吸收。",
+    "description": "这不是公司确认的财报日；检查官方披露安排，并准备复核AI税后ROIC、CapEx/GW、外部客户续约及Starlink现金贡献。完整Q3业绩公布后的第二个完整交易日还将触发180天锁定池28%批次，约13.136亿股，须单独观察供给吸收。",
     "category": "观察名单",
     "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
     "status": "TENTATIVE"
@@ -350,8 +358,8 @@
     "uid": "nintendo-price-review-8w-2026-10-26",
     "start_utc": "2026-10-26T16:00:00Z",
     "duration_minutes": 45,
-    "summary": "Nintendo涨价后8周复盘",
-    "description": "第二次检查sell-through、库存、软件attach、数字占比和毛利，并为Q2财报后的仓位时间线更新概率。",
+    "summary": "Nintendo涨价后8周与Q2前复盘",
+    "description": "第二次检查sell-through、库存、软件attach、数字占比和毛利；同时核对官方Q2财报日期，为财报后的评级与部署闸门更新概率。若公司尚未确认日期，不把历史发布节奏写成确定财报日。",
     "category": "持仓复盘",
     "url": "https://www.nintendo.co.jp/ir/en/"
   },
@@ -486,5 +494,77 @@
     "description": "年末复核4Q26价格峰值假设、2027供给纪律、客户库存和各持仓BOM/盈利敏感度。",
     "category": "产业链复盘",
     "url": "https://www.trendforce.com/presscenter/news/semiconductors/"
+  },
+  {
+    "uid": "nintendo-q3-date-check-2027-01-25",
+    "date": "2027-01-25",
+    "summary": "[研究检查] Nintendo FY3/27 Q3日期与部署闸门",
+    "description": "这不是公司确认的财报日；核对任天堂IR并准备假日季复盘。重点验证海外涨价后的硬件需求、软件attach、数字销售、剔除一次性退款后的核心毛利率及内存成本，再判断是否满足下一阶段部署条件。",
+    "category": "持仓复盘",
+    "url": "https://www.nintendo.co.jp/ir/en/index.html",
+    "status": "TENTATIVE"
+  },
+  {
+    "uid": "spacex-q4-date-check-2027-01-26",
+    "date": "2027-01-26",
+    "summary": "[研究检查] SpaceX FY26全年财报与扩展锁定池首批",
+    "description": "这不是公司确认的财报日；核对SEC披露安排并准备第三份公开财报复盘。完整FY26/Q4业绩公布后的第二个完整交易日将触发延长锁定池20%批次，约3.519亿股；同时复核AI收入/GW、CapEx转化、自由现金流、Starlink现金贡献和长期论点。",
+    "category": "观察名单",
+    "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
+    "status": "TENTATIVE"
+  },
+  {
+    "uid": "spacex-extended-unlock-2027-03-18",
+    "start_utc": "2027-03-18T13:00:00Z",
+    "duration_minutes": 30,
+    "summary": "SpaceX延长锁定池：280天批次",
+    "description": "延长锁定池额外10%取得理论出售资格，约1.760亿股；不含Musk股份。结合此前财报后20%批次，观察早期/战略股东的Form 144、大宗折价、成交量与长期资金承接。",
+    "category": "解禁与供给",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026041013/japanfwp_06042026.htm"
+  },
+  {
+    "uid": "spacex-q1-date-check-2027-04-20",
+    "date": "2027-04-20",
+    "summary": "[研究检查] SpaceX 1Q27披露与扩展锁定池",
+    "description": "这不是公司确认的财报日；核对SEC披露安排。完整1Q27业绩公布后的第二个完整交易日将触发延长锁定池额外20%批次，约3.519亿股；继续复核AI利用率、客户续约、CapEx/GW和自由现金流。",
+    "category": "观察名单",
+    "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
+    "status": "TENTATIVE"
+  },
+  {
+    "uid": "hd-hyundai-electric-alabama-window-2027-04",
+    "date": "2027-04-30",
+    "summary": "[预计窗口] HD现代电气阿拉巴马二厂完工检查",
+    "description": "公司目标为2027年4月完成阿拉巴马第二工厂，本事件只代表月末检查点，不是确认的具体完工日。核对建设进度、投产爬坡、超高压变压器产能提升约50%以及765kV制造和测试能力是否按计划落地。",
+    "category": "观察名单",
+    "url": "https://www.prnewswire.com/news-releases/hd-hyundai-electric-expands-us-production-subsidiary-solidifies-leadership-in-north-american-extra-high-voltage-power-transformer-market-302707507.html",
+    "status": "TENTATIVE"
+  },
+  {
+    "uid": "spacex-extended-unlock-2027-05-17",
+    "start_utc": "2027-05-17T13:00:00Z",
+    "duration_minutes": 30,
+    "summary": "SpaceX延长锁定池：340天批次",
+    "description": "延长锁定池额外10%取得理论出售资格，约1.760亿股；不含Musk股份。检查实际减持、注册出售、大宗折价与股价对新增供给的吸收。",
+    "category": "解禁与供给",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026041013/japanfwp_06042026.htm"
+  },
+  {
+    "uid": "spacex-366-day-unlock-2027-06-14",
+    "start_utc": "2027-06-14T13:00:00Z",
+    "duration_minutes": 45,
+    "summary": "SpaceX 366天锁定节点可交易日",
+    "description": "合同节点为6月12日周六，公开市场最早6月14日交易。延长锁定池额外20%约3.519亿股取得理论资格；Musk单独366天锁定也到期，但其关联人出售仍受Rule 144、申报、Class B转换及可能的注册发行约束，不能按全部股份立即卖出理解。",
+    "category": "解禁与供给",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026041013/japanfwp_06042026.htm"
+  },
+  {
+    "uid": "spacex-q2-date-check-2027-07-20",
+    "date": "2027-07-20",
+    "summary": "[研究检查] SpaceX 2Q27披露与扩展锁定池尾批",
+    "description": "这不是公司确认的财报日；核对SEC披露安排。完整2Q27业绩公布后的第二个完整交易日将释放延长锁定池剩余20%，约3.519亿股；复盘供给出清、AI经济性、Starlink稳态现金流与完全摊薄后每股价值。",
+    "category": "观察名单",
+    "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
+    "status": "TENTATIVE"
   }
 ]
