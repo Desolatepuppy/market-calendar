@@ -1,0 +1,490 @@
+[
+  {
+    "uid": "onon-q2-2026-08-11",
+    "start_utc": "2026-08-11T12:00:00Z",
+    "duration_minutes": 60,
+    "summary": "On Holding 2Q26财报与电话会",
+    "description": "公司盘前公布业绩，08:00 ET电话会。验证固定汇率收入、DTC与全价销售、库存增速、毛利率及EBITDA指引；这是当前运动股仓位的直接去留节点。",
+    "category": "持仓财报",
+    "url": "https://investors.on-running.com/news/news-details/2026/On-to-Release-Second-Quarter-2026-Results-on-Tuesday-August-11-2026/default.aspx"
+  },
+  {
+    "uid": "us-cpi-2026-08",
+    "start_utc": "2026-08-12T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国7月CPI",
+    "description": "验证核心CPI环比、住房与服务通胀，判断弱就业之后美债利率、美元和风险资产能否继续交易宽松预期。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/cpi/"
+  },
+  {
+    "uid": "us-ppi-2026-08",
+    "start_utc": "2026-08-13T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国7月PPI",
+    "description": "验证核心PPI与企业成本压力，并与CPI共同判断降息交易是否过度。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/ppi/"
+  },
+  {
+    "uid": "sandisk-investor-day-2026-08-13",
+    "start_utc": "2026-08-13T13:00:00Z",
+    "duration_minutes": 180,
+    "summary": "Sandisk 2026投资者日",
+    "description": "官方投资者日，不是重复财报。重点复核HBF路线、NAND供需与定价、资本开支、自由现金流、资本回报及需求周期持续性，并映射HP、小米、Nintendo与复旦存储链。",
+    "category": "存储产业链",
+    "url": "https://investor.sandisk.com/events/event-details/2026-sandisk-investor-day"
+  },
+  {
+    "uid": "us-retail-sales-2026-08",
+    "start_utc": "2026-08-14T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国7月零售销售",
+    "description": "观察美国消费和高收入群体韧性。Prime Day月份错位，须结合6月与7月两个月判断，对Nintendo、On及HP消费端有间接影响。",
+    "category": "美国宏观",
+    "url": "https://www.census.gov/retail/index.html"
+  },
+  {
+    "uid": "xiaomi-interim-2026-08-18",
+    "date": "2026-08-18",
+    "summary": "小米集团2026年中期业绩",
+    "description": "披露日期按公司/港交所安排，具体发布时间以公告为准。验证手机毛利与库存、汽车交付及取消率、汽车毛利、现金消耗与研发投入。",
+    "category": "持仓财报",
+    "url": "https://ir.mi.com/zh-hans"
+  },
+  {
+    "uid": "fudan-interim-expected-2026-08-18",
+    "date": "2026-08-18",
+    "summary": "[预约披露] 上海复旦2026年中报",
+    "description": "交易所预约披露日，不代表盘中具体发布时间，变更须以公司公告为准。验证FPGA、NOR与SLC NAND收入/毛利、扣非利润、经营现金流、应收及存货。",
+    "category": "持仓财报",
+    "url": "https://www.fmsh.com/investor/investor_6.shtml",
+    "status": "TENTATIVE"
+  },
+  {
+    "uid": "fomc-minutes-2026-08-19",
+    "start_utc": "2026-08-19T18:00:00Z",
+    "duration_minutes": 45,
+    "summary": "FOMC 7月会议纪要",
+    "description": "重点检查就业走弱、通胀风险、政策分歧与资产负债表讨论，避免只凭一次就业数据推断立即宽松。",
+    "category": "央行",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+    "uid": "spacex-unlock-2026-08-20",
+    "start_utc": "2026-08-20T13:00:00Z",
+    "duration_minutes": 30,
+    "summary": "SpaceX流通盘节点：70天批次",
+    "description": "约3.190亿股取得理论出售资格；累计理论可流通约18.694亿股、约占总股本14.18%。理论解锁不等于实际卖出，观察成交量、折价和内部人行为。",
+    "category": "解禁与供给",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm"
+  },
+  {
+    "uid": "xiaomi-post-results-review-2026-08-20",
+    "start_utc": "2026-08-20T16:00:00Z",
+    "duration_minutes": 60,
+    "summary": "小米中报后评分与授权复核",
+    "description": "把手机、IoT和汽车分拆复盘；至少确认交付相对指引、汽车毛利、手机毛利/库存、经营现金消耗中的三项是否改善，再决定评级与仓位授权。",
+    "category": "持仓复盘",
+    "url": "https://ir.mi.com/zh-hans"
+  },
+  {
+    "uid": "fudan-post-results-review-2026-08-20",
+    "start_utc": "2026-08-20T17:00:00Z",
+    "duration_minutes": 60,
+    "summary": "上海复旦中报后评分与授权复核",
+    "description": "区分存储涨价叙事与公司自身量价利兑现；重点比较扣非利润、FPGA/NVM结构、经营现金流、应收和存货，单独评估H股估值与AH价差。",
+    "category": "持仓复盘",
+    "url": "https://www.fmsh.com/investor/investor_6.shtml"
+  },
+  {
+    "uid": "us-pce-2026-08-26",
+    "start_utc": "2026-08-26T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国7月PCE与个人收支",
+    "description": "BEA公布7月PCE、核心PCE、实际消费、收入和储蓄率；与CPI/PPI交叉验证通胀和消费。",
+    "category": "美国宏观",
+    "url": "https://www.bea.gov/news/schedule"
+  },
+  {
+    "uid": "hpq-q3-2026-08-26",
+    "start_utc": "2026-08-26T21:30:00Z",
+    "duration_minutes": 90,
+    "summary": "HP FY26 Q3财报与电话会",
+    "description": "官方安排为14:30 PT。验证PC ASP与销量拆分、Personal Systems利润率、Print利润、自由现金流、DRAM/NAND成本转嫁和FY27盈利预期；当前评级不会因股价动量自动升级。",
+    "category": "持仓财报",
+    "url": "https://investor.hp.com/news-events/events/"
+  },
+  {
+    "uid": "hd-hyundai-electric-monthly-review-2026",
+    "start_utc": "2026-08-28T15:00:00Z",
+    "duration_minutes": 45,
+    "summary": "HD现代电气月度部署闸门复核",
+    "description": "每月最后一个星期五复核股价/赔率、2027—28 EPS修订、北美订单与框架合同向PO转化、利润率和韩国去杠杆压力。评级取得候选资格不等于立即部署。",
+    "category": "观察名单",
+    "url": "https://www.hd-hyundaielectric.com/",
+    "rrule": "FREQ=MONTHLY;COUNT=12;BYDAY=-1FR"
+  },
+  {
+    "uid": "unisplendour-interim-expected-2026-08-29",
+    "date": "2026-08-29",
+    "summary": "[预约披露] 紫光股份2026年中报",
+    "description": "按交易所预约披露日记录，若公司改期以巨潮资讯公告为准。验证H3C的AI算力订单、收入质量、毛利率、应收/存货增速和经营现金流回补。",
+    "category": "持仓财报",
+    "url": "https://www.cninfo.com.cn/new/index",
+    "status": "TENTATIVE"
+  },
+  {
+    "uid": "investment35-monthly-review-2026",
+    "start_utc": "2026-08-30T19:00:00Z",
+    "duration_minutes": 90,
+    "summary": "Investment 3.5月度评分与资本授权复盘",
+    "description": "每月最后一个星期日复核质量、赔率、风险、Level流动性、SGOV/现金用途与组合授权；评级不等于部署，必须和不行动比较，并纳入LRCX雇主相关暴露。",
+    "category": "组合纪律",
+    "rrule": "FREQ=MONTHLY;COUNT=24;BYDAY=-1SU"
+  },
+  {
+    "uid": "nintendo-price-review-2026-08-31",
+    "start_utc": "2026-08-31T16:00:00Z",
+    "duration_minutes": 45,
+    "summary": "Nintendo海外涨价前复盘",
+    "description": "复核涨价前渠道库存、软件attach、数字销售、硬件毛利和市场预期。仓位上限须由价格、基本面和组合集中度共同决定，不是必须完成的目标。",
+    "category": "持仓复盘",
+    "url": "https://www.nintendo.co.jp/ir/en/"
+  },
+  {
+    "uid": "memory-monthly-review-2026-08",
+    "date": "2026-08-31",
+    "summary": "月度存储价格复核：DRAM/NAND/NOR/SLC NAND",
+    "description": "同时看绝对价格与月环比变化速度，区分主流存储放缓和旧制程/利基存储强势；映射HP、Nintendo、小米的BOM压力及复旦的量价利。",
+    "category": "产业链复盘",
+    "url": "https://www.trendforce.com/presscenter/news/semiconductors/"
+  },
+  {
+    "uid": "unisplendour-post-results-review-2026-08-31",
+    "start_utc": "2026-08-31T17:00:00Z",
+    "duration_minutes": 60,
+    "summary": "紫光/H3C中报后评分与授权复核",
+    "description": "检查AI算力订单是否转化为收入和毛利，且应收/存货增速低于收入、经营现金流较Q1回补；收入增长但现金恶化不能通过闸门。",
+    "category": "持仓复盘",
+    "url": "https://www.cninfo.com.cn/new/index"
+  },
+  {
+    "uid": "nintendo-price-window-2026-09-01",
+    "start_utc": "2026-09-01T16:00:00Z",
+    "duration_minutes": 30,
+    "summary": "Nintendo海外新价格观察窗口开始",
+    "description": "跟踪美国、加拿大、欧洲涨价后的sell-through、促销、渠道库存和退货；先观察4周和8周，不把一次性关税退款年化。",
+    "category": "公司经营",
+    "url": "https://www.nintendo.co.jp/ir/en/"
+  },
+  {
+    "uid": "us-payrolls-2026-09",
+    "start_utc": "2026-09-04T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国8月非农就业",
+    "description": "重点看非农、失业率、参与率、工资环比和历史修正，区分招聘骤冷与广泛裁员。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/schedule/2026/09_sched_list.htm"
+  },
+  {
+    "uid": "hpq-goldman-conference-2026-09-08",
+    "date": "2026-09-08",
+    "summary": "HP CFO出席Goldman Sachs科技会议",
+    "description": "具体发言时间以HP IR为准。关注Q3后盈利修订、内存成本、现金流、回购与FY27利润率路径。",
+    "category": "持仓公司活动",
+    "url": "https://investor.hp.com/news-events/events/"
+  },
+  {
+    "uid": "spacex-unlock-2026-09-09",
+    "start_utc": "2026-09-09T13:00:00Z",
+    "duration_minutes": 30,
+    "summary": "SpaceX流通盘节点：90天批次",
+    "description": "约3.190亿股取得理论出售资格；累计约21.884亿股、约占总股本16.60%。观察新增供给吸收。",
+    "category": "解禁与供给",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm"
+  },
+  {
+    "uid": "us-ppi-2026-09",
+    "start_utc": "2026-09-10T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国8月PPI",
+    "description": "BLS公布美国2026年8月生产者价格指数。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/ppi/"
+  },
+  {
+    "uid": "spacex-affiliate-sale-2026-09-10",
+    "start_utc": "2026-09-10T13:00:00Z",
+    "duration_minutes": 30,
+    "summary": "SpaceX关联人股份出售资格节点",
+    "description": "约0.456亿股进入出售资格，累计理论可流通约22.340亿股、约占16.95%；以未触发额外10%提前解禁口径估算。",
+    "category": "解禁与供给",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm"
+  },
+  {
+    "uid": "hpq-jpm-conference-2026-09-10",
+    "date": "2026-09-10",
+    "summary": "HP Personal Systems负责人出席J.P. Morgan会议",
+    "description": "具体发言时间以HP IR为准。关注商用/消费PC销量、ASP、AI PC组合、渠道库存及存储成本转嫁。",
+    "category": "持仓公司活动",
+    "url": "https://investor.hp.com/news-events/events/"
+  },
+  {
+    "uid": "us-cpi-2026-09",
+    "start_utc": "2026-09-11T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国8月CPI",
+    "description": "BLS公布美国2026年8月消费者价格指数。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+    "uid": "fomc-decision-2026-09-16",
+    "start_utc": "2026-09-16T18:00:00Z",
+    "duration_minutes": 60,
+    "summary": "FOMC利率决议与经济预测",
+    "description": "美联储公布利率决定和SEP；14:30 ET新闻发布会。",
+    "category": "央行",
+    "url": "https://www.federalreserve.gov/newsevents/2026-september.htm"
+  },
+  {
+    "uid": "spacex-unlock-2026-09-24",
+    "start_utc": "2026-09-24T13:00:00Z",
+    "duration_minutes": 30,
+    "summary": "SpaceX流通盘节点：105天批次",
+    "description": "约3.284亿股取得理论出售资格；累计约25.624亿股、约占总股本19.44%。",
+    "category": "解禁与供给",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm"
+  },
+  {
+    "uid": "nintendo-price-review-4w-2026-09-28",
+    "start_utc": "2026-09-28T16:00:00Z",
+    "duration_minutes": 45,
+    "summary": "Nintendo涨价后4周复盘",
+    "description": "检查美国/欧洲sell-through、促销、渠道库存、软件attach和硬件毛利；区分价格弹性与季节噪声。",
+    "category": "持仓复盘",
+    "url": "https://www.nintendo.co.jp/ir/en/"
+  },
+  {
+    "uid": "us-pce-2026-09-30",
+    "start_utc": "2026-09-30T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国8月PCE与个人收支",
+    "description": "BEA官方日期。年度更新与月度数据同日发布，注意历史数据修订对增长和通胀路径的影响。",
+    "category": "美国宏观",
+    "url": "https://www.bea.gov/news/schedule"
+  },
+  {
+    "uid": "memory-monthly-review-2026-09",
+    "date": "2026-09-30",
+    "summary": "月度存储价格复核：DRAM/NAND/NOR/SLC NAND",
+    "description": "同时看价格水平与月环比变化速度，更新HP/Nintendo/小米BOM压力和复旦利基存储兑现。",
+    "category": "产业链复盘",
+    "url": "https://www.trendforce.com/presscenter/news/semiconductors/"
+  },
+  {
+    "uid": "us-payrolls-2026-10",
+    "start_utc": "2026-10-02T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国9月非农就业",
+    "description": "检查就业趋势是否由招聘放慢演变为裁员扩散，并复核前值修正。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+    "uid": "spacex-unlock-2026-10-09",
+    "start_utc": "2026-10-09T13:00:00Z",
+    "duration_minutes": 30,
+    "summary": "SpaceX流通盘节点：120天批次",
+    "description": "约3.284亿股取得理论出售资格；累计约28.908亿股、约占总股本21.93%。",
+    "category": "解禁与供给",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm"
+  },
+  {
+    "uid": "us-cpi-2026-10",
+    "start_utc": "2026-10-14T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国9月CPI",
+    "description": "BLS公布美国2026年9月消费者价格指数。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+    "uid": "us-ppi-2026-10",
+    "start_utc": "2026-10-15T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国9月PPI",
+    "description": "BLS公布美国2026年9月生产者价格指数。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/ppi/"
+  },
+  {
+    "uid": "spacex-q3-date-check-2026-10-20",
+    "date": "2026-10-20",
+    "summary": "[研究检查] SpaceX 3Q26披露与AI ROIC节点",
+    "description": "这不是公司确认的财报日；检查官方披露安排，并准备复核AI税后ROIC、CapEx/GW、外部客户续约、Starlink现金贡献及解禁吸收。",
+    "category": "观察名单",
+    "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
+    "status": "TENTATIVE"
+  },
+  {
+    "uid": "hd-hyundai-electric-q3-window-2026-10-23",
+    "date": "2026-10-23",
+    "summary": "[预计窗口] HD现代电气3Q26业绩",
+    "description": "基于既往披露节奏的研究窗口，不是公司已确认日期。临近时须核对IR；重点看北美订单、PO转化、利润率、产能扩张和2027—28盈利修订。",
+    "category": "观察名单",
+    "url": "https://www.hd-hyundaielectric.com/",
+    "status": "TENTATIVE"
+  },
+  {
+    "uid": "spacex-unlock-2026-10-26",
+    "start_utc": "2026-10-26T13:00:00Z",
+    "duration_minutes": 30,
+    "summary": "SpaceX流通盘节点：135天批次可交易",
+    "description": "10月24日为周六，最早10月26日交易；约3.284亿股取得资格，累计约32.192亿股、约占24.42%。",
+    "category": "解禁与供给",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm"
+  },
+  {
+    "uid": "nintendo-price-review-8w-2026-10-26",
+    "start_utc": "2026-10-26T16:00:00Z",
+    "duration_minutes": 45,
+    "summary": "Nintendo涨价后8周复盘",
+    "description": "第二次检查sell-through、库存、软件attach、数字占比和毛利，并为Q2财报后的仓位时间线更新概率。",
+    "category": "持仓复盘",
+    "url": "https://www.nintendo.co.jp/ir/en/"
+  },
+  {
+    "uid": "fomc-decision-2026-10-28",
+    "start_utc": "2026-10-28T18:00:00Z",
+    "duration_minutes": 60,
+    "summary": "FOMC利率决议",
+    "description": "美联储10月27—28日会议利率决定；14:30 ET新闻发布会。",
+    "category": "央行",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+    "uid": "us-pce-2026-10-29",
+    "start_utc": "2026-10-29T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国9月PCE与个人收支",
+    "description": "BEA公布9月PCE、核心PCE、实际消费、收入和储蓄率。",
+    "category": "美国宏观",
+    "url": "https://www.bea.gov/news/schedule"
+  },
+  {
+    "uid": "memory-monthly-review-2026-10",
+    "date": "2026-10-30",
+    "summary": "月度存储价格复核：DRAM/NAND/NOR/SLC NAND",
+    "description": "同时看价格水平与变化率，关注4Q26是否接近主流存储价格峰值，以及利基存储是否仍独立更强。",
+    "category": "产业链复盘",
+    "url": "https://www.trendforce.com/presscenter/news/semiconductors/"
+  },
+  {
+    "uid": "us-payrolls-2026-11",
+    "start_utc": "2026-11-06T13:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国10月非农就业",
+    "description": "检查就业、参与率、工资与历史修正，判断增长放缓是否升级。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+    "uid": "us-cpi-2026-11",
+    "start_utc": "2026-11-10T13:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国10月CPI",
+    "description": "BLS公布美国2026年10月消费者价格指数。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+    "uid": "us-ppi-2026-11",
+    "start_utc": "2026-11-13T13:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国10月PPI",
+    "description": "BLS公布美国2026年10月生产者价格指数。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/ppi/"
+  },
+  {
+    "uid": "us-pce-2026-11-25",
+    "start_utc": "2026-11-25T13:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国10月PCE与个人收支",
+    "description": "BEA公布10月PCE、核心PCE、实际消费、收入和储蓄率。",
+    "category": "美国宏观",
+    "url": "https://www.bea.gov/news/schedule"
+  },
+  {
+    "uid": "memory-monthly-review-2026-11",
+    "date": "2026-11-30",
+    "summary": "月度存储价格复核：DRAM/NAND/NOR/SLC NAND",
+    "description": "更新主流与利基存储周期分化、客户库存和2027合约价预期。",
+    "category": "产业链复盘",
+    "url": "https://www.trendforce.com/presscenter/news/semiconductors/"
+  },
+  {
+    "uid": "us-payrolls-2026-12",
+    "start_utc": "2026-12-04T13:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国11月非农就业",
+    "description": "检查就业、工资、参与率和前值修正，为12月FOMC提供增长证据。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+  },
+  {
+    "uid": "spacex-unlock-2026-12-08",
+    "start_utc": "2026-12-08T14:00:00Z",
+    "duration_minutes": 45,
+    "summary": "SpaceX普通180天锁定池结束",
+    "description": "约7.976亿股取得理论出售资格；累计理论可流通约53.304亿股、约占总股本40.44%。复盘新增供给、高CapEx耐心、AI经济性和长期论点是否被错杀或证伪。",
+    "category": "解禁与供给",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm"
+  },
+  {
+    "uid": "fomc-decision-2026-12-09",
+    "start_utc": "2026-12-09T19:00:00Z",
+    "duration_minutes": 60,
+    "summary": "FOMC利率决议与经济预测",
+    "description": "美联储12月8—9日会议利率决定和SEP；14:30 ET新闻发布会。",
+    "category": "央行",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+  },
+  {
+    "uid": "us-cpi-2026-12",
+    "start_utc": "2026-12-10T13:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国11月CPI",
+    "description": "BLS公布美国2026年11月消费者价格指数。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+  },
+  {
+    "uid": "us-ppi-2026-12",
+    "start_utc": "2026-12-15T13:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国11月PPI",
+    "description": "BLS公布美国2026年11月生产者价格指数。",
+    "category": "美国宏观",
+    "url": "https://www.bls.gov/ppi/"
+  },
+  {
+    "uid": "us-pce-2026-12-23",
+    "start_utc": "2026-12-23T13:30:00Z",
+    "duration_minutes": 30,
+    "summary": "美国11月PCE与个人收支",
+    "description": "BEA公布11月PCE、核心PCE、实际消费、收入和储蓄率。",
+    "category": "美国宏观",
+    "url": "https://www.bea.gov/news/schedule"
+  },
+  {
+    "uid": "memory-monthly-review-2026-12",
+    "date": "2026-12-31",
+    "summary": "月度存储价格复核：DRAM/NAND/NOR/SLC NAND",
+    "description": "年末复核4Q26价格峰值假设、2027供给纪律、客户库存和各持仓BOM/盈利敏感度。",
+    "category": "产业链复盘",
+    "url": "https://www.trendforce.com/presscenter/news/semiconductors/"
+  }
+]
