@@ -3,10 +3,10 @@
     "uid": "onon-q2-2026-08-11",
     "start_utc": "2026-08-11T12:00:00Z",
     "duration_minutes": 60,
-    "summary": "On Holding 2Q26财报与电话会",
-    "description": "公司盘前公布业绩，08:00 ET电话会。验证固定汇率收入、DTC与全价销售、库存增速、毛利率及EBITDA指引；这是当前运动股仓位的直接去留节点。",
+    "summary": "On Holding 2Q26财报复盘",
+    "description": "实际收入CHF850.3m、固定汇率增长21.6%；DTC固定汇率增长34.3%，批发仅增长12.7%；毛利率65.4%，调整后EBITDA CHF168.1m、利润率19.8%，库存CHF472.9m、同比增长31.2%。公司把全年固定汇率收入指引下调至低20%区间，但毛利率提高至至少65%，EBITDA率维持19.5%–20%。后续重点验证美国批发sell-through、DTC增长和库存增速是否在Q3回落。",
     "category": "持仓财报",
-    "url": "https://investors.on-running.com/news/news-details/2026/On-to-Release-Second-Quarter-2026-Results-on-Tuesday-August-11-2026/default.aspx"
+    "url": "https://www.sec.gov/Archives/edgar/data/1858985/000185898526000018/a26q2-ex993xpressrelease.htm"
   },
   {
     "uid": "us-cpi-2026-08",
@@ -257,6 +257,14 @@
     "url": "https://www.federalreserve.gov/newsevents/2026-september.htm"
   },
   {
+    "uid": "onon-investor-day-2026-09-21",
+    "date": "2026-09-21",
+    "summary": "On 2026 Investor Day（9月21–22日）",
+    "description": "公司在2Q26电话会宣布9月21–22日举办Investor Day。重点核对2027固定汇率收入增长框架、美国批发渠道重置时间、DTC占比提高后的EBITDA转化、门店与LightSpray投资回报、2027新品订单及中期现金流目标；若仅有产品故事而缺乏量化框架，不视为验证通过。",
+    "category": "持仓复盘",
+    "url": "https://investors.on-running.com/events/default.aspx"
+  },
+  {
     "uid": "spacex-unlock-2026-09-24",
     "start_utc": "2026-09-24T13:00:00Z",
     "duration_minutes": 30,
@@ -326,6 +334,15 @@
     "description": "BLS公布美国2026年9月生产者价格指数。",
     "category": "美国宏观",
     "url": "https://www.bls.gov/ppi/"
+  },
+  {
+    "uid": "onon-q3-date-channel-check-2026-10-19",
+    "date": "2026-10-19",
+    "summary": "[研究检查] On Q3日期、美国批发与库存",
+    "description": "这不是公司确认的财报日；核对On IR是否公布Q3日期，并在财报前更新美国专业跑店与批发sell-through、Cloudsurfer 3首批渠道反馈及盈利预期。Q3通过线：集团固定汇率增长不低于18%，DTC不低于25%，美洲避免个位数增长，毛利率约64%–65%，库存增速明显低于2Q26的31.2%，且Q4重新加速。",
+    "category": "持仓复盘",
+    "url": "https://investors.on-running.com/events/default.aspx",
+    "status": "TENTATIVE"
   },
   {
     "uid": "spacex-q3-date-check-2026-10-20",
