@@ -36,6 +36,15 @@
     "url": "https://investor.sandisk.com/events/event-details/2026-sandisk-investor-day"
   },
   {
+    "uid": "asics-q2-h1-2026-08-14-jst",
+    "start_utc": "2026-08-14T04:00:00Z",
+    "duration_minutes": 30,
+    "summary": "ASICS FY12/26 Q2/H1财报（PDT 8月13日）",
+    "description": "官方安排日本时间8月14日13:00披露，换算为洛杉矶时间8月13日21:00 PDT。业绩说明会具体时间截至本次核验未在公开IR确认（TBA），不假设盘前或盘后。重点验证Performance Running、SportStyle与Onitsuka Tiger，北美专业跑步和批发渠道、毛利率、库存、现金流及全年指引，并映射On的美国批发与高端跑鞋需求。",
+    "category": "同业财报",
+    "url": "https://assets.asics.com/system/media_libraries/25474/file.pdf"
+  },
+  {
     "uid": "us-retail-sales-2026-08",
     "start_utc": "2026-08-14T12:30:00Z",
     "duration_minutes": 30,
