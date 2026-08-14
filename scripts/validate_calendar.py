@@ -30,6 +30,12 @@ if duplicate_slots:
 for event in events:
     if "date" not in event and "start_utc" not in event:
         fail(f"event has no date: {event['uid']}")
+    if event.get("alarms") is not None:
+        alarms = event["alarms"]
+        if not isinstance(alarms, list) or not alarms:
+            fail(f"alarms must be a non-empty list: {event['uid']}")
+        if len(alarms) != len(set(alarms)):
+            fail(f"duplicate alarms: {event['uid']}")
     if event.get("status") == "TENTATIVE":
         marker_text = event["summary"] + event["description"]
         if not any(marker in marker_text for marker in ("预约", "预计", "研究检查", "待公告", "未确认")):
