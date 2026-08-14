@@ -36,8 +36,8 @@ lines = [
     "PRODID:-//Desolatepuppy//Market Events Calendar//ZH-CN",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
-    "X-WR-CALNAME:Investment 3.5 市场与投资事件",
-    "X-WR-CALDESC:宏观、持仓、研究与投资纪律复盘",
+    "X-WR-CALNAME:Investment 4.0 市场与投资事件",
+    "X-WR-CALDESC:资本、席位、研究精力与投资纪律复盘",
     "X-WR-TIMEZONE:America/Los_Angeles",
     "REFRESH-INTERVAL;VALUE=DURATION:PT6H",
     "X-PUBLISHED-TTL:PT6H",
@@ -84,14 +84,23 @@ for event in events:
         [
             f"STATUS:{event.get('status', 'CONFIRMED')}",
             "TRANSP:TRANSPARENT",
-            "BEGIN:VALARM",
-            f"TRIGGER:{event.get('alarm', '-P1D' if event.get('date') else '-PT30M')}",
-            "ACTION:DISPLAY",
-            f"DESCRIPTION:{esc(event.get('alarm_text', '投资日历事件提醒'))}",
-            "END:VALARM",
-            "END:VEVENT",
         ]
     )
+
+    alarms = event.get("alarms")
+    if alarms is None:
+        alarms = [event.get("alarm", "-P1D" if event.get("date") else "-PT30M")]
+    for alarm in alarms:
+        raw.extend(
+            [
+                "BEGIN:VALARM",
+                f"TRIGGER:{alarm}",
+                "ACTION:DISPLAY",
+                f"DESCRIPTION:{esc(event.get('alarm_text', '投资日历事件提醒'))}",
+                "END:VALARM",
+            ]
+        )
+    raw.append("END:VEVENT")
     for line in raw:
         lines.extend(fold(line))
 
