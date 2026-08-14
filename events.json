@@ -71,8 +71,18 @@
     "uid": "hpq-pre-results-review-2026-08-24",
     "date": "2026-08-24",
     "summary": "[持仓][研究检查] HP Q3日期与承保线复核",
-    "description": "截至8月14日，HP IR尚未正式公布FY26 Q3财报事件，8月26日不得视作已确认。本节点先核对HP IR；若日期确认，再按财报前2个交易日更新一致预期、DRAM/NAND成本、PC量价/库存、Personal Systems和Print利润率、自由现金流与FY27承保线。",
+    "description": "截至8月14日，HP IR尚未正式公布FY26 Q3财报事件；日历已按当前计划保留8月26日预计节点。本节点先核对HP IR；若日期确认，再更新一致预期、DRAM/NAND成本、PC量价/库存、Personal Systems和Print利润率、自由现金流与FY27承保线。",
     "category": "持仓复盘",
+    "url": "https://investor.hp.com/news-events/events/default.aspx",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "hpq-q3-2026-08-26-tentative",
+    "date": "2026-08-26",
+    "summary": "[持仓][预计/待确认] HP FY26 Q3财报与电话会",
+    "description": "按当前计划将FY26 Q3财报节点放回8月26日；截至8月14日，HP IR尚未正式确认日期与发布时间，因此不假设盘前、盘后或电话会时刻。发布前再次核对HP IR。重点检查PC销量与ASP、渠道库存和提前采购、DRAM/NAND成本传导、Personal Systems与Print利润率、自由现金流以及全年指引；记录哪些结果会改变现有thesis。",
+    "category": "持仓财报",
     "url": "https://investor.hp.com/news-events/events/default.aspx",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
