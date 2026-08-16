@@ -20,11 +20,12 @@
   },
   {
     "uid": "xiaomi-interim-2026-08-18",
-    "date": "2026-08-18",
-    "summary": "[持仓][已确认] 小米集团2026年中期业绩",
-    "description": "港交所公告确认8月18日召开董事会审议未经审计中期业绩；小米IR尚未公布业绩会具体时刻（TBA），不沿用往年19:30 HKT作假设。核对手机量价与库存、IoT毛利、汽车交付/取消率和毛利、现金消耗与研发投入；需求或现金流持续弱于框架将改变thesis。",
+    "start_utc": "2026-08-18T11:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][已确认] 小米集团2026年中期业绩电话会",
+    "description": "小米IR确认电话会为香港/北京时间8月18日19:30，即PDT 8月18日04:30。核对手机出货、ASP、毛利和渠道库存，AIoT收入/毛利，汽车交付、ASP、补贴、毛利与经营亏损，以及集团库存、资本开支和现金流；头条收入或调整利润不能替代这些核心指标。",
     "category": "持仓财报",
-    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0717/2026071700987.pdf",
+    "url": "https://ir.mi.com/events/event-details/2026-interim-results-announcement",
     "alarms": ["-P7D", "-P1D"]
   },
   {
@@ -35,6 +36,35 @@
     "description": "美联储正式日历节点。核对委员对通胀、就业、关税和降息门槛的分歧，更新短债收益率、美元和Market Level；与SGOV/Cash选择权直接相关，但单一措辞不构成部署指令。",
     "category": "宏观-美国",
     "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "china-lpr-2026-08-20",
+    "start_utc": "2026-08-20T01:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 中国8月LPR",
+    "description": "LPR按制度于北京时间8月20日09:30公布，即PDT 8月19日18:30。检查1年期与5年期以上LPR、地产与私人信贷传导、人民币反应；用于评估小米、复旦、H3C及亚洲风险资产的流动性环境，不把单次降息或不降息直接转化为个股动作。",
+    "category": "宏观-中国",
+    "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2025092212550010243/index.html",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "taiwan-export-orders-2026-08-20",
+    "date": "2026-08-20",
+    "summary": "[存储][已确认] 台湾7月外销订单",
+    "description": "台湾经济部官方发布日历确认7月外销订单于当地时间8月20日公布，具体时刻未在日历中列示（TBA）。重点检查电子产品与资讯通信订单、美国/中国大陆及香港来源和同比基数，作为Kioxia、Nintendo、H3C供应链需求读穿；行业数据不能替代公司财报。",
+    "category": "存储与亚洲需求",
+    "url": "https://mnscdn.moea.gov.tw/MNS/dos_e/content/Content.aspx?menu_id=6747",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "japan-cpi-2026-08-21",
+    "start_utc": "2026-08-20T23:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 日本7月CPI（2025基年首次月报）",
+    "description": "日本统计局确认JST 8月21日08:30发布，即PDT 8月20日16:30；本次开始发布2025基年月报。检查全国核心通胀、服务与商品结构、日元和BOJ预期，评估Nintendo估值环境与亚洲风险偏好，不将单月通胀机械转化为交易。",
+    "category": "宏观-日本",
+    "url": "https://www.stat.go.jp/english/data/cpi/1582.html",
     "alarms": ["-P1D"]
   },
   {
@@ -49,20 +79,20 @@
   },
   {
     "uid": "xiaomi-post-results-review-2026-08-20",
-    "start_utc": "2026-08-20T16:00:00Z",
-    "duration_minutes": 45,
-    "summary": "[持仓][研究检查] 小米中报后thesis复核",
-    "description": "把已披露事实与此前假设逐项对照：手机库存和ASP、IoT毛利、汽车订单/交付和单位经济性、自由现金流及研发。明确哪些变量改善、哪些仍未验证；不因单日股价自动升级或降级。",
+    "start_utc": "2026-08-19T01:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][研究检查] 小米财报后首个完整港股时段",
+    "description": "香港时间8月19日09:30开盘，即PDT 8月18日18:30。结合电话会问答、手机与汽车经济性、库存和现金流复核市场吸收；先区分公司证据、估值变化和短期跳空，再记录会改变thesis的证据。",
     "category": "持仓复盘",
     "url": "https://ir.mi.com/financial-information/quarterly-results",
     "alarms": ["-P1D"]
   },
   {
     "uid": "fudan-post-results-review-2026-08-20",
-    "start_utc": "2026-08-20T17:00:00Z",
-    "duration_minutes": 45,
-    "summary": "[持仓][研究检查] 上海复旦中报后thesis复核",
-    "description": "复核FPGA、NOR、SLC NAND收入和毛利，扣非利润、应收、库存及经营现金流；区分国产替代叙事与真实订单/回款，记录会改变thesis的证据。",
+    "start_utc": "2026-08-18T01:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][研究检查] 上海复旦中报后首个完整港股时段",
+    "description": "香港时间8月18日09:30开盘，即PDT 8月17日18:30。先复核扣非利润、FPGA与NVM收入/毛利、经营现金流、应收和库存，再观察首个完整市场反应；区分主营兑现、公允价值变动和短期价格跳空。",
     "category": "持仓复盘",
     "url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en&market=SEHK&stockId=709",
     "alarms": ["-P1D"]
@@ -70,21 +100,20 @@
   {
     "uid": "hpq-pre-results-review-2026-08-24",
     "date": "2026-08-24",
-    "summary": "[持仓][研究检查] HP Q3日期与承保线复核",
-    "description": "截至8月14日，HP IR尚未正式公布FY26 Q3财报事件；日历已按当前计划保留8月26日预计节点。本节点先核对HP IR；若日期确认，再更新一致预期、DRAM/NAND成本、PC量价/库存、Personal Systems和Print利润率、自由现金流与FY27承保线。",
+    "summary": "[持仓][研究检查] HP Q3承保线与成本复核",
+    "description": "财报日期与电话会时间已经官方确认。本节点更新一致预期、DRAM/client SSD成本与库存时滞、PC销量/ASP和渠道库存、Personal Systems与Print利润率、Q4指引、自由现金流及FY27恢复路径；行业价格只作输入，最终以HP公司证据为准。",
     "category": "持仓复盘",
-    "url": "https://investor.hp.com/news-events/events/default.aspx",
-    "status": "TENTATIVE",
+    "url": "https://investor.hp.com/news-events/news/news-details/2026/HP-Inc--to-Announce-Third-Quarter-Fiscal-2026-Earnings-on-August-26-2026-and-to-Attend-Upcoming-Investor-Conferences/default.aspx",
     "alarms": ["-P7D", "-P1D"]
   },
   {
     "uid": "hpq-q3-2026-08-26-tentative",
-    "date": "2026-08-26",
-    "summary": "[持仓][预计/待确认] HP FY26 Q3财报与电话会",
-    "description": "按当前计划将FY26 Q3财报节点放回8月26日；截至8月14日，HP IR尚未正式确认日期与发布时间，因此不假设盘前、盘后或电话会时刻。发布前再次核对HP IR。重点检查PC销量与ASP、渠道库存和提前采购、DRAM/NAND成本传导、Personal Systems与Print利润率、自由现金流以及全年指引；记录哪些结果会改变现有thesis。",
+    "start_utc": "2026-08-26T21:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][已确认] HP FY26 Q3财报电话会",
+    "description": "HP官方确认8月26日美股收盘后公布FY26 Q3业绩，并于PDT 14:30举行电话会。重点检查PC销量与ASP、渠道库存与提前采购、DRAM/client SSD成本传导、Personal Systems与Print利润率、自由现金流、Q4指引及FY27利润率恢复；Q3 headline不能覆盖forward guide风险。",
     "category": "持仓财报",
-    "url": "https://investor.hp.com/news-events/events/default.aspx",
-    "status": "TENTATIVE",
+    "url": "https://investor.hp.com/news-events/news/news-details/2026/HP-Inc--to-Announce-Third-Quarter-Fiscal-2026-Earnings-on-August-26-2026-and-to-Attend-Upcoming-Investor-Conferences/default.aspx",
     "alarms": ["-P7D", "-P1D"]
   },
   {
