@@ -1,24 +1,5 @@
 [
   {
-    "uid": "china-activity-2026-08",
-    "start_utc": "2026-08-17T02:00:00Z",
-    "duration_minutes": 45,
-    "summary": "[宏观][已确认] 中国7月经济活动数据",
-    "description": "国家统计局定于北京时间8月17日10:00发布，换算为洛杉矶8月16日19:00 PDT。核对社零、工业、固定资产和地产数据，判断小米需求、复旦/H3C下游与亚洲风险资产环境；结果只用于更新Market Level和组合共因子，不自动触发交易。",
-    "category": "宏观-中国",
-    "url": "https://www.stats.gov.cn/sj/fbrc/bnxxfb/",
-    "alarms": ["-P1D"]
-  },
-  {
-    "uid": "fudan-interim-expected-2026-08-18",
-    "date": "2026-08-17",
-    "summary": "[持仓][已确认] 上海复旦2026中报董事会审批",
-    "description": "港交所公告确认董事会于8月17日审议并批准2026年中期业绩及可能的中期股息。具体披露及业绩会时间尚未确认（TBA），不假设盘前或盘后。核对FPGA、NOR与SLC NAND收入/毛利、扣非利润、经营现金流、应收和库存；上述指标若与订单叙事明显背离将改变thesis。",
-    "category": "持仓财报",
-    "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0803/2026080304051.pdf",
-    "alarms": ["-P7D", "-P1D"]
-  },
-  {
     "uid": "xiaomi-interim-2026-08-18",
     "start_utc": "2026-08-18T11:30:00Z",
     "duration_minutes": 60,
@@ -88,16 +69,6 @@
     "alarms": ["-P1D"]
   },
   {
-    "uid": "fudan-post-results-review-2026-08-20",
-    "start_utc": "2026-08-18T01:30:00Z",
-    "duration_minutes": 60,
-    "summary": "[持仓][研究检查] 上海复旦中报后首个完整港股时段",
-    "description": "香港时间8月18日09:30开盘，即PDT 8月17日18:30。先复核扣非利润、FPGA与NVM收入/毛利、经营现金流、应收和库存，再观察首个完整市场反应；区分主营兑现、公允价值变动和短期价格跳空。",
-    "category": "持仓复盘",
-    "url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=en&market=SEHK&stockId=709",
-    "alarms": ["-P1D"]
-  },
-  {
     "uid": "hpq-pre-results-review-2026-08-24",
     "date": "2026-08-24",
     "summary": "[持仓][研究检查] HP Q3承保线与成本复核",
@@ -160,8 +131,8 @@
   {
     "uid": "memory-monthly-review-2026-08",
     "date": "2026-08-31",
-    "summary": "[存储][研究检查] 8月DRAM/NAND价格与Kioxia月检",
-    "description": "结合用户持有的TrendForce月度合约价，检查NAND contract/spot、Enterprise SSD价格与库存、DRAM主流与旧制程分化。重点映射Kioxia bit growth、ASP、库存、capex、Enterprise SSD/HBF以及HBM挤占NAND/DRAM资本的替代效应；供给纪律或企业级需求拐点会改变thesis。",
+    "summary": "[存储][研究检查] 8月存储价格与Kioxia/复旦月检",
+    "description": "结合用户持有的TrendForce月度合约价，检查NAND contract/spot、Enterprise SSD价格与库存、DRAM主流与旧制程分化，并单列NOR/SLC NAND。对Kioxia更新bit growth、ASP、库存、capex、Enterprise SSD/HBF；对上海复旦更新NVM需求、价格/毛利、订单与代工成本传导。主流存储上涨不能直接替代复旦公司证据。",
     "category": "存储监测",
     "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
     "alarms": ["-P1D"]
@@ -276,6 +247,15 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "fudan-h1-30d-followup-2026-09-18",
+    "date": "2026-09-18",
+    "summary": "[持仓][研究检查] 上海复旦中报后30日验证",
+    "description": "以已披露2026H1报告为新基线，复核NVM与FPGA需求、NOR/SLC NAND价格及客户订单、产品毛利、经营现金流、应收和库存变化；区分行业价格顺风与公司实际兑现，记录哪些证据强化或削弱thesis。",
+    "category": "持仓复盘",
+    "url": "https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=99269",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
     "uid": "onon-investor-day-2026-09-21",
     "date": "2026-09-21",
     "summary": "[持仓][已确认] On 2026 Investor Day（9月21–22日）",
@@ -327,8 +307,8 @@
   {
     "uid": "memory-monthly-review-2026-09",
     "date": "2026-09-30",
-    "summary": "[存储][研究检查] 9月DRAM/NAND价格与Kioxia月检",
-    "description": "复核DRAM/NAND合约价、NAND现货、Enterprise SSD价格/库存、主流与旧制程分化；更新Kioxia bit growth、ASP、库存、capex、Enterprise SSD/HBF及HBM资本替代假设。",
+    "summary": "[存储][研究检查] 9月存储价格与Kioxia/复旦月检",
+    "description": "复核DRAM/NAND合约价、NAND现货、Enterprise SSD价格/库存、主流与旧制程分化，并单列NOR/SLC NAND。对Kioxia更新bit growth、ASP、库存、capex、Enterprise SSD/HBF及HBM资本替代；对上海复旦更新NVM需求、价格/毛利、订单和代工成本传导。主流存储上涨不能直接替代复旦公司证据。",
     "category": "存储监测",
     "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
     "alarms": ["-P1D"]
@@ -350,6 +330,16 @@
     "description": "截至8月14日三家公司尚未正式公布Q3具体时刻；本节点仅核对各自IR/KRX并将确认日期写回日历。只保留能改变Kioxia thesis的read-through：NAND bit/ASP、Enterprise SSD、库存、capex、供给纪律，以及HBM/HBF对资本和需求的替代。",
     "category": "存储同行",
     "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "fudan-q3-date-check-2026-10-08",
+    "date": "2026-10-08",
+    "summary": "[持仓][研究检查] 上海复旦2026Q3日期核验",
+    "description": "截至8月18日，上海复旦2026Q3正式披露日期及说明会时刻尚未确认。本节点核对上交所与港交所公告；确认后再写入真实日期。准备复核扣非利润、NVM/FPGA收入与毛利、经营现金流、应收、库存及H2订单持续性。",
+    "category": "持仓财报",
+    "url": "https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=688385",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
   },
@@ -400,6 +390,16 @@
     "description": "Kioxia官方IR日历目前只确认Q2业绩在11月发布，具体日期、15:30 JST发布惯例和业绩会时刻均尚未确认。本节点核对IR News；确认后新增精确JST/PST事件。财报需核对NAND bit growth、ASP、库存、capex、Enterprise SSD/HBF、HBM替代性及供需拐点。",
     "category": "持仓财报",
     "url": "https://www.kioxia-holdings.com/en-jp/ir/calendar.html",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "xiaomi-q3-date-check-2026-10-15",
+    "date": "2026-10-15",
+    "summary": "[持仓][研究检查] 小米2026Q3日期核验",
+    "description": "截至8月18日，小米2026Q3业绩及电话会具体日期尚未确认。本节点仅核对小米IR；确认后新增真实HKT/PDT事件。准备复核手机出货/ASP/毛利、AIoT、汽车交付与单位经济性、库存、资本开支及现金流。",
+    "category": "持仓财报",
+    "url": "https://ir.mi.com/news-events/event-calendar",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
   },
@@ -495,8 +495,8 @@
   {
     "uid": "memory-monthly-review-2026-10",
     "date": "2026-10-30",
-    "summary": "[存储][研究检查] 10月DRAM/NAND价格与Kioxia月检",
-    "description": "复核合约价、NAND现货、Enterprise SSD价格/库存、供给纪律和旧制程分化；更新Kioxia bit growth、ASP、库存、capex、Enterprise SSD/HBF与HBM替代假设。",
+    "summary": "[存储][研究检查] 10月存储价格与Kioxia/复旦月检",
+    "description": "复核合约价、NAND现货、Enterprise SSD价格/库存、供给纪律和旧制程分化，并单列NOR/SLC NAND。更新Kioxia bit growth、ASP、库存、capex、Enterprise SSD/HBF与HBM替代；同步核对上海复旦NVM需求、价格/毛利、订单和代工成本传导。",
     "category": "存储监测",
     "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
     "alarms": ["-P1D"]
@@ -574,8 +574,8 @@
   {
     "uid": "memory-monthly-review-2026-11",
     "date": "2026-11-30",
-    "summary": "[存储][研究检查] 11月DRAM/NAND价格与Kioxia月检",
-    "description": "复核合约价、NAND现货、Enterprise SSD价格/库存、供给纪律和旧制程分化；更新Kioxia核心经营变量。",
+    "summary": "[存储][研究检查] 11月存储价格与Kioxia/复旦月检",
+    "description": "复核合约价、NAND现货、Enterprise SSD价格/库存、供给纪律和旧制程分化，并单列NOR/SLC NAND；更新Kioxia核心经营变量及上海复旦NVM需求、价格/毛利、订单和代工成本传导。",
     "category": "存储监测",
     "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
     "alarms": ["-P1D"]
@@ -672,8 +672,8 @@
   {
     "uid": "memory-monthly-review-2026-12",
     "date": "2026-12-31",
-    "summary": "[存储][研究检查] 12月DRAM/NAND价格与Kioxia年末复核",
-    "description": "年末复核合约价、NAND现货、Enterprise SSD价格/库存、2027供给纪律和旧制程分化；更新Kioxia bit growth、ASP、库存、capex、Enterprise SSD/HBF及HBM替代假设。",
+    "summary": "[存储][研究检查] 12月存储价格与Kioxia/复旦年末复核",
+    "description": "年末复核合约价、NAND现货、Enterprise SSD价格/库存、2027供给纪律和旧制程分化，并单列NOR/SLC NAND。更新Kioxia bit growth、ASP、库存、capex、Enterprise SSD/HBF及HBM替代；同步复核上海复旦NVM需求、价格/毛利、订单和代工成本传导。",
     "category": "存储监测",
     "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
     "alarms": ["-P1D"]
