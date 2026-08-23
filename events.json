@@ -88,6 +88,26 @@
     "alarms": ["-P7D", "-P1D"]
   },
   {
+    "uid": "us-consumer-confidence-new-home-sales-2026-08-25",
+    "start_utc": "2026-08-25T14:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国消费者信心与7月新屋销售",
+    "description": "The Conference Board与美国人口普查局均确认于美东时间8月25日10:00、PDT 07:00发布。核对消费者预期、就业差值、新屋销量、库存月数与中位售价，判断高利率对消费和住房的传导；用于更新美债曲线、HP PC需求背景与Market Level，不把单一数据机械转化为交易。",
+    "category": "宏观-美国",
+    "url": "https://www.census.gov/construction/soc/schedule.html",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-treasury-2y-auction-2026-08-25",
+    "start_utc": "2026-08-25T17:00:00Z",
+    "duration_minutes": 20,
+    "summary": "[宏观][已确认] 美国2年期国债拍卖",
+    "description": "美国财政部8月20日正式公告：美东时间8月25日13:00、PDT 10:00截止竞争性投标。核对尾部/穿透、投标倍数、间接投标人与一级交易商获配，观察短端利率和SGOV再投资环境；拍卖结果是流动性输入，不单独构成部署指令。",
+    "category": "宏观-美国",
+    "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/A_20260820_5.pdf",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "hpq-q3-2026-08-26-tentative",
     "start_utc": "2026-08-26T21:30:00Z",
     "duration_minutes": 60,
@@ -100,11 +120,82 @@
   {
     "uid": "us-pce-2026-08-26",
     "start_utc": "2026-08-26T12:30:00Z",
-    "duration_minutes": 30,
-    "summary": "[宏观][已确认] 美国7月核心PCE与个人收支",
-    "description": "BEA正式日历。核对核心PCE环比、实际消费和收入，更新降息路径、SGOV再投资收益率与Market Level；不以单月数据机械部署。",
+    "duration_minutes": 45,
+    "summary": "[宏观][已确认] 美国PCE、Q2 GDP二估、企业利润与耐用品",
+    "description": "BEA与美国人口普查局正式日历均为美东时间8月26日08:30、PDT 05:30。核对核心PCE环比、实际消费和收入、Q2 GDP修订与企业利润，以及核心资本品订单/出货；结合10年与30年收益率更新SGOV选择权、HP需求背景和Market Level，不以单一头条机械部署。",
     "category": "宏观-美国",
     "url": "https://www.bea.gov/news/schedule",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-treasury-5y-auction-2026-08-26",
+    "start_utc": "2026-08-26T17:00:00Z",
+    "duration_minutes": 20,
+    "summary": "[宏观][已确认] 美国5年期国债拍卖",
+    "description": "美国财政部8月20日正式公告：美东时间8月26日13:00、PDT 10:00截止竞争性投标。核对尾部/穿透、投标倍数、间接投标人与一级交易商获配，观察中段利率和风险资产资本成本；与同日PCE/GDP及晚间财报分开归因。",
+    "category": "宏观-美国",
+    "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/A_20260820_7.pdf",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "nvidia-fy27-q2-2026-08-26",
+    "start_utc": "2026-08-26T20:20:00Z",
+    "duration_minutes": 100,
+    "summary": "[存储][已确认] NVIDIA FY27 Q2业绩与电话会",
+    "description": "NVIDIA官方确认约PDT 13:20发布业绩、14:00召开电话会。仅作Kioxia、H3C、HD现代电气与CoreWeave的跨公司read-through：核对数据中心增速、客户集中、网络业务、Blackwell及后续平台供给、毛利率和客户资本开支；不能把NVDA头条直接等同于上述公司的thesis验证。",
+    "category": "存储与AI基础设施",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Second-Quarter-Financial-Results/default.aspx",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "china-industrial-profits-2026-08-27-window",
+    "start_utc": "2026-08-27T01:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][预计窗口] 中国1—7月规模以上工业企业利润",
+    "description": "按国家统计局月度发布惯例，预计北京时间8月27日09:30、PDT 8月26日18:30发布；截至本次维护未找到单独的2026年8月官方定时公告，须以国家统计局当日页面为准。核对计算机通信电子、电气机械、专用设备利润，及营业收入、利润率、应收和产成品库存，映射复旦/H3C/小米与中国科技需求共因子。",
+    "category": "宏观-中国",
+    "url": "https://www.stats.gov.cn/sj/zxfb/",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "bok-rate-decision-2026-08-27",
+    "date": "2026-08-26",
+    "summary": "[宏观][预约披露] 韩国央行8月利率决议（KST 8月27日）",
+    "description": "韩国银行正式会议日为KST 8月27日；PDT通常落在8月26日晚间，但官方尚未单独确认决议与记者会的具体发布时刻，时刻TBA。核对政策利率、通胀与增长预测、韩元和家庭杠杆，作为韩国资产、HD现代电气和亚洲流动性环境的共因子；不把单次决议直接转换为个股动作。",
+    "category": "宏观-韩国",
+    "url": "https://www.bok.or.kr/eng/main/contents.do?menuNo=400022",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-treasury-7y-auction-2026-08-27",
+    "start_utc": "2026-08-27T17:00:00Z",
+    "duration_minutes": 20,
+    "summary": "[宏观][已确认] 美国7年期国债拍卖",
+    "description": "美国财政部8月20日正式公告：美东时间8月27日13:00、PDT 10:00截止竞争性投标。核对尾部/穿透、投标倍数、间接投标人与一级交易商获配，观察中长端期限溢价、成长股折现率与市场流动性；与Jackson Hole信号分开归因。",
+    "category": "宏观-美国",
+    "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/A_20260820_6.pdf",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "warsh-jackson-hole-2026-08-28",
+    "start_utc": "2026-08-28T14:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[宏观][已确认] Fed主席Warsh Jackson Hole主题演讲",
+    "description": "美联储正式日历确认美东时间8月28日10:00、PDT 07:00发表主题演讲；Jackson Hole研讨会为8月27—29日。核对通胀反应函数、长期收益率、资产负债表与政策沟通，更新SGOV收益率、USD/JPY和Market Level；措辞变化需结合PCE与美债拍卖共同判断。",
+    "category": "宏观-美国",
+    "url": "https://www.federalreserve.gov/newsevents/2026-august.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "umich-final-2026-08-28",
+    "start_utc": "2026-08-28T14:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 密歇根大学8月消费者信心与通胀预期终值",
+    "description": "密歇根大学正式日历确认美东时间8月28日10:00、PDT 07:00发布。核对1年与长期通胀预期、消费者信心及预期分项，作为Warsh演讲同刻的市场背景；若价格波动，先区分数据冲击与政策措辞。",
+    "category": "宏观-美国",
+    "url": "https://www.sca.isr.umich.edu/",
     "alarms": ["-P1D"]
   },
   {
