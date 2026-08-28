@@ -249,6 +249,26 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "hpq-memory-cost-gate-2026-08-31",
+    "start_utc": "2026-08-31T22:00:00Z",
+    "duration_minutes": 45,
+    "summary": "[持仓][研究检查] HP月底DRAM/Client SSD成本硬闸门",
+    "description": "结合月度合约价复核PC DRAM（DDR5/SODIMM）与Client SSD价格斜率，并与HP Q4/FY27成本传导、PC单位量、Personal Systems利润率及Printing核心利润率交叉验证。价格加速或放缓都只是thesis证据，不单独构成机械交易指令。",
+    "category": "持仓复盘",
+    "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "kioxia-lta-fcf-review-2026-08-31",
+    "start_utc": "2026-08-31T23:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][研究检查] Kioxia LTA硬约束与CapEx后FCF复核",
+    "description": "核对多年LTA是否包含take-or-pay、最低采购量、价格下限、预付款或其他可执行约束；同步更新NAND/eSSD ASP与bit growth、库存、BiCS单位成本、长期投资计划及CapEx后自由现金流。LTA改善收入可见度不等于自动证明税后ROIC。",
+    "category": "存储监测",
+    "url": "https://www.kioxia-holdings.com/en-jp/ir.html",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "nintendo-price-window-2026-09-01",
     "start_utc": "2026-09-01T16:00:00Z",
     "duration_minutes": 45,
@@ -269,6 +289,16 @@
     "alarms": ["-P7D", "-P1D"]
   },
   {
+    "uid": "unisplendour-h1-quality-dilution-audit-2026-09-02",
+    "start_utc": "2026-09-02T17:00:00Z",
+    "duration_minutes": 75,
+    "summary": "[持仓][研究检查] 紫光/H3C半年报质量与定增摊薄审计",
+    "description": "在初步财报复核后做深度审计：拆解合并与H3C毛利率/净利率、经营现金流、应收、库存、预付款，量化AI服务器、交换机与超节点的收入、订单和回款；核对紫光计算机出表影响，并区分定增授权上限与最终发行股数、价格及实际摊薄。增长标题不能替代现金流和利润质量。",
+    "category": "持仓复盘",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524306.PDF",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "fudan-h1-results-briefing-2026-09-04",
     "start_utc": "2026-09-04T08:00:00Z",
     "duration_minutes": 60,
@@ -286,6 +316,16 @@
     "description": "BLS正式日历。核对非农、失业率、时薪和修订值，更新衰退/软着陆概率、利率路径与Market Level；SGOV/Cash部署节奏以多项证据共振为准。",
     "category": "宏观-美国",
     "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "fudan-h1-briefing-evidence-2026-09-04",
+    "start_utc": "2026-09-04T23:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][研究检查] 上海复旦说明会后证据归档",
+    "description": "在北京时间9月4日16:00-17:00（洛杉矶PDT 01:00-02:00）说明会后，将管理层答复分为已确认、仍不确定和需要后续数据验证。重点核对NVM收入/毛利与涨价覆盖代工成本、H2订单和利用率、渠道库存、FPGA、经营现金流、应收库存及减值/冲回，不把行业价格顺风直接当作公司兑现。",
+    "category": "持仓复盘",
+    "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-18/688385_20260818_LBCR.pdf",
     "alarms": ["-P1D"]
   },
   {
@@ -317,6 +357,16 @@
     "category": "解禁与供给",
     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026041013/japanfwp_06042026.htm",
     "alarms": ["-P30D", "-P7D"]
+  },
+  {
+    "uid": "spacex-flight14-date-check-2026-09-15",
+    "date": "2026-09-15",
+    "summary": "[观察名单][研究检查] Starship Flight 14与塔架捕获日期核验",
+    "description": "截至建档日，SpaceX与FAA尚未确认Flight 14正式日期，本节点仅核对官方更新，不自行假设发射时刻。若公布任务方案，重点记录V3有效载荷验证、Ship受控返回/塔架捕获、检查周转时间及同一飞行器复飞路径；单次成功不直接证明平台经济性。",
+    "category": "太空业务验证",
+    "url": "https://www.faa.gov/space/stakeholder_engagement/spacex_starship",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
   },
   {
     "uid": "us-cpi-2026-09",
@@ -423,6 +473,15 @@
     "category": "存储监测",
     "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
     "alarms": ["-P1D"]
+  },
+  {
+    "uid": "spacex-google-ai-delivery-2026-09-30",
+    "date": "2026-09-30",
+    "summary": "[观察名单][已确认] SpaceX-Google AI算力交付门槛",
+    "description": "SEC披露的Cloud Service Agreement要求SpaceX在9月30日前向Google提供约11万颗NVIDIA GPU及相关算力；若未完成，一月宽限期后Google可终止合同，或按已交付规模下调月费。核对实际交付、付费/可计费容量、利用率与Revenue/GW；按时交付是经营验证，但不单独证明CapEx/GW和税后ROIC。",
+    "category": "AI算力验证",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026041150/spacexagreementfwp.htm",
+    "alarms": ["-P30D", "-P7D", "-P1D"]
   },
   {
     "uid": "us-payrolls-2026-10",
