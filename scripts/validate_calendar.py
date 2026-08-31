@@ -55,6 +55,17 @@ if not text.startswith("BEGIN:VCALENDAR\r\n") or not text.endswith("END:VCALENDA
     fail("invalid VCALENDAR envelope")
 if text.count("BEGIN:VEVENT") != len(events):
     fail("VEVENT count does not match events.json")
+if "X-WR-TIMEZONE:America/Los_Angeles\r\n" not in text:
+    fail("calendar timezone is not America/Los_Angeles")
+if "BEGIN:VTIMEZONE\r\nTZID:America/Los_Angeles\r\n" not in text:
+    fail("missing America/Los_Angeles VTIMEZONE")
+
+timed_events = sum("start_utc" in event for event in events)
+if text.count("DTSTART;TZID=America/Los_Angeles:") != timed_events:
+    fail("not every timed event is encoded with America/Los_Angeles TZID")
+for block in text.split("BEGIN:VEVENT\r\n")[1:]:
+    if "\r\nDTSTART:" in block:
+        fail("VEVENT contains floating or UTC DTSTART instead of America/Los_Angeles TZID")
 
 for line in text.split("\r\n"):
     if len(line.encode("utf-8")) > 75:

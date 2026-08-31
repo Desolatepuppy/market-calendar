@@ -161,8 +161,8 @@
   {
     "uid": "bok-rate-decision-2026-08-27",
     "date": "2026-08-26",
-    "summary": "[宏观][预约披露] 韩国央行8月利率决议（KST 8月27日）",
-    "description": "韩国银行正式会议日为KST 8月27日；PDT通常落在8月26日晚间，但官方尚未单独确认决议与记者会的具体发布时刻，时刻TBA。核对政策利率、通胀与增长预测、韩元和家庭杠杆，作为韩国资产、HD现代电气和亚洲流动性环境的共因子；不把单次决议直接转换为个股动作。",
+    "summary": "[宏观][预约披露] 韩国央行8月决议（PDT 8月26日晚窗口）",
+    "description": "本事件按洛杉矶日期排在PDT 8月26日；韩国银行正式会议日为KST 8月27日。官方尚未单独确认决议与记者会的精确时刻，故不假设分钟。核对政策利率、通胀与增长预测、韩元和家庭杠杆，作为韩国资产、HD现代电气和亚洲流动性环境的共因子；不把单次决议直接转换为个股动作。",
     "category": "宏观-韩国",
     "url": "https://www.bok.or.kr/eng/main/contents.do?menuNo=400022",
     "status": "TENTATIVE",
@@ -280,9 +280,10 @@
   },
   {
     "uid": "xiaomi-ev-deliveries-window-2026-09-01",
-    "date": "2026-09-01",
-    "summary": "[持仓][预计窗口] 小米8月EV交付数据检查",
-    "description": "小米未公布固定月度交付发布时间，本事件仅作为9月初核验窗口，具体时刻TBA。若公司发布，记录交付量、订单/产能约束、车型结构及是否出现促销；单月交付量不能替代ASP、单车毛利、资本投入和现金流验证。",
+    "start_utc": "2026-09-01T00:00:00Z",
+    "duration_minutes": 900,
+    "summary": "[持仓][预计窗口] 小米8月EV交付检查（PDT 8月31日晚起）",
+    "description": "本事件按美西时间设置为PDT 8月31日17:00至9月1日08:00的核验窗口，对应北京时间9月1日08:00至23:00。小米未公布固定月度发布时间，具体时刻TBA；若公司发布，记录交付量、订单/产能约束、车型结构及促销，单月交付不能替代ASP、单车毛利、资本投入和现金流验证。",
     "category": "持仓复盘",
     "url": "https://ir.mi.com/",
     "status": "TENTATIVE",
@@ -510,11 +511,13 @@
   },
   {
     "uid": "boj-decision-2026-09-18-jst",
-    "date": "2026-09-17",
-    "summary": "[宏观][已确认] BOJ 9月决议（JST 9月18日）",
-    "description": "日本银行正式会议为9月17–18日JST；声明与记者会具体时刻未固定，洛杉矶通常落在9月17日PDT，故不假设精确分钟。核对政策路径、国债操作和USD/JPY，映射Nintendo美元/欧元利润与亚洲风险资产。",
+    "start_utc": "2026-09-18T00:00:00Z",
+    "duration_minutes": 480,
+    "summary": "[宏观][预计窗口] BOJ 9月决议（PDT 9月17日17:00起）",
+    "description": "本事件按洛杉矶时间设置为PDT 9月17日17:00至9月18日01:00，对应JST 9月18日09:00–17:00。日本银行正式会议日期为JST 9月17–18日，但声明与记者会精确时刻未固定，本时间段只是覆盖窗口。核对政策路径、国债操作和USD/JPY，映射Nintendo与亚洲风险资产。",
     "category": "宏观-日本",
     "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/",
+    "status": "TENTATIVE",
     "alarms": ["-P1D"]
   },
   {
@@ -724,9 +727,10 @@
   },
   {
     "uid": "hd-hyundai-electric-q3-window-2026-10-23",
-    "date": "2026-10-23",
-    "summary": "[观察名单][预计窗口] HD现代电气3Q26业绩",
-    "description": "基于既往披露节奏的研究窗口，不是公司确认日期；由月度检查提前核对IR/KRX。重点看北美及全球订单、框架合同转PO、利润率、产能扩张和2027—28盈利修订。",
+    "start_utc": "2026-10-23T00:00:00Z",
+    "duration_minutes": 900,
+    "summary": "[观察名单][预计窗口] HD现代电气3Q26业绩（PDT 10月22日17:00起）",
+    "description": "本事件按洛杉矶时间设置为PDT 10月22日17:00至10月23日08:00，对应KST 10月23日09:00至24:00。该日期基于既往披露节奏，并非公司确认，精确时刻TBA；提前核对IR/KRX，重点看订单、框架合同转PO、利润率、产能扩张和2027—28盈利修订。",
     "category": "观察名单",
     "url": "https://www.hd-hyundaielectric.com/elect/en/IR/IRdata1.jsp",
     "status": "TENTATIVE",
@@ -774,11 +778,13 @@
   },
   {
     "uid": "boj-decision-2026-10-30-jst",
-    "date": "2026-10-29",
-    "summary": "[宏观][已确认] BOJ 10月决议与展望（JST 10月30日）",
-    "description": "日本银行正式会议为10月29–30日JST并发布展望报告；精确声明时刻未固定，洛杉矶通常落在10月29日PDT。核对政策、通胀、国债操作和USD/JPY，映射Nintendo与亚洲资产。",
+    "start_utc": "2026-10-30T00:00:00Z",
+    "duration_minutes": 480,
+    "summary": "[宏观][预计窗口] BOJ 10月决议与展望（PDT 10月29日17:00起）",
+    "description": "本事件按洛杉矶时间设置为PDT 10月29日17:00至10月30日01:00，对应JST 10月30日09:00–17:00。日本银行正式会议日期为JST 10月29–30日并发布展望报告，但精确声明时刻未固定，本时间段只是覆盖窗口。核对政策、通胀、国债操作和USD/JPY。",
     "category": "宏观-日本",
     "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/",
+    "status": "TENTATIVE",
     "alarms": ["-P1D"]
   },
   {
@@ -931,11 +937,13 @@
   },
   {
     "uid": "boj-decision-2026-12-18-jst",
-    "date": "2026-12-17",
-    "summary": "[宏观][已确认] BOJ 12月决议（JST 12月18日）",
-    "description": "日本银行正式会议为12月17–18日JST；精确声明时刻未固定，洛杉矶通常落在12月17日PST。核对政策、国债操作和USD/JPY，映射Nintendo及亚洲风险资产。",
+    "start_utc": "2026-12-18T00:00:00Z",
+    "duration_minutes": 480,
+    "summary": "[宏观][预计窗口] BOJ 12月决议（PST 12月17日16:00起）",
+    "description": "本事件按洛杉矶时间设置为PST 12月17日16:00至24:00，对应JST 12月18日09:00–17:00。日本银行正式会议日期为JST 12月17–18日，但精确声明时刻未固定，本时间段只是覆盖窗口。核对政策、国债操作和USD/JPY，映射Nintendo及亚洲风险资产。",
     "category": "宏观-日本",
     "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/",
+    "status": "TENTATIVE",
     "alarms": ["-P1D"]
   },
   {

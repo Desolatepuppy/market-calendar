@@ -1,9 +1,11 @@
 import json
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 
 ROOT = Path(__file__).resolve().parent
+CALENDAR_TZ = ZoneInfo("America/Los_Angeles")
 
 
 def esc(value: str) -> str:
@@ -36,11 +38,29 @@ lines = [
     "PRODID:-//Desolatepuppy//Market Events Calendar//ZH-CN",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
-    "X-WR-CALNAME:Investment 4.0 市场与投资事件",
-    "X-WR-CALDESC:资本、席位、研究精力与投资纪律复盘",
+    "X-WR-CALNAME:Investment 4.0 市场与投资事件（美西时间）",
+    "X-WR-CALDESC:All timed events use America/Los_Angeles (PDT/PST)",
     "X-WR-TIMEZONE:America/Los_Angeles",
     "REFRESH-INTERVAL;VALUE=DURATION:PT6H",
     "X-PUBLISHED-TTL:PT6H",
+    "BEGIN:VTIMEZONE",
+    "TZID:America/Los_Angeles",
+    "X-LIC-LOCATION:America/Los_Angeles",
+    "BEGIN:DAYLIGHT",
+    "TZOFFSETFROM:-0800",
+    "TZOFFSETTO:-0700",
+    "TZNAME:PDT",
+    "DTSTART:20070311T020000",
+    "RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU",
+    "END:DAYLIGHT",
+    "BEGIN:STANDARD",
+    "TZOFFSETFROM:-0700",
+    "TZOFFSETTO:-0800",
+    "TZNAME:PST",
+    "DTSTART:20071104T020000",
+    "RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
+    "END:STANDARD",
+    "END:VTIMEZONE",
 ]
 
 for event in events:
@@ -60,12 +80,12 @@ for event in events:
             ]
         )
     else:
-        start = datetime.fromisoformat(event["start_utc"].replace("Z", "+00:00"))
+        start = datetime.fromisoformat(event["start_utc"].replace("Z", "+00:00")).astimezone(CALENDAR_TZ)
         end = start + timedelta(minutes=int(event["duration_minutes"]))
         raw.extend(
             [
-                f"DTSTART:{start.strftime('%Y%m%dT%H%M%SZ')}",
-                f"DTEND:{end.strftime('%Y%m%dT%H%M%SZ')}",
+                f"DTSTART;TZID=America/Los_Angeles:{start.strftime('%Y%m%dT%H%M%S')}",
+                f"DTEND;TZID=America/Los_Angeles:{end.strftime('%Y%m%dT%H%M%S')}",
             ]
         )
 
