@@ -253,7 +253,7 @@
     "start_utc": "2026-08-31T22:00:00Z",
     "duration_minutes": 45,
     "summary": "[持仓][研究检查] HP月底DRAM/Client SSD成本硬闸门",
-    "description": "结合月度合约价复核PC DRAM（DDR5/SODIMM）与Client SSD价格斜率，并与HP Q4/FY27成本传导、PC单位量、Personal Systems利润率及Printing核心利润率交叉验证。价格加速或放缓都只是thesis证据，不单独构成机械交易指令。",
+    "description": "用户月度合约价显示，8月笔记本DDR5实际均价高于旧预测，但月度涨幅仍明显低于7月，故应记录为“高于预期但尚未重新加速”。与HP Q4/FY27成本传导、PC单位量、Personal Systems核心利润率及Printing核心利润率交叉验证；价格变化只是thesis证据，不单独构成机械交易指令。",
     "category": "持仓复盘",
     "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
     "alarms": ["-P1D"]
@@ -266,6 +266,36 @@
     "description": "核对多年LTA是否包含take-or-pay、最低采购量、价格下限、预付款或其他可执行约束；同步更新NAND/eSSD ASP与bit growth、库存、BiCS单位成本、长期投资计划及CapEx后自由现金流。LTA改善收入可见度不等于自动证明税后ROIC。",
     "category": "存储监测",
     "url": "https://www.kioxia-holdings.com/en-jp/ir.html",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "asia-exports-private-pmi-2026-08-31",
+    "start_utc": "2026-09-01T00:00:00Z",
+    "duration_minutes": 105,
+    "summary": "[存储][研究检查] 韩国出口与中国私营制造业交叉验证",
+    "description": "美西PDT 8月31日17:00起检查韩国8月出口及半导体分项，18:45检查RatingDog中国制造业PMI。韩国总出口不能替代NAND证据；重点看半导体出口、私营制造业新订单/出口订单、投入价格与库存，映射Kioxia供需及复旦/H3C下游，但不据单月标题形成交易动作。",
+    "category": "存储与中国需求",
+    "url": "https://www.pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
+    "alarms": ["-PT1H"]
+  },
+  {
+    "uid": "xiaomi-ev-deliveries-window-2026-09-01",
+    "date": "2026-09-01",
+    "summary": "[持仓][预计窗口] 小米8月EV交付数据检查",
+    "description": "小米未公布固定月度交付发布时间，本事件仅作为9月初核验窗口，具体时刻TBA。若公司发布，记录交付量、订单/产能约束、车型结构及是否出现促销；单月交付量不能替代ASP、单车毛利、资本投入和现金流验证。",
+    "category": "持仓复盘",
+    "url": "https://ir.mi.com/",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-jolts-ism-barr-2026-09-01",
+    "start_utc": "2026-09-01T13:05:00Z",
+    "duration_minutes": 115,
+    "summary": "[宏观][已确认] Barr讲话、JOLTS与ISM制造业",
+    "description": "PDT 06:05 Fed理事Barr讲话；07:00 BLS发布7月JOLTS，ISM发布8月制造业PMI。重点看职位空缺/招聘/离职、ISM新订单、就业和价格；07:00后结合2Y、DXY、RSP/SPY及SOXX判断增长与通胀组合，不把第一根市场反应直接当作Market Level变化。",
+    "category": "宏观-美国",
+    "url": "https://www.bls.gov/schedule/news_release/jolts.htm",
     "alarms": ["-P1D"]
   },
   {
@@ -289,6 +319,46 @@
     "alarms": ["-P7D", "-P1D"]
   },
   {
+    "uid": "boj-takata-speech-2026-09-02-jst",
+    "start_utc": "2026-09-02T01:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[宏观][已确认] 日银高田审议委员讲话（JST 9月2日）",
+    "description": "日本银行正式日程为日本时间9月2日10:30，换算为洛杉矶9月1日18:30 PDT。核对工资/通胀、政策正常化与国债购买措辞，并观察USD/JPY；政策措辞影响Nintendo的汇率折算和亚洲风险偏好，但不单独构成公司thesis变化。",
+    "category": "宏观-日本",
+    "url": "https://www.boj.or.jp/en/about/calendar/",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "adp-employment-2026-09-02",
+    "start_utc": "2026-09-02T12:15:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国8月ADP就业报告",
+    "description": "PDT 05:15发布。作为周五非农前的私营就业预演，核对行业、企业规模与工资分布；ADP不替代BLS非农，也不单独改变Market Level或资本部署权限。",
+    "category": "宏观-美国",
+    "url": "https://adpemploymentreport.com/",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "fed-beige-book-2026-09-02",
+    "start_utc": "2026-09-02T18:00:00Z",
+    "duration_minutes": 45,
+    "summary": "[宏观][已确认] 美联储Beige Book",
+    "description": "美联储正式日历确认PDT 11:00发布。重点核对招聘、消费、制造业、贷款需求、库存和成本转嫁是否同步恶化，区分软着陆、需求衰退与滞胀；仅与利率、信用、波动率和市场宽度共振时才更新Market Level。",
+    "category": "宏观-美国",
+    "url": "https://www.federalreserve.gov/newsevents/2026-september.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "broadcom-hpe-q3-readthrough-2026-09-02",
+    "start_utc": "2026-09-02T20:30:00Z",
+    "duration_minutes": 90,
+    "summary": "[存储][已确认] HPE与Broadcom Q3 AI/服务器read-through",
+    "description": "HPE电话会PDT 13:30，Broadcom电话会PDT 14:00。HPE核对AI服务器收入、订单、毛利、库存、现金流及H3C出售后的口径；Broadcom核对AI半导体收入、利润率、FCF与客户集中。两家公司只能提供Kioxia/H3C的行业read-through，不能替代LTA、NAND ASP、订单回款和公司自身利润质量。HPE官方来源：https://www.hpe.com/us/en/newsroom/press-release/2026/08/hpe-to-present-live-audio-webcast-of-fiscal-2026-third-quarter-earnings-conference-call.html",
+    "category": "存储同行",
+    "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-third-quarter-fiscal-year-2026-financial",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "unisplendour-h1-quality-dilution-audit-2026-09-02",
     "start_utc": "2026-09-02T17:00:00Z",
     "duration_minutes": 75,
@@ -296,6 +366,26 @@
     "description": "在初步财报复核后做深度审计：拆解合并与H3C毛利率/净利率、经营现金流、应收、库存、预付款，量化AI服务器、交换机与超节点的收入、订单和回款；核对紫光计算机出表影响，并区分定增授权上限与最终发行股数、价格及实际摊薄。增长标题不能替代现金流和利润质量。",
     "category": "持仓复盘",
     "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225524306.PDF",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "fudan-question-deadline-2026-09-03",
+    "start_utc": "2026-09-03T08:00:00Z",
+    "duration_minutes": 15,
+    "summary": "[持仓][已确认] 上海复旦说明会提问截止",
+    "description": "公司公告确认预征集截至北京时间9月3日16:00，换算为洛杉矶PDT 01:00。优先提交可量化问题：7–8月NVM订单/出货/ASP、涨价覆盖晶圆与封测成本、渠道库存与回款、FPGA认证/订单/节点、H2经营现金流和资本开支；避免只问管理层定性展望。",
+    "category": "持仓复盘",
+    "url": "https://roadshow.sseinfo.com/stayTuned/40181",
+    "alarms": ["-P1D", "-PT3H"]
+  },
+  {
+    "uid": "us-waller-labor-ism-services-2026-09-03",
+    "start_utc": "2026-09-03T12:30:00Z",
+    "duration_minutes": 120,
+    "summary": "[宏观][已确认] Waller、初请/生产率与ISM服务业",
+    "description": "PDT 05:30同时关注Fed理事Waller、初请失业金及Q2生产率/单位劳工成本修订；07:00发布ISM服务业。重点识别服务业就业与价格组合：就业跌破50而价格仍高属于滞胀式风险。NFP前不凭单项数据扩大部署，需结合2Y、DXY、VIX、信用和市场宽度。",
+    "category": "宏观-美国",
+    "url": "https://www.federalreserve.gov/newsevents/2026-september.htm",
     "alarms": ["-P1D"]
   },
   {
@@ -326,6 +416,26 @@
     "description": "在北京时间9月4日16:00-17:00（洛杉矶PDT 01:00-02:00）说明会后，将管理层答复分为已确认、仍不确定和需要后续数据验证。重点核对NVM收入/毛利与涨价覆盖代工成本、H2订单和利用率、渠道库存、FPGA、经营现金流、应收库存及减值/冲回，不把行业价格顺风直接当作公司兑现。",
     "category": "持仓复盘",
     "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-08-18/688385_20260818_LBCR.pdf",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "weekly-market-level-close-2026-09-04",
+    "start_utc": "2026-09-04T21:00:00Z",
+    "duration_minutes": 45,
+    "summary": "[宏观][研究检查] 本周收盘Market Level与资本权限归档",
+    "description": "在非农及本周全部数据完成价格发现后，统一记录SPY回撤、2Y/30Y、DXY、VIX、HY OAS、RSP/IWM/SOXX与50日均线宽度。区分黄色Level 0、执行暂停与正式Level 1；宏观利多或利空本身不自动释放资本，仍需公司赔率和触发器共振。",
+    "category": "组合复盘",
+    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "alarms": ["-PT1H"]
+  },
+  {
+    "uid": "fudan-valuation-seat-review-2026-09-05",
+    "start_utc": "2026-09-05T17:00:00Z",
+    "duration_minutes": 90,
+    "summary": "[持仓][研究检查] 上海复旦12个月赔率与组合席位复核",
+    "description": "基于中报与9月4日说明会，重建熊/基准/牛三情景的12个月价值与预期回报，并严格分开公司资格、仓位上限、相对SGOV和边际持仓的席位价值、当前价格部署价值及Market Level执行条件。管理层答复全绿只代表进入估值审查，不自动产生交易。",
+    "category": "持仓复盘",
+    "url": "https://roadshow.sseinfo.com/stayTuned/40181",
     "alarms": ["-P1D"]
   },
   {
@@ -473,6 +583,15 @@
     "category": "存储监测",
     "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
     "alarms": ["-P1D"]
+  },
+  {
+    "uid": "hpq-september-dram-final-2026-09-30",
+    "date": "2026-09-30",
+    "summary": "[持仓][研究检查] HP 9月DRAM最终值与FY27恢复闸门",
+    "description": "在8月笔记本DDR5实际均价高于旧预测后，核对9月最终均价及Q4曲线。重点观察价格是否重新加速、NAND是否同步上行，以及机构是否下修HP FY27 EPS或Personal Systems恢复路径；成本上涨只有传导到公司利润率或指引时才形成公司级红灯。",
+    "category": "持仓复盘",
+    "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
+    "alarms": ["-P7D", "-P1D"]
   },
   {
     "uid": "spacex-google-ai-delivery-2026-09-30",
