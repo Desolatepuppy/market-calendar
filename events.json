@@ -579,6 +579,16 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "kioxia-stock-split-adr-action-2026-10-01-jst",
+    "start_utc": "2026-10-01T00:00:00Z",
+    "duration_minutes": 45,
+    "summary": "[持仓][已确认] Kioxia 1拆3生效与ADR公司行动核验",
+    "description": "普通股1拆3于日本时间2026年10月1日生效；本事件按东京开盘JST 10月1日09:00设置，即洛杉矶9月30日17:00 PDT。官方记录日为JST 9月30日。拆股不改变企业价值；核对存托行/券商对KXIAY数量、ADR与普通股比例、报价连续性及到账时点的正式通知，在公司行动结算前不按旧股数机械计算仓位。ADR处理时刻仍TBA。",
+    "category": "持仓公司行动",
+    "url": "https://ssl4.eir-parts.net/doc/285A/tdnet/2859912/00.pdf",
+    "alarms": ["-P30D", "-P7D", "-P1D"]
+  },
+  {
     "uid": "memory-monthly-review-2026-09",
     "date": "2026-09-30",
     "summary": "[存储][研究检查] 9月存储价格与Kioxia/复旦月检",
@@ -679,7 +689,7 @@
     "uid": "kioxia-q2-date-check-2026-10-15",
     "date": "2026-10-15",
     "summary": "[持仓][研究检查] Kioxia FY26 Q2日期与业绩会核验",
-    "description": "Kioxia官方IR日历目前只确认Q2业绩在11月发布，具体日期、15:30 JST发布惯例和业绩会时刻均尚未确认。本节点核对IR News；确认后新增精确JST/PST事件。财报需核对NAND bit growth、ASP、库存、capex、Enterprise SSD/HBF、HBM替代性及供需拐点。",
+    "description": "Kioxia官方IR日历目前只确认FY26 Q2/H1业绩在2026年11月发布，具体日期、15:30 JST发布惯例和业绩会时刻均尚未确认。本节点核对IR News；确认后新增精确JST/PST事件。这是第一硬窗口：达到收入¥2.39T、Non-GAAP营业利润¥1.90T仅是起点，还要核对NAND bits/份额、ASP、BiCS cost/bit、应收、库存、Enterprise SSD及H1普通FCF；只靠ASP超预期仍不能形成公司级硬绿灯。",
     "category": "持仓财报",
     "url": "https://www.kioxia-holdings.com/en-jp/ir/calendar.html",
     "status": "TENTATIVE",
@@ -976,12 +986,32 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "kioxia-gp1-sample-deadline-2026-12-31",
+    "date": "2026-12-31",
+    "summary": "[持仓][预计窗口] Kioxia GP1评估样品年末检查",
+    "description": "Kioxia官方公告称GP1评估样品将在2026年底前向选定客户提供，具体日期TBA。本节点核对是否按期送样、客户范围、规格变化与后续认证计划；按期送样仍只维持黄灯，必须看到正式资格、量产订单及有数量意义的收入才构成eSSD商业化绿灯。",
+    "category": "持仓产品验证",
+    "url": "https://apac.kioxia.com/en-apac/business/news/2026/20260804-1.html",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
     "uid": "nintendo-q3-date-check-2027-01-25",
     "date": "2027-01-25",
     "summary": "[持仓][研究检查] Nintendo FY3/27 Q3日期与thesis核验",
     "description": "这不是公司确认的财报日；核对任天堂IR并准备假日季复盘。验证涨价后硬件需求、软件attach、数字销售、核心毛利、内存成本与全年指引。",
     "category": "持仓财报",
     "url": "https://www.nintendo.co.jp/ir/en/schedule/index.html",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "kioxia-q3-date-check-2027-01-15",
+    "date": "2027-01-15",
+    "summary": "[持仓][研究检查] Kioxia FY26 Q3日期与LTA核验",
+    "description": "官方IR年度节奏只确认FY26 Q3业绩在2027年2月发布，具体日期与时刻TBA；本节点提前核对IR News，确认后新增精确JST/PST事件。财报重点检查高价是否压制需求、客户库存、bits与份额、Enterprise SSD、BiCS cost/bit、普通FCF，以及LTA是否从目标/讨论进入有约束力的签约。",
+    "category": "持仓财报",
+    "url": "https://www.kioxia-holdings.com/en-jp/ir/calendar.html",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
   },
@@ -1012,6 +1042,16 @@
     "description": "这不是公司确认的财报日；核对SEC。完整1Q27业绩后的第二个完整交易日将触发延长锁定池额外约3.519亿股；复核AI利用率、客户续约、Capex/GW、税后ROIC和自由现金流。",
     "category": "观察名单",
     "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "kioxia-fy26-investor-day-date-check-2027-04-15",
+    "date": "2027-04-15",
+    "summary": "[持仓][研究检查] Kioxia FY26全年业绩与Investor Day日期核验",
+    "description": "Kioxia年度IR节奏显示全年业绩通常在5月发布；2027年Investor Day是否在5–6月举行及具体时刻均TBA。本节点核对官方IR并建立精确JST/PDT事件。全年窗口重点复核LTA实际覆盖率和最低采购量/价格重置/取消赔偿/预付款或RPO、eSSD份额、BiCS迁移、滚动现金流及CapEx纪律；若届时仍只有约50%目标而无可验证经济条款，LTA硬度继续为红灯。",
+    "category": "持仓财报与IR",
+    "url": "https://www.kioxia-holdings.com/en-jp/ir/calendar.html",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
   },
@@ -1054,5 +1094,54 @@
     "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "kioxia-bics10-cm10-ramp-review-2027-h2",
+    "date": "2027-07-01",
+    "summary": "[持仓][预计窗口] Kioxia BiCS10与CM10商业爬坡复核",
+    "description": "这是2027年下半年研究窗口起点，不是公司确认的量产日。Kioxia已在2026年开始BiCS10样品与初始生产，但尚未披露成熟经济良率；核对BiCS10/CM10客户认证、量产收入、先进节点bit占比、bit/wafer和cost/bit。只有产线启动或样品不足以转绿；若成熟爬坡后cost/bit仍未改善或延迟两个季度以上，记为公司级预警。",
+    "category": "持仓技术与产品验证",
+    "url": "https://www.kioxia.com/en-jp/about/news/2026/20260703-1.html",
+    "status": "TENTATIVE",
+    "alarms": ["-P30D", "-P7D"]
+  },
+  {
+    "uid": "kioxia-cy27-q3-downcycle-test-date-check-2027-10-15",
+    "date": "2027-10-15",
+    "summary": "[持仓][研究检查] Kioxia CY27 Q3下行量价后验测试日期核验",
+    "description": "核对预计于2027年11月发布、覆盖CY2027 Q3的财报正式日期，具体日期与时刻TBA。后验阈值：绿灯为剔除汇率ASP环比跌幅≤5%且bits与份额不降；黄灯为ASP跌5%–10%但bits、份额和利润率基本稳定；红灯为ASP跌>10%且bits或份额同时下降。同步复核LTA、eSSD、cost/bit和普通FCF，不能只看行业预测。",
+    "category": "持仓财报",
+    "url": "https://www.kioxia-holdings.com/en-jp/ir/calendar.html",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "kioxia-cy27-q4-downcycle-test-date-check-2028-01-15",
+    "date": "2028-01-15",
+    "summary": "[持仓][研究检查] Kioxia CY27 Q4下行量价后验测试日期核验",
+    "description": "核对预计于2028年2月发布、覆盖CY2027 Q4的财报正式日期，具体日期与时刻TBA。这是TechInsights紧平衡与TrendForce过剩模型的关键裁判：绿灯为ASP跌幅≤7%、bits约持平且不低于约-3%、Non-GAAP毛利率≥79%和营业利润率≥76%；黄灯为ASP跌7%–12%、bits跌3%–5%、毛利率75%–79%；红灯为ASP跌>12%、bits跌>5%，且毛利率<75%或营业利润率<70%。若再伴随负FCF或份额下降，接近核心证伪。",
+    "category": "持仓财报",
+    "url": "https://www.kioxia-holdings.com/en-jp/ir/calendar.html",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "kioxia-cy2028-lta-live-test-2028-01-05",
+    "date": "2028-01-05",
+    "summary": "[持仓][研究检查] Kioxia CY2028 LTA实战跟踪启动",
+    "description": "公司Investor Day Q&A表示计划以LTA覆盖约50%的CY2028预计出货量，但条款和实际覆盖仍需验证。本节点为年度跟踪启动日，不是公司公告日；核对已签覆盖率、最低采购量/take-or-pay、价格floor或有界重置、取消赔偿、预付款/RPO，以及市场下行时ASP、bits、份额和普通FCF是否获得真实保护。覆盖率数字本身不等于合同有效。",
+    "category": "持仓合同验证",
+    "url": "https://www.kioxia-holdings.com/content/dam/kioxia-hd/en-jp/ir/library/event/asset/Investor-Day-2026-Eng-QA.pdf",
+    "alarms": ["-P30D", "-P7D"]
+  },
+  {
+    "uid": "kioxia-k3-operation-window-fy2029",
+    "date": "2029-04-01",
+    "summary": "[持仓][预计窗口] Kioxia北上K3投运目标期启动",
+    "description": "Kioxia官方称北上Fab3（K3）目标在FY2029开始运营，具体投运日和设备节奏TBA；本事件以日本FY2029起点设置。核对政府支持、建筑进度、设备投资、客户/LTA覆盖、行业供需和新增wafer供给纪律。若没有硬需求或合同支持却提前大幅投设备，属于CapEx与周期风险红灯。",
+    "category": "持仓产能与资本开支",
+    "url": "https://www.kioxia.com/en-jp/about/news/2026/20260827-2.html",
+    "status": "TENTATIVE",
+    "alarms": ["-P30D", "-P7D"]
   }
 ]
