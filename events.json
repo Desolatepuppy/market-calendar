@@ -600,6 +600,16 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "china-residential-prices-2026-08",
+    "start_utc": "2026-09-15T01:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 中国8月70城住宅销售价格",
+    "description": "北京时间9月15日09:30，洛杉矶9月14日18:30 PDT。国家统计局正式日程；核对一二三线城市新房与二手房环比、同比及城市分化，作为随后工业、消费、投资和房地产数据的需求背景。",
+    "category": "宏观-中国",
+    "url": "https://www.stats.gov.cn/sj/fbrc/bnxxfb/",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "china-activity-2026-09",
     "start_utc": "2026-09-15T02:00:00Z",
     "duration_minutes": 45,
@@ -610,13 +620,63 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "us-retail-import-export-prices-2026-09-16",
+    "start_utc": "2026-09-16T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国8月零售销售与进出口价格",
+    "description": "美国东部时间09月16日08:30，洛杉矶05:30 PDT；Census与BLS正式日程。核对核心零售、控制组、进口价格和出口价格，判断名义消费韧性是否伴随输入性通胀压力。",
+    "category": "宏观-美国",
+    "url": "https://www.census.gov/economic-indicators/calendar-listview.html",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-business-inventories-2026-09-16",
+    "start_utc": "2026-09-16T14:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国7月商业库存与销售",
+    "description": "美国东部时间09月16日10:00，洛杉矶07:00 PDT；Census正式日程。核对库存销售比、制造/批发/零售库存与销售的方向，避免把库存金额上升直接解释为真实需求改善。",
+    "category": "宏观-美国",
+    "url": "https://www.census.gov/economic-indicators/calendar-listview.html",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "fomc-decision-2026-09-16",
     "start_utc": "2026-09-16T18:00:00Z",
     "duration_minutes": 90,
     "summary": "[宏观][已确认] FOMC利率决议与经济预测",
-    "description": "美联储正式会议，含SEP和记者会。核对利率路径、核心通胀、就业和风险分布，更新SGOV收益率、美元及Market Level；现金仍是选择权。",
+    "description": "美联储正式日程：洛杉矶09月16日11:00 PDT公布利率决议与SEP，11:30开始记者会。核对利率路径、核心通胀、就业和风险分布，更新短债收益率、美元及Market Level；不把市场预期当成已公布结果。",
     "category": "宏观-美国",
-    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "url": "https://www.federalreserve.gov/newsevents/2026-september.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "boe-decision-2026-09-17",
+    "start_utc": "2026-09-17T11:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[宏观][已确认] 英国央行9月利率决议",
+    "description": "伦敦09月17日12:00 BST，洛杉矶04:00 PDT；英国央行正式日程。核对政策利率、投票分布和通胀/需求措辞，观察全球长端利率与美元风险偏好的交叉影响。",
+    "category": "宏观-英国",
+    "url": "https://www.bankofengland.co.uk/events/upcoming-events",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-housing-claims-2026-09-17",
+    "start_utc": "2026-09-17T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国8月新屋开工/许可与初请失业金",
+    "description": "美国东部时间09月17日08:30，洛杉矶05:30 PDT。Census确认8月新屋开工、许可和竣工发布时间；初请失业金按劳工部周四固定时刻发布。核对住宅供给、许可前瞻及初请四周均值，判断增长与就业是否同步转弱。",
+    "category": "宏观-美国",
+    "url": "https://www.census.gov/economic-indicators/calendar-listview.html",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "japan-cpi-2026-08",
+    "start_utc": "2026-09-17T23:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 日本8月CPI",
+    "description": "日本时间09月18日08:30 JST，洛杉矶09月17日16:30 PDT；日本政府统计综合窗口正式日程。核对全国核心CPI、核心核心CPI和服务通胀，为随后BOJ决议及USD/JPY反应提供通胀基线。",
+    "category": "宏观-日本",
+    "url": "https://www.e-stat.go.jp/release-calendar/detail/00200573/202609180830",
     "alarms": ["-P1D"]
   },
   {
@@ -631,6 +691,26 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "boj-ueda-press-conference-2026-09-18-jst",
+    "start_utc": "2026-09-18T06:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[宏观][已确认] BOJ行长记者会（PDT 9月17日23:30）",
+    "description": "日本银行正式日程：日本时间09月18日15:30 JST开始直播，洛杉矶09月17日23:30 PDT。核对植田行长对利率路径、通胀持续性、国债操作和汇率传导的表述，并与决议文本及USD/JPY市场反应分开判断。",
+    "category": "宏观-日本",
+    "url": "https://www.boj.or.jp/about/calendar/",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-industrial-production-2026-09-18",
+    "start_utc": "2026-09-18T13:15:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国8月工业生产与产能利用率",
+    "description": "美国东部时间09月18日09:15，洛杉矶06:15 PDT；美联储G.17正式日程。核对制造业产出、耐用品/科技相关分项和产能利用率，判断企业端需求、库存与定价压力；该发布日不是09月15日。",
+    "category": "宏观-美国",
+    "url": "https://www.federalreserve.gov/releases/g17/",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "fudan-h1-30d-followup-2026-09-18",
     "date": "2026-09-18",
     "summary": "[持仓][研究检查] 上海复旦中报后30日验证",
@@ -641,11 +721,12 @@
   },
   {
     "uid": "onon-investor-day-2026-09-21",
-    "date": "2026-09-21",
-    "summary": "[持仓][已确认] On 2026 Investor Day（9月21–22日）",
-    "description": "公司在2Q26电话会确认9月21–22日举办Investor Day，具体时刻仍TBA。核对2027固定汇率收入框架、美国批发重置、DTC与全价销售、毛利/EBITDA转化、库存、LightSpray和中期现金流；缺少量化框架将使thesis保持未验证。",
+    "start_utc": "2026-09-22T12:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][已确认] On 2026 Investor Day（PDT 9月22日05:00）",
+    "description": "公司已正式确认：苏黎世09月22日14:00 CEST、美国东部08:00、洛杉矶05:00 PDT开始直播；官方未给出结束时刻，本日历仅占位一小时。核对中期增长框架、美国批发重置、DTC与全价销售、毛利/EBITDA转化、库存、LightSpray和现金流；量化框架能否闭合将影响thesis。",
     "category": "持仓复盘",
-    "url": "https://investors.on-running.com/events/default.aspx",
+    "url": "https://www.businesswire.com/news/home/20260908338495/en/On-to-Host-Investor-Day-on-Tuesday-September-22-2026",
     "alarms": ["-P7D", "-P1D"]
   },
   {
