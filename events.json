@@ -726,8 +726,18 @@
     "summary": "[持仓][已确认] On 2026 Investor Day（PDT 9月22日05:00）",
     "description": "公司已正式确认：苏黎世09月22日14:00 CEST、美国东部08:00、洛杉矶05:00 PDT开始直播；官方未给出结束时刻，本日历仅占位一小时。核对中期增长框架、美国批发重置、DTC与全价销售、毛利/EBITDA转化、库存、LightSpray和现金流；量化框架能否闭合将影响thesis。",
     "category": "持仓复盘",
-    "url": "https://www.businesswire.com/news/home/20260908338495/en/On-to-Host-Investor-Day-on-Tuesday-September-22-2026",
+    "url": "https://investors.on-running.com/news/news-details/2026/On-to-Host-Investor-Day-on-Tuesday-September-22-2026/default.aspx",
     "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "jpx-cash-market-reopen-2026-09-24-jst",
+    "start_utc": "2026-09-24T00:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[持仓][已确认] 日本现货复市（PDT 9月23日17:00）",
+    "description": "JPX确认日本现货市场9月21日至23日因节日休市，9月24日09:00 JST恢复早盘，换算为洛杉矶9月23日17:00 PDT。日本衍生品节日交易与现货不同，不可混同。复市后核对Nintendo与Kioxia日股价格、USD/JPY、Switch 2涨价后需求及NAND同行变化；Kioxia ADR假期内波动不能视为东京现货成交。",
+    "category": "持仓交易安排",
+    "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/",
+    "alarms": ["-P1D"]
   },
   {
     "uid": "spacex-unlock-2026-09-24",
@@ -738,6 +748,25 @@
     "category": "解禁与供给",
     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026041013/japanfwp_06042026.htm",
     "alarms": ["-P30D", "-P7D"]
+  },
+  {
+    "uid": "china-mid-autumn-stock-connect-closed-2026-09-25",
+    "start_utc": "2026-09-25T01:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[市场][已确认] A股及港股通休市，香港现货照常（PDT 9月24日18:00）",
+    "description": "香港/北京时间9月25日：上海及深圳A股因中秋节休市，沪深港股通南向与北向均暂停；香港证券市场不是当日公众假期，现货照常交易。本事件从香港预开市09:00 HKT起占位，换算为洛杉矶9月24日18:00 PDT。复旦、时代电气、小米等港股价格可继续变化，但港股通资金当日不可交易；先核对实际交易渠道与流动性，不把市场安排当作公司基本面事件。",
+    "category": "市场交易安排",
+    "url": "https://www.hkex.com.hk/Mutual-Market/Stock-Connect/Reference-Materials/Trading-Hour%2C-Trading-and-Settlement-Calendar?sc_lang=en",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "investment-weekly-evidence-review-2026-09-25",
+    "start_utc": "2026-09-25T20:15:00Z",
+    "duration_minutes": 45,
+    "summary": "[研究检查] 9月21–25日持仓与Q4研究席位验收（PDT周五13:15）",
+    "description": "美股周五收盘后验收本周证据，不预设交易：归档On投资者日对美洲批发、DTC、全价销售、库存与中期利润率的量化回答；核对Nintendo涨价后需求及Kioxia的LTA、eSSD、现金流，并为9月30日美光NAND/CapEx对照准备问题。复旦、紫光继续核对产品毛利、订单与回款；百胜中国拆门店回报、必胜客授权费节省与融资，住友电工拆AI信息通信利润对集团回报的净贡献。最后更新Market Level与周度净卖压S，区分已验证事实、研究推断和未确认事项。",
+    "category": "研究复盘",
+    "alarms": ["-P1D"]
   },
   {
     "uid": "nintendo-price-review-4w-2026-09-28",
@@ -768,6 +797,16 @@
     "category": "宏观-美国",
     "url": "https://www.bea.gov/news/schedule",
     "alarms": ["-P1D"]
+  },
+  {
+    "uid": "micron-fy26-q4-earnings-call-2026-09-30",
+    "start_utc": "2026-09-30T20:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[存储][已确认] Micron FY26 Q4财报电话会（PDT 9月30日13:30）",
+    "description": "Micron IR确认美山时间9月30日14:30 MDT召开FY26 Q4财报电话会，即洛杉矶9月30日13:30 PDT；财报稿精确发布时间未公告，本事件仅代表电话会。对Kioxia核对NAND bit growth、ASP、企业级SSD订单与库存、供给纪律、FY27 CapEx及HBM对NAND资本配置的挤出或支持；不从同行结果直接推出个股动作。",
+    "category": "存储同行",
+    "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx",
+    "alarms": ["-P7D", "-P1D"]
   },
   {
     "uid": "kioxia-stock-split-adr-action-2026-10-01-jst",
