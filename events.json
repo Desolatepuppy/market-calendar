@@ -769,6 +769,16 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "us-china-joint-arrangement-details-check-2026-09-28",
+    "date": "2026-09-28",
+    "summary": "[宏观][预计窗口] 中美经贸联合安排细则发布复核（TBA）",
+    "description": "中美元首会谈已确认双方经贸团队达成新的联合安排；公开表态预计9月28日进一步披露，但截至9月25日未见USTR、白宫或中国商务部确认具体发布时间，因此本事件仅为研究检查。核对商品清单、税率或采购数量、准入与许可、生效/终止日期及双方文本是否一致；分别验证Board of Trade非敏感商品安排、AI沟通机制与BIS芯片出口规则，不能把政治表态直接计入公司盈利或交易动作。",
+    "category": "宏观-中美政策",
+    "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "nintendo-price-review-4w-2026-09-28",
     "start_utc": "2026-09-28T16:00:00Z",
     "duration_minutes": 45,
@@ -946,6 +956,16 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "apec-finance-ministers-hong-kong-2026-10-19",
+    "start_utc": "2026-10-18T16:00:00Z",
+    "duration_minutes": 4320,
+    "summary": "[宏观][已确认] APEC财长会（PDT 10月18日09:00窗口起）",
+    "description": "APEC官方日历确认会议于香港时间10月19日至21日举行；本事件按当地日期窗口换算为洛杉矶10月18日09:00 PDT至10月21日09:00 PDT，具体会议时刻TBA。访美会谈后重点核对中美经贸联合安排是否出现执行文件、双方财长接触、跨境资本与金融稳定表述；未公布的双边会晤不得预先视为已确认。",
+    "category": "宏观-中美政策",
+    "url": "https://www.apec.org/",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
     "uid": "onon-q3-date-channel-check-2026-10-19",
     "date": "2026-10-19",
     "summary": "[持仓][研究检查] On Q3日期、批发与库存核验",
@@ -1087,6 +1107,16 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "apec-economic-leaders-meeting-shenzhen-2026-11-18",
+    "start_utc": "2026-11-17T16:00:00Z",
+    "duration_minutes": 2880,
+    "summary": "[宏观][已确认] APEC领导人会议（PST 11月17日08:00窗口起）",
+    "description": "APEC官方日历确认领导人会议于北京时间11月18日至19日在深圳举行；本事件按当地日期窗口换算为洛杉矶11月17日08:00 PST至11月19日08:00 PST，具体会议时刻TBA。9月访美会谈后核对中美领导人是否再次互动、联合安排执行、非敏感商品贸易、AI风险沟通、关键矿产、直航及商业订单；只有正式规则、合同和生效日期才改变公司thesis。",
+    "category": "宏观-中美政策",
+    "url": "https://www.apec.org/",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
     "uid": "us-pce-2026-11-25",
     "start_utc": "2026-11-25T13:30:00Z",
     "duration_minutes": 30,
@@ -1224,6 +1254,16 @@
     "url": "https://apac.kioxia.com/en-apac/business/news/2026/20260804-1.html",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "us-china-trade-truce-expiry-check-2027-01-10",
+    "date": "2027-01-10",
+    "summary": "[宏观][预计窗口] 中美贸易休战到期口径复核（报道为1月10日）",
+    "description": "访美讨论中出现贸易休战延长至2027年1月10日的报道口径，但截至9月25日尚未取得完整双方执行文本，故不能标为已确认到期日。到期前核对USTR、白宫、中国商务部及海关文件中的适用税目、税率、排除清单、法律生效时间和是否再延期；若文本不一致，以正式执行文件为准，不把风险情景自动转化为交易指令。",
+    "category": "宏观-中美政策",
+    "url": "https://ustr.gov/countries-regions/china-mongolia-taiwan/peoples-republic-china",
+    "status": "TENTATIVE",
+    "alarms": ["-P30D", "-P7D", "-P1D"]
   },
   {
     "uid": "nintendo-q3-date-check-2027-01-25",
