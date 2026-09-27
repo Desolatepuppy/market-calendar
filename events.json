@@ -769,6 +769,26 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "boj-july-minutes-services-ppi-2026-09-28",
+    "start_utc": "2026-09-27T23:50:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] BOJ 7月会议纪要与8月服务业PPI（PDT 9月27日16:50）",
+    "description": "日本银行确认JST 9月28日08:50发布，换算为洛杉矶9月27日16:50 PDT。分别读取7月会议纪要与8月企业服务价格：前者是旧会议记录，不能冒充9月会议的新立场；后者检查服务成本压力。用于更新日元、日本利率及Nintendo估值环境，不由单一措辞触发交易。",
+    "category": "宏观-日本",
+    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "china-industrial-profits-2026-09-28",
+    "start_utc": "2026-09-28T01:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 中国1—8月规模以上工业企业利润（PDT 9月27日18:30）",
+    "description": "北京时间9月28日09:30发布，换算为洛杉矶9月27日18:30 PDT。拆分8月单月与累计增速，检查改善来自量、价格还是基数，并单列电子、电气机械、铁路设备与消费制造；行业利润不能替代复旦、H3C、时代电气或小米的公司证据。",
+    "category": "宏观-中国",
+    "url": "https://www.stats.gov.cn/sj/fbrc/bnxxfb/",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "us-china-joint-arrangement-details-check-2026-09-28",
     "date": "2026-09-28",
     "summary": "[宏观][预计窗口] 中美经贸联合安排细则发布复核（TBA）",
@@ -783,9 +803,54 @@
     "start_utc": "2026-09-28T16:00:00Z",
     "duration_minutes": 45,
     "summary": "[持仓][研究检查] Nintendo涨价后4周复盘",
-    "description": "复核欧美sell-through、渠道库存、促销、软件attach、数字销售和USD/JPY，并与日本市场比较。需求或硬件毛利显著偏离将改变Switch 2第二年thesis。",
+    "description": "复核欧美sell-through、渠道库存、促销、软件attach、数字销售和USD/JPY，并与日本市场比较。Famitsu预告下一次周销文章于JST 9月28日发布，精确时刻TBA；其口径包含实体、下载卡及预装，不能直接替代全球非捆绑软件或利润数据。将硬件销量、硬件单位利润和软件利润分开，判断软件兑现能否抵消硬件成本压力。",
     "category": "持仓复盘",
     "url": "https://www.nintendo.co.jp/ir/en/finance/software/index.html",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "w40-execution-boundary-fudan-kioxia-holiday-2026-09-28",
+    "date": "2026-09-28",
+    "summary": "[研究检查] W40执行边界：复旦退出口径、Kioxia公司行动与长假风险",
+    "description": "周初先完成三项边界工作：确认上海复旦当前有效退出期限及Q3口径，核对所持Kioxia证券类型、券商通知和ADR公司行动，明确紫光/H3C跨A股长假的流动性窗口。只形成期限、证据和风险边界，不擅自生成交易数量；没有新增公司证据时默认不动。",
+    "category": "研究复盘",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-jolts-2026-09-29",
+    "start_utc": "2026-09-29T14:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国8月JOLTS（PDT 9月29日07:00）",
+    "description": "BLS正式日历确认美东时间09月29日10:00发布，即洛杉矶07:00 PDT。联合检查职位空缺、招聘、离职和裁员是否共同降温，并与实际利率和Market Level交叉验证；不只用空缺总数推导政策或交易。",
+    "category": "宏观-美国",
+    "url": "https://www.bls.gov/schedule/news_release/jolts.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "w40-capital-seat-onon-yumc-2026-09-29",
+    "date": "2026-09-29",
+    "summary": "[研究检查] W40资本席位比较：On与百胜中国",
+    "description": "只比较下一笔资本，而非重评全部公司：On核对美国DTC与终端全价销售、批发补单、折扣、库存及剔除退款后的经营杠杆；百胜中国拆分原有经营、许可费节省、融资税费及同店客流质量。回答谁的新证据更强、谁更少依赖乐观估值、谁的下行路径更易识别；证据不足则两者都不新增。",
+    "category": "资本席位复核",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "kioxia-adr-books-close-2026-09-29",
+    "date": "2026-09-29",
+    "summary": "[持仓][已确认] KXIAY ADR发行/注销暂停窗口开始",
+    "description": "Citi存托凭证页面显示KXIAY（CUSIP 49726J108）于9月29日至10月13日暂停ADR发行与注销，原因为公司行动对账；这不等于二级市场停牌。核对券商通知、报价连续性、ADR与普通股比例及任何挂单，避免把办理暂停误读成无法交易。",
+    "category": "持仓公司行动",
+    "url": "https://depositaryreceipts.citi.com/adr/guides/pgm_dispabook.aspx?cusip=49726J108&pageId=15&subpageID=111",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "japan-retail-iip-2026-08",
+    "start_utc": "2026-09-29T23:50:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 日本8月零售与工业生产初值（PDT 9月29日16:50）",
+    "description": "日本经济产业省按JST 9月30日08:50发布，换算为洛杉矶9月29日16:50 PDT。检查实际零售动能、工业生产、出货与库存是否同向，并分开评估Nintendo需求、Kioxia电子周期及日元环境；单月总指数不替代公司利润验证。",
+    "category": "宏观-日本",
+    "url": "https://www.meti.go.jp/english/statistics/kohyo.html",
     "alarms": ["-P1D"]
   },
   {
@@ -802,11 +867,21 @@
     "uid": "us-pce-2026-09-30",
     "start_utc": "2026-09-30T12:30:00Z",
     "duration_minutes": 30,
-    "summary": "[宏观][已确认] 美国8月核心PCE与个人收支",
-    "description": "BEA正式日历。核对核心PCE、实际消费和收入，更新降息路径、SGOV收益率和Market Level。",
+    "summary": "[宏观][已确认] 美国8月PCE、Q2 GDP终值与年度修订",
+    "description": "BEA确认美东时间9月30日08:30、即洛杉矶05:30 PDT同时发布8月个人收入与支出、Q2 GDP第三次估计，并启动2026年度国民与地区经济账户更新。必须分开回答：8月新增数据、Q2本次修订、2021Q1以来历史序列重估各说明什么；核对核心PCE、实际消费、GDP/GDI、企业利润与修订后的趋势，避免把历史下修误写成当月突然恶化。",
     "category": "宏观-美国",
     "url": "https://www.bea.gov/news/schedule",
     "alarms": ["-P1D"]
+  },
+  {
+    "uid": "china-national-day-market-closure-2026-10-01",
+    "start_utc": "2026-09-30T16:00:00Z",
+    "duration_minutes": 10080,
+    "summary": "[市场][已确认] A股及港股通国庆暂停窗口（PDT 9月30日09:00起）",
+    "description": "上交所、深交所确认北京时间10月1日至7日休市，10月8日恢复；沪深港股通同期暂停，10月8日恢复。香港现货市场10月1日休市、10月2日恢复，但10月2日仍无南向资金参与。本事件按北京时间10月1日00:00换算为洛杉矶9月30日09:00 PDT设置窗口；重点是流动性与跨假期风险，不构成节前机械卖出理由。",
+    "category": "市场交易安排",
+    "url": "https://www.sse.com.cn/disclosure/dealinstruc/closed/",
+    "alarms": ["-P7D", "-P1D"]
   },
   {
     "uid": "micron-fy26-q4-earnings-call-2026-09-30",
@@ -823,10 +898,48 @@
     "start_utc": "2026-10-01T00:00:00Z",
     "duration_minutes": 45,
     "summary": "[持仓][已确认] Kioxia 1拆3生效与ADR公司行动核验",
-    "description": "普通股1拆3于日本时间2026年10月1日生效；本事件按东京开盘JST 10月1日09:00设置，即洛杉矶9月30日17:00 PDT。官方记录日为JST 9月30日。拆股不改变企业价值；核对存托行/券商对KXIAY数量、ADR与普通股比例、报价连续性及到账时点的正式通知，在公司行动结算前不按旧股数机械计算仓位。ADR处理时刻仍TBA。",
+    "description": "普通股1拆3于日本时间2026年10月1日生效；本事件按东京开盘JST 10月1日09:00设置，即洛杉矶9月30日17:00 PDT。官方记录日为JST 9月30日。拆股不改变企业价值；Citi所列KXIAY当前比例为1 ADR:10普通股，ADR分配安排仍须以存托行和券商最终通知为准。在公司行动结算前不按旧股数机械计算仓位，也不因拆股本身决定ADR与普通股切换。",
     "category": "持仓公司行动",
     "url": "https://ssl4.eir-parts.net/doc/285A/tdnet/2859912/00.pdf",
     "alarms": ["-P30D", "-P7D", "-P1D"]
+  },
+  {
+    "uid": "boj-opinions-tankan-summary-2026-10-01",
+    "start_utc": "2026-09-30T23:50:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] BOJ 9月意见摘要与短观概要（PDT 9月30日16:50）",
+    "description": "日本银行确认JST 10月1日08:50发布9月会议意见摘要以及9月短观概要/大纲，即洛杉矶9月30日16:50 PDT。核对后续加息门槛、企业景气、资本开支、汇率假设与盈利预期；用于Nintendo、Kioxia及住友电工研究，但日本宏观改善不等于个股利润自动上修。",
+    "category": "宏观-日本",
+    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-ism-manufacturing-2026-10-01",
+    "start_utc": "2026-10-01T14:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国9月ISM制造业（PDT 10月1日07:00）",
+    "description": "ISM官方日历确认美东时间10月1日10:00发布，即洛杉矶07:00 PDT。重点看新订单、生产、就业、客户库存与支付价格的组合，而不是只看总PMI；用于判断融资压力、工业需求与Market Level，不直接授权公司交易。",
+    "category": "宏观-美国",
+    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "w40-deep-research-onon-sumitomo-2026-10-01",
+    "date": "2026-10-01",
+    "summary": "[研究检查] W40深研：先解决On决策缺口，否则住友电工",
+    "description": "若本周出现可靠的On渠道、DTC、全价销售或库存证据，优先完成其健康调整与需求转弱两条路径的裁决；否则集中研究住友电工信息通信利润的出货、单价、产品组合与利润率桥，并检查汽车业务和扩产现金消耗。目标是形成保守、基础、较强三种利润路径，不把研究完成等同于建仓。",
+    "category": "研究复盘",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "japan-tokyo-cpi-jobs-tankan-full-2026-10-02",
+    "start_utc": "2026-10-01T23:30:00Z",
+    "duration_minutes": 45,
+    "summary": "[宏观][已确认] 东京9月CPI、日本就业与短观完整数据（PDT 10月1日16:30起）",
+    "description": "东京9月CPI与日本8月就业数据于JST 10月2日08:30起发布，BOJ短观完整数据集于08:50发布；换算为洛杉矶10月1日16:30与16:50 PDT。结合通胀、就业、企业盈利、资本开支与汇率假设更新日本风险资产环境；分清宏观估值变化和Nintendo/Kioxia/住友自身利润证据。",
+    "category": "宏观-日本",
+    "url": "https://www.stat.go.jp/english/data/cpi/1582.htm",
+    "alarms": ["-P1D"]
   },
   {
     "uid": "memory-monthly-review-2026-09",
@@ -864,6 +977,25 @@
     "category": "宏观-美国",
     "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
     "alarms": ["-P1D"]
+  },
+  {
+    "uid": "investment-weekly-evidence-review-2026-10-02",
+    "start_utc": "2026-10-02T20:15:00Z",
+    "duration_minutes": 45,
+    "summary": "[研究检查] W40非农后作战计划验收（PDT周五13:15）",
+    "description": "美股周五收盘后只回答四个问题：本周哪些盈利假设真的改变；哪些价格变化创造新赔率；哪些原定计划应取消、保留或提前；下周最值得投入研究精力的是谁。同步更新Market Level、实际利率和周度卖压；逐项归档Nintendo、On、百胜中国、时代电气、Kioxia、小米、复旦与H3C的新增证据。若没有更强的综合理由，完全不交易是合格结果。",
+    "category": "研究复盘",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "kioxia-adr-stock-distribution-check-2026-10-08",
+    "date": "2026-10-08",
+    "summary": "[持仓][预计窗口] KXIAY ADR拆股分配到账核验",
+    "description": "Citi初步公司行动安排指向10月8日进行200%股票分配，但最终状态、到账时刻及券商处理仍待正式确认。核对ADR数量、1 ADR:普通股比例、零碎权益、成本基础与报价连续性；普通股1拆3不改变企业价值，未完成到账前不得机械按预期数量更新记录。",
+    "category": "持仓公司行动",
+    "url": "https://depositaryreceipts.citi.com/adr/notices/corpActions.aspx?pageId=3&subpageid=6",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
   },
   {
     "uid": "kioxia-peer-q3-date-check-2026-10-08",
