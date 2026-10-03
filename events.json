@@ -988,6 +988,103 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "w41-capital-trigger-baseline-2026-10-05",
+    "date": "2026-10-05",
+    "summary": "[研究检查] W41资本与触发器基线确认",
+    "description": "下周只更新证据、灯号、赔率和资金可用性，不擅自重写既有触发器；Kioxia执行已批准的新版，其余七只当前持仓继续沿用既定门槛。优先研究Nintendo北美提价需求与非捆绑软件利润、Kioxia新增公司级验证及ADR处理；同时维护上海复旦与紫光/H3C退出路线、百胜中国价格路线、时代电气经营门、On库存/渠道证据和小米复合红灯。研究完成不等于获得资本席位，证据不足时默认不动。",
+    "category": "研究复盘",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-ism-services-2026-10-05",
+    "start_utc": "2026-10-05T14:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国9月ISM服务业（PDT 10月5日07:00）",
+    "description": "ISM正式日历确认美东时间10月5日10:00发布，即洛杉矶07:00 PDT。联合检查商业活动、新订单、就业、订单库存和支付价格；服务需求转弱而价格仍高属于不利组合。用于更新实际利率、信用和Market Level，不由单一总指数直接生成交易动作。",
+    "category": "宏观-美国",
+    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "marvell-investor-day-2026-10-06",
+    "date": "2026-10-06",
+    "summary": "[存储][已确认日期] Marvell投资者日（纽约上午，时刻TBA）",
+    "description": "Marvell官方确认10月6日上午在纽约举行投资者日并提供网络直播，但未公开精确开始时刻，因此不按06:00 PDT假定。只提取能够改变AI互联、定制计算、数据中心存储控制器及需求时点的新信息；一般TAM叙事、管理层远期目标或同行股价反应不能替代Kioxia的NAND ASP、bit growth、库存、企业级SSD和现金证据。",
+    "category": "存储同行",
+    "url": "https://investor.marvell.com/news-events/ir-calendar/detail/20261006-marvell-investor-day-2026",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-treasury-3y-auction-2026-10-06",
+    "start_utc": "2026-10-06T17:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国3年期国债拍卖（PDT 10月6日10:00）",
+    "description": "美国财政部10月1日公告：美东时间10月6日13:00、即洛杉矶10:00 PDT截止竞争性投标，发行规模580亿美元。核对尾部/穿透、投标倍数、间接投标人与一级交易商获配，结合短端与曲线反应评估美元防御资产收益和市场流动性；拍卖结果不单独构成股票部署指令。",
+    "category": "宏观-美国",
+    "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/A_20261001_2.pdf",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-treasury-10y-auction-2026-10-07",
+    "start_utc": "2026-10-07T17:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国10年期国债续发拍卖（PDT 10月7日10:00）",
+    "description": "美国财政部10月1日公告：美东时间10月7日13:00、即洛杉矶10:00 PDT截止竞争性投标，续发规模390亿美元。重点检查尾部、投标倍数、间接投标人与一级交易商承接，并观察实际利率和估值敏感资产反应；将融资环境与公司盈利证据分开。",
+    "category": "宏观-美国",
+    "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/A_20261001_3.pdf",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "fomc-september-minutes-2026-10-07",
+    "start_utc": "2026-10-07T18:00:00Z",
+    "duration_minutes": 45,
+    "summary": "[宏观][已确认] FOMC 9月会议纪要（PDT 10月7日11:00）",
+    "description": "美联储确认美东时间10月7日14:00、即洛杉矶11:00 PDT发布9月15—16日会议纪要。核对委员对通胀、就业、关税、资产负债表和后续政策门槛的分歧；纪要记录的是会议信息集，必须结合会后数据解释，用于更新美元防御资产收益、USD/JPY和Market Level，不把旧信息当成新政策决定。",
+    "category": "宏观-美国",
+    "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "china-ashare-stock-connect-reopen-2026-10-08",
+    "start_utc": "2026-10-08T01:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[市场][已确认] A股及沪深港通国庆后恢复（PDT 10月7日18:30）",
+    "description": "上交所确认中国当地10月8日起A股开市并恢复港股通服务；本事件按北京时间09:30开盘设置，即洛杉矶10月7日18:30 PDT。检查长假消息集中定价、上海复旦与紫光/H3C价格路线，以及港股资金流恢复；10月5—7日港股现货波动没有南向资金参与，不能直接解释为南向态度。",
+    "category": "市场交易安排",
+    "url": "https://www.sse.com.cn/services/hkexsc/disclo/announ/c/c_20260917_10832484.shtml",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "tsmc-monthly-sales-2026-09",
+    "start_utc": "2026-10-08T05:30:00Z",
+    "duration_minutes": 20,
+    "summary": "[存储][已确认] TSMC 9月营收（PDT 10月7日22:30）",
+    "description": "TSMC官方财务日历确认台北时间10月8日13:30发布，换算为洛杉矶10月7日22:30 PDT。核对9月同比/环比、Q3累计与公司指引进度，仅作为AI算力、先进制程和半导体需求交叉证据；晶圆代工营收不能直接推导Kioxia NAND ASP、上海复旦利润或企业级SSD兑现。",
+    "category": "存储同行",
+    "url": "https://investor.tsmc.com/english/financial-calendar",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-initial-claims-2026-10-08",
+    "start_utc": "2026-10-08T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国初请失业金（PDT 10月8日05:30）",
+    "description": "美国劳工部每周四美东时间08:30发布，即洛杉矶05:30 PDT。核对初请、续请、四周均值和历史修订，判断就业降温是否扩大；单周波动须与JOLTS、非农和ISM就业分项共同解释，不直接改变公司评级。",
+    "category": "宏观-美国",
+    "url": "https://www.dol.gov/newsroom/releases/ETA",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-treasury-30y-auction-2026-10-08",
+    "start_utc": "2026-10-08T17:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国30年期国债续发拍卖（PDT 10月8日10:00）",
+    "description": "美国财政部10月1日公告：美东时间10月8日13:00、即洛杉矶10:00 PDT截止竞争性投标，续发规模220亿美元。重点检查尾部、投标倍数、间接需求和一级交易商承接，并观察长端实际利率、期限溢价与高估值资产反应；不把单场拍卖机械翻译成个股交易。",
+    "category": "宏观-美国",
+    "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/A_20261001_4.pdf",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "kioxia-adr-stock-distribution-check-2026-10-08",
     "date": "2026-10-08",
     "summary": "[持仓][预计窗口] KXIAY ADR拆股分配到账核验",
@@ -1026,6 +1123,25 @@
     "category": "解禁与供给",
     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026041013/japanfwp_06042026.htm",
     "alarms": ["-P30D", "-P7D"]
+  },
+  {
+    "uid": "umich-consumer-prelim-2026-10-09",
+    "start_utc": "2026-10-09T14:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 密歇根大学10月消费者调查初值（PDT 10月9日07:00）",
+    "description": "密歇根大学正式日历确认美东时间10月9日10:00、即洛杉矶07:00 PDT发布。核对消费者信心、当前状况、预期及1年/长期通胀预期，并结合实际收入、就业和油价判断消费背景；为Nintendo、On和百胜中国需求假设提供宏观输入，但不能替代公司渠道、客流或利润证据。",
+    "category": "宏观-美国",
+    "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "investment-weekly-evidence-review-2026-10-09",
+    "start_utc": "2026-10-09T20:15:00Z",
+    "duration_minutes": 45,
+    "summary": "[研究检查] W41资本与证据验收（PDT周五13:15）",
+    "description": "收盘后验收五项：KXIAY股份、成本、报价及权益是否一致；美元现金/SGOV、短期美国国债、日元专项储备与各平台近期可部署资金是否清楚；八只当前持仓只记录相对10月3日基线的新增证据；继续不动、百胜价格路线、Nintendo条件追加及Kioxia公司级硬绿路线分别缺什么；上海复旦、紫光/H3C及小米的既定减仓/证伪路线是否仍有效。为10月12日日本休市及美国银行/债市假日提前核对结算，不把股票可交易等同于跨平台资金正常到账。",
+    "category": "研究复盘",
+    "alarms": ["-P1D"]
   },
   {
     "uid": "nintendo-q2-date-check-2026-10-12",
