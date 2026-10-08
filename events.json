@@ -1238,7 +1238,7 @@
     "start_utc": "2026-10-23T00:00:00Z",
     "duration_minutes": 900,
     "summary": "[观察名单][预计窗口] HD现代电气3Q26业绩（PDT 10月22日17:00起）",
-    "description": "本事件按洛杉矶时间设置为PDT 10月22日17:00至10月23日08:00，对应KST 10月23日09:00至24:00。该日期基于既往披露节奏，并非公司确认，精确时刻TBA；提前核对IR/KRX，重点看订单、框架合同转PO、利润率、产能扩张和2027—28盈利修订。",
+    "description": "本事件按洛杉矶时间设置为PDT 10月22日17:00至10月23日08:00，对应KST 10月23日09:00至24:00。该日期基于既往披露节奏；截至PDT 10月7日，公司IR仍未确认3Q26日期或时刻，故精确时刻TBA并须提前核对IR/KRX。按主投资研究框架检查新增订单与积压、框架合同转PO、北美变压器交付与定价、营业利润率、产能爬坡/阿拉巴马扩产、现金流，以及美国数据中心和公用事业项目许可/延期是否改变2027—28盈利兑现；不把行业需求标题直接当作公司验证。",
     "category": "观察名单",
     "url": "https://www.hd-hyundaielectric.com/elect/en/IR/IRdata1.jsp",
     "status": "TENTATIVE",
@@ -1303,6 +1303,16 @@
     "category": "存储监测",
     "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
     "alarms": ["-P1D"]
+  },
+  {
+    "uid": "unisplendour-q3-appointment-2026-10-30",
+    "date": "2026-10-30",
+    "summary": "[持仓][预约披露] 紫光股份/H3C 2026Q3报告",
+    "description": "巨潮资讯定期报告预约披露页确认紫光股份（000938）2026三季报首次预约日期为北京时间2026年10月30日；截至PDT 10月7日没有变更日期、实际披露日期或正式发布时间，故洛杉矶具体时刻TBA，不自行假设盘前/盘后。按主投资复核框架检查合并与H3C收入、Q3单季毛利率、H3C净利率、扣非利润、Q3单季经营现金流、应收/库存/预付款、AI服务器/交换机/超节点订单与回款，以及定增、债务和担保变化；增长标题不能替代现金流和利润质量。",
+    "category": "持仓财报",
+    "url": "https://www.cninfo.com.cn/new/commonUrl?url=data%2Fyuyuepilu",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
   },
   {
     "uid": "china-pmi-2026-10",
