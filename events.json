@@ -1055,6 +1055,14 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "circana-us-games-august-2026-release-2026-10-08",
+    "date": "2026-10-08",
+    "summary": "[持仓][已公布] Circana美国游戏8月月报（Switch 2提价前基线）",
+    "description": "Circana执行董事Mat Piscatella已于10月8日发布8月美国电子游戏市场结果；tracking period为8月2日至29日，属于Switch 2美国9月1日提价前基线。公开结果显示Switch 2在8月及年初至今均位列美国硬件单位和销售额第一；Nintendo硬件单位同比下降15%，Switch 2硬件销售额同比下降13%。公开帖未给出Switch 2精确单位数或连续四周序列，因此不能据此计算可靠周均销量、识别购买前置，亦不能当作提价后需求验证。",
+    "category": "持仓行业数据",
+    "url": "https://bsky.app/profile/matpiscatella.bsky.social/post/3mxejc43tvk2n"
+  },
+  {
     "uid": "tsmc-monthly-sales-2026-09",
     "start_utc": "2026-10-08T05:30:00Z",
     "duration_minutes": 20,
@@ -1145,12 +1153,11 @@
   },
   {
     "uid": "nintendo-q2-date-check-2026-10-12",
-    "date": "2026-10-12",
-    "summary": "[持仓][研究检查] Nintendo FY3/27 Q2日期核验",
-    "description": "截至8月14日任天堂官方IR日历尚未公布FY3/27 Q2具体日期和说明会时刻。本节点核对官方IR；确认后再新增真实财报事件。准备验证Switch 2涨价后销量、软件attach、硬件毛利、全年指引和USD/JPY。",
+    "date": "2026-11-05",
+    "summary": "[持仓][已确认] Nintendo FY3/27 H1财报",
+    "description": "Nintendo官方IR日历确认2026年11月5日发布截至9月30日六个月业绩；截至PDT 10月8日未列具体发布时刻，故采用全天事件并标注时刻TBA，不假设东京盘前/盘后。核对全球Switch 2硬件出货、非捆绑软件、软件绑定率、数字业务、硬件毛利、库存、利润及全年指引；公司sell-in不能替代Circana美国终端零售，且财报早于11月19日发布的美国10月月报。",
     "category": "持仓财报",
     "url": "https://www.nintendo.co.jp/ir/en/schedule/index.html",
-    "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
   },
   {
@@ -1230,6 +1237,16 @@
     "description": "这不是公司确认的财报日；核对SEC和IR安排。完整Q3财报后第二个完整交易日将触发最大一批约13.136亿股解禁。复核AI税后ROIC、收入/GW、利用率、完整Capex/GW、客户续约/终止、Starlink现金贡献与供给吸收。",
     "category": "观察名单",
     "url": "https://www.sec.gov/edgar/browse/?CIK=1181412&owner=exclude",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "circana-us-games-september-2026-release-2026-10-22",
+    "date": "2026-10-22",
+    "summary": "[持仓][研究检查] Circana美国游戏9月月报（计划发布日期）",
+    "description": "Mat Piscatella于10月6日重新确认Circana计划在10月22日发布9月美国电子游戏市场结果；tracking period为8月30日至10月3日，覆盖Switch 2美国提价后的首个完整tracking month，但官方未给出发布时刻，故为全天/TBA且保留计划日期属性。检查Switch 2单位与销售额排名、如有披露的单位台数，并按五周统计期计算可比周均；月度汇总本身不提供连续四周序列，不能把排名稳定直接等同于需求弹性通过。",
+    "category": "持仓行业数据",
+    "url": "https://bsky.app/profile/matpiscatella.bsky.social/post/3mx7mcg5ias2o",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
   },
@@ -1372,6 +1389,16 @@
     "description": "APEC官方日历确认领导人会议于北京时间11月18日至19日在深圳举行；本事件按当地日期窗口换算为洛杉矶11月17日08:00 PST至11月19日08:00 PST，具体会议时刻TBA。9月访美会谈后核对中美领导人是否再次互动、联合安排执行、非敏感商品贸易、AI风险沟通、关键矿产、直航及商业订单；只有正式规则、合同和生效日期才改变公司thesis。",
     "category": "宏观-中美政策",
     "url": "https://www.apec.org/",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "circana-us-games-october-2026-release-2026-11-19",
+    "date": "2026-11-19",
+    "summary": "[持仓][研究检查] Circana美国游戏10月月报（计划发布日期）",
+    "description": "Mat Piscatella于10月6日重新确认Circana计划在11月19日发布10月美国电子游戏市场结果；tracking period为10月4日至31日，具体发布时刻TBA，因此采用全天事件并保留计划日期属性。用于检查Switch 2提价后10月需求是否较9月恢复，重点看单位/销售额排名、如有披露的单位台数及四周可比周均。该正式美国零售月报晚于Nintendo 11月5日H1财报，两者分别代表终端sell-through与公司全球sell-in，不能互相替代。",
+    "category": "持仓行业数据",
+    "url": "https://bsky.app/profile/matpiscatella.bsky.social/post/3mx7mcg5ias2o",
+    "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
   },
   {
