@@ -1161,6 +1161,25 @@
     "alarms": ["-P7D", "-P1D"]
   },
   {
+    "uid": "japan-us-holiday-settlement-2026-10-12",
+    "date": "2026-10-12",
+    "summary": "[宏观][已确认] 日本现货休市＋美国股债与结算分化",
+    "description": "JPX现货市场因Sports Day休市（OSE衍生品节日交易开放）；NYSE股票市场正常交易，但SIFMA建议美元固定收益市场全天休市，Federal Reserve Financial Services除FedNow外关闭。核对SGOV/美债成交、券商结算、换汇与跨平台到账时间，不把美股可交易等同于债券和现金结算正常，也不把日本衍生品价格当作东京现货成交。",
+    "category": "市场日历",
+    "url": "https://www.sifma.org/news/press-releases/sifma-fixed-income-market-close-recommendations-in-the-u-s-the-u-k-and-japan-for-u-s-columbus-day-and-japan-health-and-sports-day-holidays-2026",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "japan-cgpi-2026-10",
+    "start_utc": "2026-10-12T23:50:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 日本9月企业物价指数CGPI（PDT 10月12日16:50）",
+    "description": "日本银行确认JST 10月13日08:50发布，换算为洛杉矶10月12日16:50 PDT。核对国内企业物价、进口价格和日元计价成本压力，结合USD/JPY评估Nintendo及日本风险资产的利润与估值背景；单月CGPI不替代公司销量、成本和毛利证据。",
+    "category": "宏观-日本",
+    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "china-cpi-ppi-2026-10",
     "start_utc": "2026-10-14T01:30:00Z",
     "duration_minutes": 30,
@@ -1181,13 +1200,83 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "fed-beige-book-2026-10-14",
+    "start_utc": "2026-10-14T18:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美联储Beige Book（PDT 11:00）",
+    "description": "美联储正式日历确认美东时间10月14日14:00、洛杉矶11:00 PDT发布。核对十二辖区的消费、就业、工资、价格、信贷和企业投资措辞，重点辨别增长放缓与价格压力是否同时扩散；用于更新利率路径和Market Level，不把定性措辞机械转化为交易。",
+    "category": "宏观-美国",
+    "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "tsmc-q3-earnings-2026-10-15",
+    "start_utc": "2026-10-15T06:00:00Z",
+    "duration_minutes": 90,
+    "summary": "[存储][已确认] TSMC 2026Q3财报会（PDT 10月14日23:00）",
+    "description": "TSMC官方确认台北时间10月15日14:00–15:30召开财报会，即洛杉矶10月14日23:00至10月15日00:30 PDT。核对先进制程需求、AI/非AI结构、毛利率、资本开支、CoWoS与客户库存，只作为半导体需求和资本周期read-through；晶圆代工结果不能替代Kioxia NAND ASP、bit growth、Enterprise SSD、库存和现金流证据。",
+    "category": "存储同行财报",
+    "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "us-ppi-retail-claims-2026-10-15",
+    "start_utc": "2026-10-15T12:30:00Z",
+    "duration_minutes": 45,
+    "summary": "[宏观][已确认] 美国9月PPI、零售销售与初请（PDT 05:30）",
+    "description": "BLS与Census正式日程确认美东时间10月15日08:30发布9月PPI和9月零售销售；DOL周度初请通常同刻发布，即洛杉矶05:30 PDT。核对核心PPI及PCE相关分项、零售控制组、初请/续请和四周均值，判断通胀、消费与就业是否形成同向压力；需与CPI、Beige Book、利率和信用共同解释。",
+    "category": "宏观-美国",
+    "url": "https://www.bls.gov/schedule/2026/home.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-business-inventories-2026-10-15",
+    "start_utc": "2026-10-15T14:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国8月商业库存与销售（PDT 07:00）",
+    "description": "Census正式日程确认美东时间10月15日10:00、洛杉矶07:00 PDT发布8月制造与贸易库存及销售。核对库存销售比、制造/批发/零售库存与销售方向，区分价格抬升、主动补库和被动积压；不要把库存金额增加直接解释为真实需求改善。",
+    "category": "宏观-美国",
+    "url": "https://www.census.gov/mtis/release_schedule.html",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "warsh-imf-fireside-2026-10-16-bangkok",
+    "start_utc": "2026-10-16T03:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] Fed主席Warsh与IMF总裁炉边谈话（PDT 10月15日20:30）",
+    "description": "IMF年会正式日程确认为曼谷时间10月16日10:30–11:00，换算为洛杉矶10月15日20:30–21:00 PDT。重点检查通胀目标、增长与AI生产率、政策路径及全球流动性措辞，并观察2Y/30Y、美元、VIX和信用反应；讲话本身不替代FOMC决定。",
+    "category": "宏观-央行",
+    "url": "https://www.imf.org/en/meetings/2026/annual/schedule",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-import-export-prices-2026-10-16",
+    "start_utc": "2026-10-16T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国9月进出口价格（PDT 05:30）",
+    "description": "BLS正式日程确认美东时间10月16日08:30、洛杉矶05:30 PDT发布。核对非燃料进口价格、资本品与消费品输入成本、出口价格及汇率传导，结合PPI判断外生成本压力；单项数据不直接改变公司评级。",
+    "category": "宏观-美国",
+    "url": "https://www.bls.gov/schedule/2026/home.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-industrial-production-2026-10-16",
+    "start_utc": "2026-10-16T13:15:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国9月工业生产与产能利用率（PDT 06:15）",
+    "description": "美联储正式日历确认美东时间10月16日09:15、洛杉矶06:15 PDT发布。核对制造业、采矿、公用事业和产能利用率，结合订单、库存与利率判断工业周期；用于Market Level和跨行业背景，不替代持仓公司的订单、毛利与现金流证据。",
+    "category": "宏观-美国",
+    "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "kioxia-q2-date-check-2026-10-15",
-    "date": "2026-10-15",
-    "summary": "[持仓][研究检查] Kioxia FY26 Q2日期与业绩会核验",
-    "description": "Kioxia官方IR日历目前只确认FY26 Q2/H1业绩在2026年11月发布，具体日期、15:30 JST发布惯例和业绩会时刻均尚未确认。本节点核对IR News；确认后新增精确JST/PST事件。这是第一硬窗口：达到收入¥2.39T、Non-GAAP营业利润¥1.90T仅是起点，还要核对NAND bits/份额、ASP、BiCS cost/bit、应收、库存、Enterprise SSD及H1普通FCF；只靠ASP超预期仍不能形成公司级硬绿灯。",
+    "start_utc": "2026-10-30T09:45:00Z",
+    "duration_minutes": 30,
+    "summary": "[持仓][已确认] Kioxia FY26 Q2/H1财报（PDT 02:45）",
+    "description": "Kioxia官方IR News确认JST 10月30日18:45发布FY26 Q2/H1业绩，换算为洛杉矶10月30日02:45 PDT；官方当前确认的是财报发布时间，若另有业绩会时刻须继续以IR更新为准。核对NAND bit growth/份额、ASP、BiCS cost/bit、库存、应收、CapEx、Enterprise SSD/HBF及H1普通自由现金流；只靠ASP或收入超预期不能替代利润质量和资本回报验证。",
     "category": "持仓财报",
-    "url": "https://www.kioxia-holdings.com/en-jp/ir/calendar.html",
-    "status": "TENTATIVE",
+    "url": "https://www.kioxia-holdings.com/en-jp/ir/news.html",
     "alarms": ["-P7D", "-P1D"]
   },
   {
