@@ -1293,10 +1293,19 @@
     "uid": "china-activity-2026-10",
     "start_utc": "2026-10-19T02:00:00Z",
     "duration_minutes": 45,
-    "summary": "[宏观][已确认] 中国9月经济活动数据",
-    "description": "北京时间10月19日10:00，洛杉矶10月18日19:00 PDT。核对社零、工业、固定资产、地产和季度数据，映射小米/复旦/H3C。",
+    "summary": "[宏观][已确认] 中国Q3 GDP与9月经济活动数据",
+    "description": "北京时间10月19日10:00，洛杉矶10月18日19:00 PDT。核对Q3 GDP、9月社零、工业增加值、固定资产投资、房地产与就业数据；用于判断消费、制造业和私人投资是否同步改善，以及对中国消费与科技链的共因子影响。宏观数据只更新环境判断，不替代公司的收入、毛利和现金流证据。",
     "category": "宏观-中国",
     "url": "https://www.stats.gov.cn/sj/fbrc/bnxxfb/",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "hkex-chung-yeung-holiday-2026-10-19",
+    "date": "2026-10-19",
+    "summary": "[市场][已确认] 香港现货市场休市（重阳节翌日）",
+    "description": "港交所官方日历确认10月19日香港证券市场休市，10月20日恢复交易；部分MSCI、货币及利率衍生品仍可进行假日交易，不能据此视为港股现货市场开放。用于安排港股价格、结算与跨市场信息差观察。",
+    "category": "市场安排",
+    "url": "https://www.hkex.com.hk/News/HKEX-Calendar?defaultdate=2026-10-16&sc_lang=en",
     "alarms": ["-P1D"]
   },
   {
@@ -1330,6 +1339,36 @@
     "alarms": ["-P7D", "-P1D"]
   },
   {
+    "uid": "us-housing-starts-permits-2026-10-20",
+    "start_utc": "2026-10-20T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国9月住宅开工与许可（PDT 05:30）",
+    "description": "美国人口普查局正式日历确认美东时间10月20日08:30、洛杉矶05:30 PDT发布。核对建筑许可、开工、完工，以及独栋与多户住宅分项；结合利率与工业需求判断增长环境，不把单月波动直接映射为公司结论。",
+    "category": "宏观-美国",
+    "url": "https://www.census.gov/construction/soc/schedule.html",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "halliburton-q3-earnings-2026-10-20",
+    "start_utc": "2026-10-20T13:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[观察名单][已确认] Halliburton 2026Q3财报会（PDT 06:00）",
+    "description": "Halliburton官方确认财报会于美东时间10月20日09:00、洛杉矶06:00 PDT举行。作为能源服务链研究映射，核对国际与中东活动、2027客户预算、定价与设备利用率、分部利润率、经营现金流和营运资本；区分油价上涨与实际服务活动改善。",
+    "category": "观察名单财报",
+    "url": "https://ir.halliburton.com/node/36576",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "lrcx-september-quarter-earnings-2026-10-21",
+    "start_utc": "2026-10-21T21:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[存储][已确认] LRCX九月季财报会（PDT 14:00）",
+    "description": "Lam Research官方确认洛杉矶时间10月21日14:00 PDT举行九月季财报会。LRCX在组合框架中属于雇主股权风险，本事件只作半导体设备与存储资本开支read-through，不构成主动配置节点。核对NAND技术迁移与晶圆产能投资、客户预算和交付节奏、服务收入、毛利率及自由现金流。",
+    "category": "存储行业数据",
+    "url": "https://investor.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
     "uid": "circana-us-games-september-2026-release-2026-10-22",
     "date": "2026-10-22",
     "summary": "[持仓][研究检查] Circana美国游戏9月月报（计划发布日期）",
@@ -1338,6 +1377,16 @@
     "url": "https://bsky.app/profile/matpiscatella.bsky.social/post/3mx7mcg5ias2o",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "japan-cpi-2026-09",
+    "start_utc": "2026-10-22T23:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 日本9月全国CPI（PDT 10月22日16:30）",
+    "description": "日本官方发布日为JST 10月23日08:30，换算为洛杉矶10月22日16:30 PDT。核对全国总合、核心与核心核心通胀，区分商品和服务，并结合BOJ与USD/JPY更新日本资产的汇率和利率环境；不要与东京CPI混淆。",
+    "category": "宏观-日本",
+    "url": "https://www.e-stat.go.jp/release-calendar/statistics/00200573",
+    "alarms": ["-P1D"]
   },
   {
     "uid": "hd-hyundai-electric-q3-window-2026-10-23",
@@ -1349,6 +1398,36 @@
     "url": "https://www.hd-hyundaielectric.com/elect/en/IR/IRdata1.jsp",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "slb-q3-earnings-2026-10-23",
+    "start_utc": "2026-10-23T11:00:00Z",
+    "duration_minutes": 180,
+    "summary": "[观察名单][已确认] SLB 2026Q3业绩与财报会（PDT 04:00/06:30）",
+    "description": "SLB官方确认美东时间10月23日07:00发布业绩、09:30举行财报会，对应洛杉矶04:00与06:30 PDT。本事件以业绩发布时刻开始并覆盖电话会。核对国际与中东收入和订单、数字化/生产系统、定价、利润率、自由现金流及2027客户预算；与Halliburton交叉验证能源服务景气。",
+    "category": "观察名单财报",
+    "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-date-third-quarter-2026-results-conference-call",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "umich-sentiment-final-2026-10-23",
+    "start_utc": "2026-10-23T14:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 密歇根10月消费者信心终值（PDT 07:00）",
+    "description": "密歇根大学官方日历确认美东时间10月23日10:00、洛杉矶07:00 PDT发布10月终值。核对相对初值的修订、现况与预期、1年和长期通胀预期及耐用品购买条件；用于消费与利率环境复核，不替代单一公司的需求证据。",
+    "category": "宏观-美国",
+    "url": "https://www.sca.isr.umich.edu/",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "w42-research-close-2026-10-23",
+    "start_utc": "2026-10-23T20:15:00Z",
+    "duration_minutes": 45,
+    "summary": "[研究检查] W42作战计划证据收口（PDT 13:15）",
+    "description": "周五统一收口本周新增证据：完成Kioxia旧/新盈利模型桥、HD现代电气与潍柴动力对比；整合中国Q3与9月数据、HAL/SLB能源服务信号、Circana美国游戏月报以及LRCX对存储资本开支的read-through。仅更新事实、机构观点、推断与尚未验证项，不预设交易动作。",
+    "category": "研究复盘",
+    "url": "https://desolatepuppy.github.io/market-calendar/",
+    "alarms": ["-P1D"]
   },
   {
     "uid": "spacex-unlock-2026-10-26",
