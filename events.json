@@ -1114,11 +1114,12 @@
   },
   {
     "uid": "fudan-q3-date-check-2026-10-08",
-    "date": "2026-10-08",
-    "summary": "[持仓][研究检查] 上海复旦2026Q3日期核验",
-    "description": "截至8月18日，上海复旦2026Q3正式披露日期及说明会时刻尚未确认。本节点核对上交所与港交所公告；确认后再写入真实日期。准备复核扣非利润、NVM/FPGA收入与毛利、经营现金流、应收、库存及H2订单持续性。",
+    "start_utc": "2026-10-28T00:00:00Z",
+    "duration_minutes": 900,
+    "summary": "[持仓][已确认日期][预计窗口] 上海复旦2026Q3业绩（PDT 10月27日17:00起）",
+    "description": "港交所最新董事会会议表列示上海复旦于香港时间10月28日公布截至9月30日止九个月的第三季度业绩；公司未公布精确时刻，故本事件按当地工作日08:00–23:00换算为洛杉矶10月27日17:00至10月28日08:00 PDT。该官方日期取代此前第三方日历中的10月29日。还原Q3单季度收入、扣非利润和毛利率，分开NVM与FPGA，并检查经营现金流、应收、库存及订单持续性；主流NAND景气不能替代成熟NVM证据。",
     "category": "持仓财报",
-    "url": "https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=688385",
+    "url": "https://www3.hkexnews.hk/reports/bmn/ebmn_c.htm",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
   },
@@ -1153,11 +1154,13 @@
   },
   {
     "uid": "nintendo-q2-date-check-2026-10-12",
-    "date": "2026-11-05",
-    "summary": "[持仓][已确认] Nintendo FY3/27 H1财报",
-    "description": "Nintendo官方IR日历确认2026年11月5日发布截至9月30日六个月业绩；截至PDT 10月8日未列具体发布时刻，故采用全天事件并标注时刻TBA，不假设东京盘前/盘后。核对全球Switch 2硬件出货、非捆绑软件、软件绑定率、数字业务、硬件毛利、库存、利润及全年指引；公司sell-in不能替代Circana美国终端零售，且财报早于11月19日发布的美国10月月报。",
+    "start_utc": "2026-11-04T15:00:00Z",
+    "duration_minutes": 1440,
+    "summary": "[持仓][已确认日期][预计窗口] Nintendo FY3/27 H1财报（PST 11月4日07:00起）",
+    "description": "Nintendo官方IR日历确认JST 11月5日发布截至9月30日六个月业绩，但未列具体时刻；完整日本当地日期换算为洛杉矶11月4日07:00至11月5日07:00 PST，不自行假设东京盘前或盘后。核对Switch 2全球出货、非捆绑软件、软件绑定率、区域需求、数字业务、硬件毛利、库存、利润及全年指引；公司sell-in、索尼行业数据和Circana美国终端零售三者不能互相替代。",
     "category": "持仓财报",
     "url": "https://www.nintendo.co.jp/ir/en/schedule/index.html",
+    "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
   },
   {
@@ -1281,9 +1284,9 @@
   },
   {
     "uid": "xiaomi-q3-date-check-2026-10-15",
-    "date": "2026-10-15",
+    "date": "2026-10-26",
     "summary": "[持仓][研究检查] 小米2026Q3日期核验",
-    "description": "截至8月18日，小米2026Q3业绩及电话会具体日期尚未确认。本节点仅核对小米IR；确认后新增真实HKT/PDT事件。准备复核手机出货/ASP/毛利、AIoT、汽车交付与单位经济性、库存、资本开支及现金流。",
+    "description": "截至PDT 10月20日，小米官方日历仍未核到2026Q3业绩及电话会具体日期；本节点重新检查公司IR，确认后再新增真实HKT/PST事件，不套用去年安排。准备复核手机出货/ASP/毛利、内存成本传导、AIoT、汽车交付与单位经济性、库存、资本开支及现金流。",
     "category": "持仓财报",
     "url": "https://ir.mi.com/news-events/event-calendar",
     "status": "TENTATIVE",
@@ -1320,9 +1323,9 @@
   },
   {
     "uid": "onon-q3-date-channel-check-2026-10-19",
-    "date": "2026-10-19",
+    "date": "2026-10-26",
     "summary": "[持仓][研究检查] On Q3日期、批发与库存核验",
-    "description": "截至8月14日On IR没有Q3正式日期。本节点核对公司事件页，确认后再新增真实财报时刻；准备检查固定汇率收入、DTC、美国批发、全价销售、毛利/EBITDA和库存增速。",
+    "description": "截至PDT 10月20日，On IR仍未核到Q3正式日期；本节点重新检查公司事件页，确认后再新增真实CET/PST事件，不套用去年11月安排。准备检查固定汇率收入、DTC与批发、美国渠道、全价销售、毛利/EBITDA、费用率和库存增速。",
     "category": "持仓财报",
     "url": "https://investors.on-running.com/events/default.aspx",
     "status": "TENTATIVE",
@@ -1359,6 +1362,16 @@
     "alarms": ["-P7D", "-P1D"]
   },
   {
+    "uid": "meta-q3-earnings-2026-10-21",
+    "start_utc": "2026-10-21T20:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[存储][已确认] Meta 2026Q3财报会（PDT 13:30）",
+    "description": "Meta官方确认10月21日美股收盘后发布业绩，并于洛杉矶13:30 PDT举行电话会。作为AI基础设施需求环境证据，核对2026–27资本开支、数据中心投产节奏、折旧与自由现金流、建设回报和管理层对供给约束的表述；云厂资本开支不能直接证明Kioxia获得订单或实现NAND ASP。",
+    "category": "存储行业数据",
+    "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "lrcx-september-quarter-earnings-2026-10-21",
     "start_utc": "2026-10-21T21:00:00Z",
     "duration_minutes": 60,
@@ -1377,6 +1390,16 @@
     "url": "https://bsky.app/profile/matpiscatella.bsky.social/post/3mx7mcg5ias2o",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "deckers-fy27-q2-earnings-2026-10-22",
+    "start_utc": "2026-10-22T20:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓同行][已确认] Deckers FY2027 Q2财报会（PDT 13:30）",
+    "description": "Deckers官方确认10月22日美东16:30、洛杉矶13:30 PDT举行财报会。作为On/HOKA直接同行对照，检查跑鞋需求、HOKA增长、美国与国际渠道、批发补单、DTC、折扣和全价销售、库存增速、毛利率及全年指引；同行强弱只构成旁证，不替代On自身经营数据。",
+    "category": "持仓同行财报",
+    "url": "https://ir.deckers.com/news-events/press-releases/detail/665/deckers-brands-announces-conference-call-to-review-second-quarter-fiscal-2027-earnings-results",
+    "alarms": ["-P1D"]
   },
   {
     "uid": "japan-cpi-2026-09",
@@ -1450,14 +1473,64 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "macronix-q3-earnings-2026-10-27",
+    "start_utc": "2026-10-27T08:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓同行][已确认] 旺宏2026Q3法说会（PDT 01:00）",
+    "description": "旺宏官方确认台湾时间10月27日16:00、洛杉矶01:00 PDT举行Q3线上法说会。作为上海复旦成熟存储的优先同行验证，检查NOR与SLC NAND价格、位元/出货、客户订单、渠道和公司库存、产能利用率、供给纪律及毛利率；HBM或主流NAND上涨不能替代成熟NVM证据。",
+    "category": "持仓同行财报",
+    "url": "https://www.mxic.com.tw/en-us/about/investor-relations/Pages/quarterly-results.aspx",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "sk-hynix-q3-earnings-2026-10-28-kst",
+    "start_utc": "2026-10-28T00:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[存储][已确认] SK hynix 2026Q3财报会（PDT 10月27日17:00）",
+    "description": "SK hynix官方确认KST 10月28日09:00、洛杉矶10月27日17:00 PDT举行财报会，业绩稿将在会前发布。对Kioxia重点检查NAND与eSSD、Solidigm、位元出货、ASP、库存、供给纪律和资本开支，并把HBM/DRAM与NAND分开；同行结果不直接替代Kioxia的实现价格与现金流。",
+    "category": "存储同行财报",
+    "url": "https://news.skhynix.com/en/q3-2026-earnings-conference-call-invitation/",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
     "uid": "fomc-decision-2026-10-28",
     "start_utc": "2026-10-28T18:00:00Z",
     "duration_minutes": 75,
-    "summary": "[宏观][已确认] FOMC利率决议",
-    "description": "美联储正式日历。核对政策声明与记者会，更新SGOV收益率、美元和Market Level。",
+    "summary": "[宏观][已确认] FOMC利率决议与记者会（PDT 11:00/11:30）",
+    "description": "美联储正式日历确认10月28日洛杉矶11:00 PDT发布政策声明、11:30举行主席记者会。本事件覆盖两段；核对利率决定、投票分歧、通胀与就业判断、资产负债表及后续政策路径，更新短债收益率、美元、折现环境和Market Level，不能只看是否加息。",
     "category": "宏观-美国",
     "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
     "alarms": ["-P1D"]
+  },
+  {
+    "uid": "alphabet-q3-earnings-2026-10-28",
+    "start_utc": "2026-10-28T20:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[存储][已确认] Alphabet 2026Q3财报会（PDT 13:30）",
+    "description": "Alphabet确认10月28日洛杉矶13:30 PDT举行财报会，业绩稿在会前发布。核对Google Cloud需求、AI资本开支、数据中心投产与供给限制、折旧、自由现金流和AI商业化回报；仅作为Kioxia企业级存储需求环境的旁证，不直接证明订单或ASP。",
+    "category": "存储行业数据",
+    "url": "https://abc.xyz/investor/",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "microsoft-fy27-q1-earnings-2026-10-28",
+    "date": "2026-10-28",
+    "summary": "[存储][已确认日期][预计窗口] Microsoft FY2027 Q1财报",
+    "description": "Microsoft官方IR确认10月28日发布FY2027 Q1业绩，但截至PDT 10月20日事件页未显示可核实的开始时刻，故保留全天/TBA，不采用媒体推测钟点。检查Azure需求、算力供给、资本开支、租赁承诺、折旧和现金回报；只作为企业级存储需求环境证据。",
+    "category": "存储行业数据",
+    "url": "https://www.microsoft.com/en-us/Investor/events/fy-2027/earnings-fy-2027-q1",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "samsung-q3-earnings-2026-10-29-kst",
+    "start_utc": "2026-10-29T01:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[存储][已确认] Samsung Electronics 2026Q3财报会（PDT 10月28日18:00）",
+    "description": "Samsung官方确认KST 10月29日10:00、洛杉矶10月28日18:00 PDT举行Q3财报会。分开检查NAND、DRAM与HBM：NAND位元出货、ASP、库存、企业级SSD、供给纪律和资本开支最直接关联Kioxia；HBM景气不能自动转化为NAND盈利验证。",
+    "category": "存储同行财报",
+    "url": "https://www.samsung.com/global/ir/ir-events-presentations/events/",
+    "alarms": ["-P7D", "-P1D"]
   },
   {
     "uid": "us-pce-2026-10-29",
@@ -1468,6 +1541,67 @@
     "category": "宏观-美国",
     "url": "https://www.bea.gov/news/schedule",
     "alarms": ["-P1D"]
+  },
+  {
+    "uid": "stmicroelectronics-q3-earnings-2026-10-29",
+    "start_utc": "2026-10-29T08:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓同行][已确认] STMicroelectronics 2026Q3财报会（PDT 01:30）",
+    "description": "STMicroelectronics官方确认10月29日09:30 CET、洛杉矶01:30 PDT举行财报会。作为时代电气功率半导体业务旁证，检查汽车与工业需求、SiC价格和利用率、渠道库存、毛利率及资本开支；不能据此判断时代电气轨交主业订单和回款。",
+    "category": "持仓同行财报",
+    "url": "https://investors.st.com/node/19176/pdf",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "starbucks-fy26-q4-earnings-2026-10-29",
+    "start_utc": "2026-10-29T20:15:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓同行][已确认] Starbucks FY2026 Q4财报会（PDT 13:15）",
+    "description": "Starbucks官方确认10月29日美股收盘后发布业绩，并于洛杉矶13:15 PDT举行电话会。作为百胜中国消费旁证，重点检查中国同店客流、客单价、促销、门店经济性和利润率；咖啡消费与促销不能直接等同肯德基或必胜客需求。",
+    "category": "持仓同行财报",
+    "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Announces-Q4-and-Full-Fiscal-Year-2026-Results-Conference-Call/default.aspx",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "sandisk-fy27-q1-earnings-2026-10-29",
+    "start_utc": "2026-10-29T20:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[存储][已确认] Sandisk FY2027 Q1财报会（PDT 13:30）",
+    "description": "Sandisk官方确认10月29日洛杉矶13:30 PDT举行财报会。作为Kioxia最直接的NAND同行和合资制造伙伴之一，检查NAND ASP与位元出货、企业级SSD、客户协议、库存、供给纪律、合资制造成本、资本开支及自由现金流；同行高价不能替代Kioxia自身产品结构。",
+    "category": "存储同行财报",
+    "url": "https://investor.sandisk.com/news-releases/news-release-details/sandisk-report-first-quarter-fiscal-year-2027-results-october-29",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "amazon-q3-earnings-2026-10-29",
+    "start_utc": "2026-10-29T21:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[存储][已确认] Amazon 2026Q3财报会（PDT 14:00）",
+    "description": "Amazon官方确认10月29日洛杉矶14:00 PDT举行Q3财报会。检查AWS需求、数据中心容量投入、资本开支与融资、折旧、自由现金流和AI投入回报；作为企业级存储需求环境证据，不从AWS增长直接推导Kioxia订单或实现ASP。",
+    "category": "存储行业数据",
+    "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "times-electric-q3-board-2026-10-30",
+    "start_utc": "2026-10-30T00:00:00Z",
+    "duration_minutes": 900,
+    "summary": "[持仓][已确认日期][预计窗口] 时代电气前三季度业绩（PDT 10月29日17:00起）",
+    "description": "港交所董事会会议表列示时代电气于香港时间10月30日审议并公布截至9月30日止九个月业绩；未公布精确时刻，故按当地工作日08:00–23:00换算为洛杉矶10月29日17:00至10月30日08:00 PDT。检查轨交主业订单与交付、利润率和回款，以及功率半导体利用率、价格与盈利；董事会业绩日期不等于另有公开说明会。",
+    "category": "持仓财报",
+    "url": "https://www3.hkexnews.hk/reports/bmn/ebmn_c.htm",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "kioxia-jpx-ffw-step1-2026-10-30",
+    "start_utc": "2026-10-30T00:00:00Z",
+    "duration_minutes": 900,
+    "summary": "[持仓][已确认] Kioxia自由流通权重第一阶段调整（PDT 10月29日17:00窗口起）",
+    "description": "JPX确认Kioxia Holdings的自由流通权重在日本10月最后交易日第一阶段调整至0.325；本事件按东京交易日窗口换算为洛杉矶10月29日17:00至10月30日08:00 PDT。观察指数资金、成交量、收盘竞价与后续供给吸收；该机制事件不是经营证据，也不保证形成单向买入或卖出。",
+    "category": "持仓供给与指数",
+    "url": "https://www.jpx.co.jp/news/6030/20260710-01.html",
+    "alarms": ["-P7D", "-P1D"]
   },
   {
     "uid": "boj-decision-2026-10-30-jst",
@@ -1491,12 +1625,53 @@
   },
   {
     "uid": "unisplendour-q3-appointment-2026-10-30",
-    "date": "2026-10-30",
-    "summary": "[持仓][预约披露] 紫光股份/H3C 2026Q3报告",
-    "description": "巨潮资讯定期报告预约披露页确认紫光股份（000938）2026三季报首次预约日期为北京时间2026年10月30日；截至PDT 10月7日没有变更日期、实际披露日期或正式发布时间，故洛杉矶具体时刻TBA，不自行假设盘前/盘后。按主投资复核框架检查合并与H3C收入、Q3单季毛利率、H3C净利率、扣非利润、Q3单季经营现金流、应收/库存/预付款、AI服务器/交换机/超节点订单与回款，以及定增、债务和担保变化；增长标题不能替代现金流和利润质量。",
+    "start_utc": "2026-10-30T00:00:00Z",
+    "duration_minutes": 900,
+    "summary": "[持仓][预约披露] 紫光股份/H3C 2026Q3报告（PDT 10月29日17:00窗口起）",
+    "description": "巨潮资讯预约披露页确认紫光股份（000938）2026三季报预约日期为北京时间10月30日；截至PDT 10月20日未确认精确发布时间，故按当地工作日08:00–23:00换算为洛杉矶10月29日17:00至10月30日08:00 PDT，不自行假设盘前/盘后。检查合并与H3C收入、Q3单季毛利率和净利率、扣非利润、经营现金流、应收/库存/预付款、AI服务器/交换机/超节点订单与回款，以及融资成本和持股比例变化；增长标题不能替代现金流质量。",
     "category": "持仓财报",
     "url": "https://www.cninfo.com.cn/new/commonUrl?url=data%2Fyuyuepilu",
     "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "apple-fy26-q4-earnings-2026-11-02",
+    "start_utc": "2026-11-02T22:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓同行][已确认] Apple FY2026 Q4财报会（PST 14:00）",
+    "description": "Apple官方确认11月2日洛杉矶14:00 PST举行FY2026 Q4财报会。对Kioxia关注iPhone及其他设备的存储容量、区域需求和库存，对小米关注高端手机竞争；Apple终端销量不能直接验证其NAND采购价格或供应商份额。",
+    "category": "持仓同行财报",
+    "url": "https://investor.apple.com/investor-relations/",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "onsemi-q3-earnings-2026-11-02",
+    "start_utc": "2026-11-02T22:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓同行][已确认] onsemi 2026Q3财报会（PST 14:00）",
+    "description": "onsemi官方确认11月2日美东17:00、洛杉矶14:00 PST举行财报会。作为时代电气功率半导体周期旁证，检查汽车与工业需求、SiC价格和产能利用率、渠道库存、利润率及资本开支；不能据此判断中国轨交主业。",
+    "category": "持仓同行财报",
+    "url": "https://investor.onsemi.com/news-releases/news-release-details/onsemi-announce-third-quarter-financial-results-3",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "yum-china-q3-earnings-2026-11-03",
+    "start_utc": "2026-11-03T12:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][已确认] 百胜中国2026Q3财报会（PST 04:00）",
+    "description": "百胜中国官方确认11月3日美股盘前发布业绩，并于美东07:00、洛杉矶04:00 PST举行电话会。检查同店交易量与客单价、KFC/Pizza Hut拆分、餐厅利润率、新店回报、外卖与促销、经营现金流及股东回报；星巴克中国仅作消费旁证。",
+    "category": "持仓财报",
+    "url": "https://ir.yumchina.com/news-releases/news-release-details/yum-china-report-third-quarter-2026-financial-results",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "sony-fy26-q2-earnings-2026-11-05-jst",
+    "start_utc": "2026-11-05T06:30:00Z",
+    "duration_minutes": 120,
+    "summary": "[持仓同行][已确认] Sony FY2026 Q2资料与说明会（PST 11月4日22:30/23:30）",
+    "description": "Sony官方确认JST 11月5日15:30发布资料、16:30举行Q2说明会，对应洛杉矶11月4日22:30与23:30 PST。本事件覆盖两段。作为Nintendo行业对照，检查游戏硬件/软件结构、第一方内容、网络服务、库存、利润及全年指引；Sony结果不能替代Nintendo自身Switch 2销量和软件绑定率。",
+    "category": "持仓同行财报",
+    "url": "https://www.sony.com/en/SonyInfo/IR/library/presen/er/",
     "alarms": ["-P7D", "-P1D"]
   },
   {
@@ -1597,6 +1772,16 @@
     "category": "存储监测",
     "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
     "alarms": ["-P1D"]
+  },
+  {
+    "uid": "kioxia-jpx-ffw-step2-2026-11-30",
+    "start_utc": "2026-11-30T00:00:00Z",
+    "duration_minutes": 900,
+    "summary": "[持仓][已确认] Kioxia自由流通权重第二阶段调整（PST 11月29日16:00窗口起）",
+    "description": "JPX确认Kioxia Holdings的自由流通权重在日本11月最后交易日第二阶段调整至0.5；本事件按东京交易日窗口换算为洛杉矶11月29日16:00至11月30日07:00 PST。检查指数资金、成交量、收盘竞价与供给吸收；权重调整本身不构成公司经营验证。",
+    "category": "持仓供给与指数",
+    "url": "https://www.jpx.co.jp/news/6030/20260710-01.html",
+    "alarms": ["-P30D", "-P7D"]
   },
   {
     "uid": "us-payrolls-2026-12",
