@@ -1513,12 +1513,12 @@
   },
   {
     "uid": "microsoft-fy27-q1-earnings-2026-10-28",
-    "date": "2026-10-28",
-    "summary": "[存储][已确认日期][预计窗口] Microsoft FY2027 Q1财报",
-    "description": "Microsoft官方IR确认10月28日发布FY2027 Q1业绩，但截至PDT 10月20日事件页未显示可核实的开始时刻，故保留全天/TBA，不采用媒体推测钟点。检查Azure需求、算力供给、资本开支、租赁承诺、折旧和现金回报；只作为企业级存储需求环境证据。",
+    "start_utc": "2026-10-28T21:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[存储][已确认] Microsoft FY2027 Q1财报会（PDT 14:30）",
+    "description": "Microsoft官方新闻稿确认10月28日美股收盘后发布FY2027 Q1业绩，并于洛杉矶14:30 PDT举行电话会。检查Azure需求、算力供给、现金资本开支、融资租赁、折旧、经营现金流与自由现金流，区分核心业务现金变弱与扩张支出增长更快；只作为企业级存储和电力基础设施需求环境证据，不直接替代Kioxia或HD现代电气自身订单。",
     "category": "存储行业数据",
-    "url": "https://www.microsoft.com/en-us/Investor/events/fy-2027/earnings-fy-2027-q1",
-    "status": "TENTATIVE",
+    "url": "https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/",
     "alarms": ["-P7D", "-P1D"]
   },
   {
@@ -1535,8 +1535,8 @@
     "uid": "us-pce-2026-10-29",
     "start_utc": "2026-10-29T12:30:00Z",
     "duration_minutes": 30,
-    "summary": "[宏观][已确认] 美国9月核心PCE与个人收支",
-    "description": "BEA正式日历。核对核心PCE、实际消费和收入，更新利率路径与Market Level。",
+    "summary": "[宏观][已确认] 美国Q3 GDP初值与9月PCE（PDT 05:30）",
+    "description": "BEA正式日历确认美东时间10月29日08:30、洛杉矶05:30 PDT同时发布2026Q3 GDP初值及9月个人收入与支出。分开核对实际GDP、私人国内最终销售、消费和企业投资，以及核心PCE、实际消费和收入；用于更新真实需求、通胀、利率路径与Market Level，不以单一标题解释Fed前一日决定。",
     "category": "宏观-美国",
     "url": "https://www.bea.gov/news/schedule",
     "alarms": ["-P1D"]
@@ -1594,10 +1594,10 @@
   },
   {
     "uid": "kioxia-jpx-ffw-step1-2026-10-30",
-    "start_utc": "2026-10-30T00:00:00Z",
-    "duration_minutes": 900,
-    "summary": "[持仓][已确认] Kioxia自由流通权重第一阶段调整（PDT 10月29日17:00窗口起）",
-    "description": "JPX确认Kioxia Holdings的自由流通权重在日本10月最后交易日第一阶段调整至0.325；本事件按东京交易日窗口换算为洛杉矶10月29日17:00至10月30日08:00 PDT。观察指数资金、成交量、收盘竞价与后续供给吸收；该机制事件不是经营证据，也不保证形成单向买入或卖出。",
+    "start_utc": "2026-10-29T06:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[持仓][已确认机制][研究检查] Kioxia权重调整前收盘竞价（PDT 10月28日23:30）",
+    "description": "JPX确认Kioxia Holdings的自由流通权重在日本10月最后营业日第一阶段调整至0.325。指数修正采用修正日前一营业日价格，因此把日本10月29日15:30收盘竞价列为重点观察点，换算为洛杉矶10月28日23:30 PDT；10月30日为正式适用日。检查被动配置、提前套利、成交量、收盘竞价与后续供给吸收；该机制事件不是经营证据，也不保证形成单向买入或卖出。",
     "category": "持仓供给与指数",
     "url": "https://www.jpx.co.jp/news/6030/20260710-01.html",
     "alarms": ["-P7D", "-P1D"]
@@ -1611,6 +1611,16 @@
     "category": "宏观-日本",
     "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/",
     "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-eci-2026-q3-2026-10-30",
+    "start_utc": "2026-10-30T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国Q3就业成本指数（PDT 05:30）",
+    "description": "BLS正式日历确认美东时间10月30日08:30、洛杉矶05:30 PDT发布2026Q3就业成本指数。核对工资与福利成本的季环比和同比、私人部门与政府部门差异，判断薪资通胀黏性及其对后续Fed路径、长短端利率和Market Level的影响；不把单季工资成本直接转换成个股动作。",
+    "category": "宏观-美国",
+    "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
     "alarms": ["-P1D"]
   },
   {
