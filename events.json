@@ -1284,11 +1284,12 @@
   },
   {
     "uid": "xiaomi-q3-date-check-2026-10-15",
-    "date": "2026-10-26",
-    "summary": "[持仓][研究检查] 小米2026Q3日期核验",
-    "description": "截至PDT 10月20日，小米官方日历仍未核到2026Q3业绩及电话会具体日期；本节点重新检查公司IR，确认后再新增真实HKT/PST事件，不套用去年安排。准备复核手机出货/ASP/毛利、内存成本传导、AIoT、汽车交付与单位经济性、库存、资本开支及现金流。",
+    "start_utc": "2026-11-24T00:00:00Z",
+    "duration_minutes": 900,
+    "summary": "[持仓][已确认日期][预计窗口] 小米2026Q3业绩（PST 11月23日16:00起）",
+    "description": "港交所董事会会议名单确认小米于香港时间11月24日审议2026Q3业绩，但公司尚未确认具体披露或业绩会时刻。本事件暂按香港工作日08:00–23:00换算为洛杉矶11月23日16:00 PST至11月24日07:00 PST的预计窗口，具体时刻TBA，后续以小米IR为准。复核手机出货/ASP/毛利、内存成本传导、AIoT、汽车交付与单位经济性、库存、资本开支及现金流。",
     "category": "持仓财报",
-    "url": "https://ir.mi.com/news-events/event-calendar",
+    "url": "https://www3.hkexnews.hk/reports/bmn/ebmn.htm",
     "status": "TENTATIVE",
     "alarms": ["-P7D", "-P1D"]
   },
@@ -1323,12 +1324,12 @@
   },
   {
     "uid": "onon-q3-date-channel-check-2026-10-19",
-    "date": "2026-10-26",
-    "summary": "[持仓][研究检查] On Q3日期、批发与库存核验",
-    "description": "截至PDT 10月20日，On IR仍未核到Q3正式日期；本节点重新检查公司事件页，确认后再新增真实CET/PST事件，不套用去年11月安排。准备检查固定汇率收入、DTC与批发、美国渠道、全价销售、毛利/EBITDA、费用率和库存增速。",
+    "start_utc": "2026-11-10T13:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][已确认] On 2026Q3财报会（PST 05:00）",
+    "description": "On官方确认11月10日美股盘前发布2026Q3业绩，并于美东08:00、欧洲中部14:00、洛杉矶05:00 PST举行财报会。检查固定汇率收入、DTC与批发、美国渠道、全价销售、毛利/调整后EBITDA、费用率、库存增速，以及关税退款或一次性项目对利润质量的影响。",
     "category": "持仓财报",
-    "url": "https://investors.on-running.com/events/default.aspx",
-    "status": "TENTATIVE",
+    "url": "https://investors.on-running.com/news/news-details/2026/On-to-Release-Third-Quarter-2026-Results-on-Tuesday-November-10-2026/default.aspx",
     "alarms": ["-P7D", "-P1D"]
   },
   {
@@ -1652,6 +1653,93 @@
     "category": "持仓同行财报",
     "url": "https://investor.apple.com/investor-relations/",
     "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "us-dst-end-2026-11-01",
+    "start_utc": "2026-11-01T09:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[市场][已确认] 美国冬令时开始（PST，UTC−8）",
+    "description": "NIST确认美国2026年夏令时于当地11月1日02:00结束，时钟拨回至01:00；此后洛杉矶采用PST（UTC−8）。亚洲公司当地时刻不变，但换算后的洛杉矶时刻比夏令时期间晚一小时。",
+    "category": "市场时间",
+    "url": "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-ism-manufacturing-2026-11-02",
+    "start_utc": "2026-11-02T15:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国10月ISM制造业（PST 07:00）",
+    "description": "ISM官方日历确认11月2日美东10:00、洛杉矶07:00 PST发布10月制造业PMI。重点采集新订单、生产、就业、库存与价格分项，判断制造业需求和成本压力；数据本身不自动构成交易触发器。",
+    "category": "宏观-美国",
+    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "japan-cash-market-holiday-2026-11-03-jst",
+    "start_utc": "2026-11-03T00:00:00Z",
+    "duration_minutes": 390,
+    "summary": "[市场][已确认] 日本现货休市（文化日；PST 11月2日16:00起）",
+    "description": "JPX确认日本时间11月3日文化日现货市场休市；对应洛杉矶11月2日16:00 PST起的日本交易日。JPX衍生品假日交易另行开放，ADR仍按美国市场交易。比较任天堂、铠侠等日股与ADR/海外同业表现时，不把不同交易日的价格直接视为同步反应。",
+    "category": "市场-日本",
+    "url": "https://www.jpx.co.jp/corporate/about-jpx/calendar/index.html",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-jolts-2026-11-03",
+    "start_utc": "2026-11-03T15:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国9月JOLTS职位空缺（PST 07:00）",
+    "description": "美国劳工统计局确认11月3日美东10:00、洛杉矶07:00 PST发布9月JOLTS。采集职位空缺、招聘、离职和裁员，结合非农与工资判断劳动力市场降温程度；单月波动需与趋势交叉验证。",
+    "category": "宏观-美国",
+    "url": "https://www.bls.gov/schedule/2026/home.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-general-election-2026-11-03",
+    "date": "2026-11-03",
+    "summary": "[宏观][已确认] 美国联邦中期选举",
+    "description": "美国联邦选举委员会确认2026年联邦大选日为11月3日。关注国会控制权及其对关税、税收、财政支出和产业政策预期的影响；民调与初步计票存在误差和延迟，不把未确认结果直接转化为组合动作。",
+    "category": "宏观-美国政策",
+    "url": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "us-ism-services-2026-11-04",
+    "start_utc": "2026-11-04T15:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国10月ISM服务业（PST 07:00）",
+    "description": "ISM官方日历确认11月4日美东10:00、洛杉矶07:00 PST发布10月服务业PMI。采集商业活动、新订单、就业与价格分项，评估消费与服务通胀韧性，并与百胜中国等公司自身数据严格分开。",
+    "category": "宏观-美国",
+    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "yum-china-q3-materials-review-2026-11-04",
+    "date": "2026-11-04",
+    "summary": "[持仓][研究检查] 百胜中国Q3材料二次复核",
+    "description": "在11月3日财报会后重新阅读百胜中国Q3公告、电话会和非GAAP调整。重点拆分同店销售的客流与客单、门店扩张回报、加盟/许可费、外卖与促销、餐厅利润率、自由现金流及一次性项目，记录仍未回答的问题，不为复核节点预设结论。",
+    "category": "持仓复核",
+    "url": "https://ir.yumchina.com/news-releases/news-release-details/yum-china-report-third-quarter-2026-financial-results",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-productivity-costs-2026-q3-2026-11-05",
+    "start_utc": "2026-11-05T13:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国Q3生产率与单位劳工成本（PST 05:30）",
+    "description": "美国劳工统计局确认11月5日美东08:30、洛杉矶05:30 PST发布Q3生产率与成本初值。采集非农商业部门生产率、产出、工时、时薪与单位劳工成本，辅助判断工资通胀和利润率环境。",
+    "category": "宏观-美国",
+    "url": "https://www.bls.gov/schedule/2026/home.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "w45-earnings-trigger-review-2026-11-06",
+    "date": "2026-11-06",
+    "summary": "[研究检查] W45财报收口：时代现金与On准备",
+    "description": "在百胜中国、任天堂和美国就业数据完成后收口本周研究：为时代电气建立现金流拆解草稿，核对客户回款、应收与库存、供应商账期和融资；为11月10日On财报建立固定汇率收入、DTC/批发、全价销售、利润率和库存基线。只整理证据与待验证项，不制造新评级或交易触发器。",
+    "category": "研究复盘",
+    "url": "https://desolatepuppy.github.io/market-calendar/",
+    "alarms": ["-P1D"]
   },
   {
     "uid": "onsemi-q3-earnings-2026-11-02",
