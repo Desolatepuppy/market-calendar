@@ -1717,7 +1717,7 @@
     "uid": "yum-china-q3-materials-review-2026-11-04",
     "date": "2026-11-04",
     "summary": "[持仓][研究检查] 百胜中国Q3材料二次复核",
-    "description": "在11月3日财报会后重新阅读百胜中国Q3公告、电话会和非GAAP调整。重点拆分同店销售的客流与客单、门店扩张回报、加盟/许可费、外卖与促销、餐厅利润率、自由现金流及一次性项目，记录仍未回答的问题，不为复核节点预设结论。",
+    "description": "在11月3日财报会后取得并复核完整逐字稿/Q&A，不以prepared remarks代替全场回答。重点拆分KFC与Pizza Hut同店销售的客流和客单、Core OP中许可费节省、收购融资与净增厚、餐厅利润率、扩店回报及归母自由现金流；记录仍未回答的问题，不为复核节点预设评级或交易结论。",
     "category": "持仓复核",
     "url": "https://ir.yumchina.com/news-releases/news-release-details/yum-china-report-third-quarter-2026-financial-results",
     "alarms": ["-P1D"]
@@ -1736,7 +1736,7 @@
     "uid": "w45-earnings-trigger-review-2026-11-06",
     "date": "2026-11-06",
     "summary": "[研究检查] W45财报收口：时代现金与On准备",
-    "description": "在百胜中国、任天堂和美国就业数据完成后收口本周研究：为时代电气建立现金流拆解草稿，核对客户回款、应收与库存、供应商账期和融资；为11月10日On财报建立固定汇率收入、DTC/批发、全价销售、利润率和库存基线。只整理证据与待验证项，不制造新评级或交易触发器。",
+    "description": "在百胜中国、任天堂和美国就业数据完成后收口本周研究：汇总AMD、Supermicro、Qualcomm、Arm、Sony与Microchip对AI服务器、NAND、手机和工业半导体的旁证，并严格与持仓公司自身结果分开；为时代电气拆解客户回款、应收库存、供应商账期和融资，为11月10日On建立固定汇率收入、DTC/批发、全价销售、利润率和库存基线。只整理证据与待验证项，不制造新评级或交易触发器。",
     "category": "研究复盘",
     "url": "https://desolatepuppy.github.io/market-calendar/",
     "alarms": ["-P1D"]
@@ -1749,6 +1749,66 @@
     "description": "onsemi官方确认11月2日美东17:00、洛杉矶14:00 PST举行财报会。作为时代电气功率半导体周期旁证，检查汽车与工业需求、SiC价格和产能利用率、渠道库存、利润率及资本开支；不能据此判断中国轨交主业。",
     "category": "持仓同行财报",
     "url": "https://investor.onsemi.com/news-releases/news-release-details/onsemi-announce-third-quarter-financial-results-3",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "skyworks-fy26-q4-earnings-2026-11-03",
+    "start_utc": "2026-11-03T21:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓同行][已确认] Skyworks FY2026 Q4财报会（PST 13:30）",
+    "description": "Skyworks官方确认11月3日美东16:30、洛杉矶13:30 PST举行FY2026 Q4财报会。作为小米及智能手机供应链旁证，检查中国Android需求、移动业务收入与内容量、渠道库存、价格和毛利率，以及与Qorvo合并后的口径变化；不能把射频前端结果直接等同于小米手机销量或利润率。",
+    "category": "持仓同行财报",
+    "url": "https://investors.skyworksinc.com/news-releases/news-release-details/skyworks-sets-date-fourth-quarter-fiscal-2026-earnings-release",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "amd-fy26-q3-earnings-2026-11-03",
+    "start_utc": "2026-11-03T22:00:00Z",
+    "duration_minutes": 90,
+    "summary": "[持仓同行][已确认] AMD 2026Q3财报会（PST 14:00）",
+    "description": "AMD官方确认11月3日美东17:00、洛杉矶14:00 PST举行2026Q3财报会。作为铠侠、现代电气及AI基础设施需求旁证，检查数据中心与Instinct/EPYC收入、客户部署节奏、供给与库存、毛利率、下一季指引及客户资本开支；GPU或服务器收入强弱不能直接替代NAND ASP、铠侠现金流或电力设备订单验证。",
+    "category": "持仓同行财报",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "supermicro-fy27-q1-earnings-2026-11-03",
+    "start_utc": "2026-11-03T22:00:00Z",
+    "duration_minutes": 90,
+    "summary": "[持仓同行][已确认] Supermicro FY2027 Q1财报会（PST 14:00）",
+    "description": "Supermicro官方确认11月3日美东17:00、洛杉矶14:00 PST举行FY2027 Q1财报会。作为铠侠、H3C研究链和数据中心电力需求旁证，检查AI服务器与机架交付、存储配置、GPU可得性、订单与积压、客户集中、毛利率、库存、应收和经营现金流；初步收入上修不能替代最终财务报表及现金质量。",
+    "category": "持仓同行财报",
+    "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "qualcomm-fy26-q4-earnings-2026-11-04",
+    "start_utc": "2026-11-04T21:45:00Z",
+    "duration_minutes": 75,
+    "summary": "[持仓同行][已确认] Qualcomm FY2026 Q4财报会（PST 13:45）",
+    "description": "Qualcomm官方确认11月4日美股收盘后发布FY2026 Q4业绩，并于洛杉矶13:45 PST举行财报会。作为小米和Android手机链旁证，检查手机芯片出货与ASP、中国渠道库存、Snapdragon高端份额、IoT/汽车、许可业务、毛利率和下一季指引；Qualcomm出货不能直接替代小米自身手机销量、定价或汽车业务验证。",
+    "category": "持仓同行财报",
+    "url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Schedules-Fourth-Quarter-and-Fiscal-2026-Earnings-Release-and-Conference-Call/default.aspx",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "arm-fy27-q2-earnings-2026-11-04",
+    "start_utc": "2026-11-04T22:00:00Z",
+    "duration_minutes": 75,
+    "summary": "[持仓同行][已确认] Arm FY2027 Q2财报会（PST 14:00）",
+    "description": "Arm官方确认11月4日洛杉矶14:00 PST举行FY2027 Q2财报会。作为AI计算、智能手机及边缘设备旁证，检查版税与许可收入、Armv9和CSS渗透、数据中心与手机终端结构、中国收入、研发费用及下一季指引；Arm平台增长不能直接证明小米、铠侠或AMD的公司级利润兑现。",
+    "category": "持仓同行财报",
+    "url": "https://investors.arm.com/financials/quarterly-annual-results",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "microchip-fy27-q2-earnings-2026-11-05",
+    "start_utc": "2026-11-05T22:00:00Z",
+    "duration_minutes": 75,
+    "summary": "[持仓同行][已确认] Microchip FY2027 Q2财报会（PST 14:00）",
+    "description": "Microchip官方确认11月5日美东17:00、洛杉矶14:00 PST举行FY2027 Q2财报会。作为复旦微电、时代电气及工业半导体周期旁证，检查工业/汽车需求、订单与取消、渠道库存、工厂利用率、定价、毛利率和现金流；产品组合差异较大，不能把Microchip周期直接套用到FPGA、NVM或功率半导体。",
+    "category": "持仓同行财报",
+    "url": "https://ir.microchip.com/news-events/ir-calendar/detail/20261105-microchips-q2fy27-financial-results-conference-call",
     "alarms": ["-P7D", "-P1D"]
   },
   {
