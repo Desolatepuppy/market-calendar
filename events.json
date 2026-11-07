@@ -1862,6 +1862,166 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "korea-margin-collateral-relief-2026-11-09",
+    "start_utc": "2026-11-09T00:00:00Z",
+    "duration_minutes": 390,
+    "summary": "[市场][已确认] 韩国融资抵押率临时豁免首个交易日（PST 11月8日16:00）",
+    "description": "韩国四大经济金融主管机构宣布，自KST 11月9日周一起三个月暂停证券公司股票融资贷款140%抵押维持率要求；本事件按韩国开盘09:00换算为洛杉矶11月8日16:00 PST，覆盖当地交易时段。观察强平卖压、KOSPI/KOSDAQ成交与外资流向；监管缓冲只影响市场流动性，不能替代HD现代电气或韩国公司经营证据。",
+    "category": "市场-韩国流动性",
+    "url": "https://rki.kbs.co.kr/service/news_view.htm?Seq_Code=205393&lang=e",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "taiwan-trade-2026-10-release-2026-11-09",
+    "start_utc": "2026-11-09T08:00:00Z",
+    "duration_minutes": 45,
+    "summary": "[宏观][已确认] 台湾10月进出口（PST 11月9日00:00）",
+    "description": "台湾财政部确认台北时间11月9日16:00发布10月海关进出口统计，换算为洛杉矶11月9日00:00 PST。核对电子零组件、资通产品、美国/中国订单与进口设备，仅作为AI和亚洲科技需求交叉证据；不能直接替代Kioxia NAND ASP、bits、库存或企业级SSD验证。",
+    "category": "宏观-亚洲贸易",
+    "url": "https://www.mof.gov.tw/eng/singlehtml/6642?cntId=7ccdf37a317b4f7da3716dc263f28feb",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-treasury-3y-auction-2026-11-09",
+    "start_utc": "2026-11-09T18:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国财政部580亿美元3年期国债拍卖（PST 10:00）",
+    "description": "美国财政部季度再融资公告确认美东11月9日13:00、洛杉矶10:00 PST拍卖580亿美元3年期国债。核对尾部/穿透、投标倍数、间接投标人与一级交易商获配，并与10年和30年拍卖合并评估利率供给、SGOV收益率及Market Level；单次结果不自动触发部署。",
+    "category": "宏观-美国国债",
+    "url": "https://home.treasury.gov/news/press-releases/sb0678",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "boj-summary-opinions-2026-11-10-jst",
+    "start_utc": "2026-11-09T23:50:00Z",
+    "duration_minutes": 45,
+    "summary": "[宏观][已确认] BOJ 10月会议意见摘要（PST 11月9日15:50）",
+    "description": "日本银行确认JST 11月10日08:50发布10月29–30日会议意见摘要，换算为洛杉矶11月9日15:50 PST。核对通胀、工资、加息条件、国债操作和汇率措辞，结合USD/JPY评估Nintendo、Kioxia及日元专项弹药背景；摘要不等同于新政策决定。",
+    "category": "宏观-日本央行",
+    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "tsmc-october-revenue-2026-11-10-tpe",
+    "start_utc": "2026-11-10T05:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[存储][已确认] TSMC 10月营收（PST 11月9日21:30）",
+    "description": "TSMC官方财务日历确认台北时间11月10日13:30发布10月营收，换算为洛杉矶11月9日21:30 PST。核对同比/环比、Q4累计进度与AI/非AI需求，只作为先进制程和半导体资本周期旁证；晶圆代工营收不能直接推导Kioxia NAND价格、bits或现金流。",
+    "category": "持仓同行数据",
+    "url": "https://investor.tsmc.com/english/financial-calendar",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "us-treasury-10y-auction-2026-11-10",
+    "start_utc": "2026-11-10T18:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国财政部420亿美元10年期国债拍卖（PST 10:00）",
+    "description": "美国财政部季度再融资公告确认美东11月10日13:00、洛杉矶10:00 PST拍卖420亿美元10年期国债。核对尾部/穿透、投标倍数、间接投标人与一级交易商获配，重点观察期限溢价、美元和高估值资产资本成本；与同日CPI分开归因。",
+    "category": "宏观-美国国债",
+    "url": "https://home.treasury.gov/news/press-releases/sb0678",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "coreweave-q3-earnings-2026-11-10",
+    "start_utc": "2026-11-10T22:00:00Z",
+    "duration_minutes": 90,
+    "summary": "[观察名单同行][已确认] CoreWeave 2026Q3财报会（PST 14:00）",
+    "description": "CoreWeave官方确认美东11月10日17:00、洛杉矶14:00 PST举行2026Q3财报会。作为SpaceX AI算力和数据中心电力需求read-through，核对收入/GW、利用率、客户集中与合同期限、资本开支、融资成本、经营现金流和GPU经济折旧；CoreWeave结果不能替代SpaceX自身Capex/GW、税后ROIC或客户续约披露。",
+    "category": "观察名单同行财报",
+    "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "us-veterans-day-fixed-income-2026-11-11",
+    "date": "2026-11-11",
+    "summary": "[市场][已确认] Veterans Day：美国固定收益市场建议休市",
+    "description": "SIFMA确认11月11日建议美元计价固定收益市场全天休市。股票市场不在该SIFMA休市范围内；关注国债、公司债和二级货币市场流动性下降对价格发现与跨市场信号的影响，不把稀疏成交误判为利率趋势。",
+    "category": "市场-假日流动性",
+    "url": "https://www.sifma.org/news/press-releases/sifma-fixed-income-market-close-recommendation-in-the-u-s-the-u-k-and-japan-for-the-u-s-veterans-day-holiday-2026",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "xiaomi-double11-review-2026-11-11",
+    "date": "2026-11-11",
+    "summary": "[持仓][研究检查] 小米双11终端需求与促销质量复核",
+    "description": "双11结束后汇总官方平台榜单、渠道价格和公司披露，检查手机/IoT销量、实际成交价、平台与以旧换新补贴、退货率、库存和高端机结构。区分GMV、预售订单与最终支付/签收，不把单个平台排名直接视为小米收入或利润验证。",
+    "category": "持仓需求验证",
+    "url": "https://www.mi.com/global/event/",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "boj-cgpi-2026-11-12-jst",
+    "start_utc": "2026-11-11T23:50:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 日本10月企业物价指数CGPI（PST 11月11日15:50）",
+    "description": "日本银行确认JST 11月12日08:50发布10月CGPI，换算为洛杉矶11月11日15:50 PST。核对国内企业物价、进口价格和日元计价成本压力，结合USD/JPY评估Nintendo与日本科技持仓的成本背景；单月CGPI不替代公司销量、内存成本和毛利证据。",
+    "category": "宏观-日本",
+    "url": "https://www.boj.or.jp/en/about/calendar/index.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "nintendo-japan-bundle-2026-11-12-jst",
+    "start_utc": "2026-11-11T15:00:00Z",
+    "duration_minutes": 1440,
+    "summary": "[持仓][已确认日期/时刻未确认] Nintendo日本选软件套装发售窗口（PST 11月11日07:00起）",
+    "description": "任天堂确认日本当地11月12日发售Nintendo Switch 2日本语国内专用“选软件套装”，但未确认具体开售时刻；本事件按JST当地日00:00–24:00换算为洛杉矶11月11日07:00至11月12日07:00 PST。后续检查套装供给、渠道价格、软件选择结构及是否拉动新增用户；发售本身不等于销量、attach或利润验证。",
+    "category": "持仓产品与需求",
+    "url": "https://www.nintendo.com/jp/hardware/switch2/lineup/choose-bundle/index.html",
+    "status": "TENTATIVE",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "us-treasury-30y-auction-2026-11-12",
+    "start_utc": "2026-11-12T18:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国财政部250亿美元30年期国债拍卖（PST 10:00）",
+    "description": "美国财政部季度再融资公告确认美东11月12日13:00、洛杉矶10:00 PST拍卖250亿美元30年期国债。核对尾部/穿透、投标倍数、间接投标人与一级交易商获配，重点观察长端期限溢价和高估值资产资本成本；与3年、10年拍卖共同评估供给吸收。",
+    "category": "宏观-美国国债",
+    "url": "https://home.treasury.gov/news/press-releases/sb0678",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "amat-fy26-q4-earnings-2026-11-12",
+    "start_utc": "2026-11-12T21:30:00Z",
+    "duration_minutes": 90,
+    "summary": "[存储同行][已确认] Applied Materials FY2026 Q4财报会（PST 13:30）",
+    "description": "Applied Materials官方确认美东11月12日16:30、洛杉矶13:30 PST举行FY2026 Q4财报会。作为Kioxia和半导体资本开支旁证，检查存储设备收入、NAND/DRAM客户投资、先进封装、服务收入、订单和下一季指引；设备需求不能直接替代Kioxia供给纪律、ASP、bits或普通自由现金流。",
+    "category": "持仓同行财报",
+    "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "us-ppi-2026-11-13",
+    "start_utc": "2026-11-13T13:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美国10月PPI（PST 05:30）",
+    "description": "BLS正式日历确认美东11月13日08:30、洛杉矶05:30 PST发布10月PPI。核对最终需求、核心PPI、商品与服务价格和历史修订，结合CPI更新通胀、利率与Market Level；单月上行或下行不自动触发部署。",
+    "category": "宏观-美国",
+    "url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "eurozone-gdp-q3-second-estimate-2026-11-13",
+    "date": "2026-11-13",
+    "summary": "[宏观][已确认日期/时刻未确认] 欧元区2026Q3 GDP与就业快估",
+    "description": "Eurostat已确认11月13日发布Q3约T+45日GDP更新，当前官方材料未在本次核验中确认具体分钟，因此保留全天/TBA，不自行假设11:00 CET。核对GDP修订、就业和成员国分化，作为全球需求与美元环境背景；该数据不替代公司级订单和现金流证据。",
+    "category": "宏观-欧洲",
+    "url": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-30102026-ap",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "hong-kong-gdp-q3-revised-2026-11-13",
+    "date": "2026-11-13",
+    "summary": "[宏观][已确认日期/时刻未确认] 香港2026Q3 GDP修订与全年展望",
+    "description": "香港政府统计处正式日历确认11月13日发布2026Q3 GDP修订数据，具体发布时刻在本次核验中未由官方页面确认，故保留全天/TBA。核对私人消费、投资、货物与服务贸易、GDP修订及最新全年预测，作为小米及港股风险环境背景；宏观修订不替代公司经营验证。",
+    "category": "宏观-中国香港",
+    "url": "https://www.censtatd.gov.hk/",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "us-cpi-2026-11",
     "start_utc": "2026-11-10T13:30:00Z",
     "duration_minutes": 30,
