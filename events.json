@@ -2022,6 +2022,77 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "softbank-group-fy26-q2-earnings-2026-11-10-jst",
+    "start_utc": "2026-11-10T06:30:00Z",
+    "duration_minutes": 120,
+    "summary": "[观察名单同行][已确认] SoftBank Group FY2026 Q2业绩与说明会（PST 11月9日22:30起）",
+    "description": "SoftBank Group确认JST 11月10日15:30披露业绩、16:30举行说明会，对应洛杉矶11月9日22:30和23:30 PST，本事件覆盖两段。作为AI资本供给与项目融资旁证，检查Vision Fund/Arm估值、已承诺投资中的实际出资、流动性、债务与后续融资来源；资本承诺不能直接替代算力上电、客户付费或SpaceX自身税后ROIC。",
+    "category": "观察名单同行财报",
+    "url": "https://group.softbank/en/event/earnings_2026q2",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "hon-hai-fy26-q3-investor-conference-2026-11-12-tpe",
+    "start_utc": "2026-11-12T07:00:00Z",
+    "duration_minutes": 90,
+    "summary": "[持仓同行][已确认] 鸿海2026Q3法人说明会（PST 11月11日23:00）",
+    "description": "鸿海公告台北时间11月12日15:00召开2026Q3法人说明会，换算为洛杉矶11月11日23:00 PST。作为AI服务器、电力与存储需求read-through，检查AI整机柜交付、客户验收、收入确认时点、利润率、库存与下一季展望；机架出货不能直接证明Kioxia企业SSD实现ASP、现代电气订单或潍柴发电设备利润归属。",
+    "category": "持仓同行财报",
+    "url": "https://www.honhai.com/en-us/investor-relations/investor-relations-activities/event-calendar",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "nebius-q3-earnings-2026-11-12",
+    "start_utc": "2026-11-12T13:00:00Z",
+    "duration_minutes": 90,
+    "summary": "[观察名单同行][已确认] Nebius 2026Q3财报会（PST 05:00）",
+    "description": "Nebius官方确认11月12日美股盘前披露Q3业绩，并于美东08:00、洛杉矶05:00 PST举行电话会。与CoreWeave交叉核对已签容量中已上电/开始计费比例、收入与ARR质量、客户集中、资本开支、融资成本和现金消耗；订单或ARR增长不能单独证明完整Capex/GW及税后ROIC。",
+    "category": "观察名单同行财报",
+    "url": "https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "nvidia-sc26-special-address-2026-11-16",
+    "start_utc": "2026-11-16T22:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓同行][已确认] NVIDIA SC26 Special Address（PST 14:00）",
+    "description": "NVIDIA官方确认SC26特别演讲于芝加哥时间11月16日16:00–17:00举行，即洛杉矶14:00–15:00 PST。检查Vera Rubin及HPC/AI平台产品节奏、量产与交付时间、网络和系统级路线图；产品发布只更新供给与技术时间线，不能替代客户上电、付费及持仓公司的利润现金验证。",
+    "category": "持仓同行产品与技术",
+    "url": "https://www.nvidia.com/en-us/events/supercomputing/",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "nvidia-fy27-q3-earnings-2026-11-17",
+    "start_utc": "2026-11-17T21:20:00Z",
+    "duration_minutes": 100,
+    "summary": "[持仓同行][已确认] NVIDIA FY2027 Q3业绩与电话会（PST 13:20/14:00）",
+    "description": "NVIDIA官方确认约洛杉矶11月17日13:20 PST发布FY2027 Q3业绩、14:00举行电话会。财报前冻结市场预期；随后核对收入、数据中心、毛利率、下一季指引、Blackwell/Rubin交付、网络业务和云客户资本开支。作为Kioxia、现代电气、潍柴及SpaceX AI链的重要交叉证据，但GPU出货不能替代各公司的订单、验收、实现价格和现金回报。",
+    "category": "持仓同行财报",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "nvidia-post-earnings-cross-asset-review-2026-11-18",
+    "start_utc": "2026-11-18T14:30:00Z",
+    "duration_minutes": 240,
+    "summary": "[市场][研究检查] NVIDIA财报后首个完整交易日承接验证（PST 06:30）",
+    "description": "在英伟达财报后首个完整美股交易日，分开检查NVIDIA、SOXX、存储、半导体设备及数据中心电力链的开盘、回吐、成交量和收盘承接，并与信用利差和长端利率对照。区分公司指引影响、主题去杠杆和宏观利率冲击；盘中反弹或下跌本身不构成公司thesis或交易动作。",
+    "category": "市场-财报后验证",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "fomc-october-minutes-2026-11-18",
+    "start_utc": "2026-11-18T19:00:00Z",
+    "duration_minutes": 45,
+    "summary": "[宏观][已确认] FOMC 10月会议纪要（PST 11:00）",
+    "description": "美联储官方日历确认美东11月18日14:00、洛杉矶11:00 PST发布10月27–28日会议纪要。核对委员对通胀、就业、资产负债表和后续政策门槛的分歧；纪要基于会议时的信息集，需结合会后CPI/PPI解释，并与英伟达财报后上午的行业表现分开归因。",
+    "category": "宏观-美国央行",
+    "url": "https://www.federalreserve.gov/monetarypolicy.htm",
+    "alarms": ["-P1D"]
+  },
+  {
     "uid": "us-cpi-2026-11",
     "start_utc": "2026-11-10T13:30:00Z",
     "duration_minutes": 30,
