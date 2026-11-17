@@ -2559,16 +2559,6 @@
     "alarms": ["-P1D"]
   },
   {
-    "uid": "nintendo-us-digital-sale-2026-11-19",
-    "start_utc": "2026-11-19T08:00:00Z",
-    "duration_minutes": 20160,
-    "summary": "[持仓][已确认] Nintendo美国数字促销窗口（11月19日—12月2日）",
-    "description": "Nintendo官方确认Nintendo eShop、官网及应用的精选数字游戏促销于PST 11月19日开始、12月2日23:59结束。检查折扣深度、第一方/第三方覆盖、榜单与下载转化；用于判断假日季软件需求、全价销售质量与数字收入，而不是把促销本身机械视为利好或利空。",
-    "category": "持仓需求与渠道",
-    "url": "https://www.nintendo.com/us/whatsnew/nintendo-announces-black-friday-offers-to-help-spread-joy-this-holiday-season/",
-    "alarms": ["-P7D", "-P1D"]
-  },
-  {
     "uid": "japan-cpi-2026-11-20-jst",
     "start_utc": "2026-11-19T23:30:00Z",
     "duration_minutes": 30,
