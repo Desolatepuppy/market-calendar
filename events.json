@@ -1313,16 +1313,6 @@
     "alarms": ["-P1D"]
   },
   {
-    "uid": "apec-finance-ministers-hong-kong-2026-10-19",
-    "start_utc": "2026-10-18T16:00:00Z",
-    "duration_minutes": 4320,
-    "summary": "[宏观][已确认] APEC财长会（PDT 10月18日09:00窗口起）",
-    "description": "APEC官方日历确认会议于香港时间10月19日至21日举行；本事件按当地日期窗口换算为洛杉矶10月18日09:00 PDT至10月21日09:00 PDT，具体会议时刻TBA。访美会谈后重点核对中美经贸联合安排是否出现执行文件、双方财长接触、跨境资本与金融稳定表述；未公布的双边会晤不得预先视为已确认。",
-    "category": "宏观-中美政策",
-    "url": "https://www.apec.org/",
-    "alarms": ["-P7D", "-P1D"]
-  },
-  {
     "uid": "onon-q3-date-channel-check-2026-10-19",
     "start_utc": "2026-11-10T13:00:00Z",
     "duration_minutes": 60,
@@ -2113,16 +2103,6 @@
     "alarms": ["-P1D"]
   },
   {
-    "uid": "apec-economic-leaders-meeting-shenzhen-2026-11-18",
-    "start_utc": "2026-11-17T16:00:00Z",
-    "duration_minutes": 2880,
-    "summary": "[宏观][已确认] APEC领导人会议（PST 11月17日08:00窗口起）",
-    "description": "APEC官方日历确认领导人会议于北京时间11月18日至19日在深圳举行；本事件按当地日期窗口换算为洛杉矶11月17日08:00 PST至11月19日08:00 PST，具体会议时刻TBA。9月访美会谈后核对中美领导人是否再次互动、联合安排执行、非敏感商品贸易、AI风险沟通、关键矿产、直航及商业订单；只有正式规则、合同和生效日期才改变公司thesis。",
-    "category": "宏观-中美政策",
-    "url": "https://www.apec.org/",
-    "alarms": ["-P7D", "-P1D"]
-  },
-  {
     "uid": "circana-us-games-october-2026-release-2026-11-19",
     "date": "2026-11-19",
     "summary": "[持仓][研究检查] Circana美国游戏10月月报（计划发布日期）",
@@ -2506,16 +2486,6 @@
     "description": "旧金山与线上会议，开幕主题演讲为11月17日10:00 PST。只记录会改变AI基础设施判断的信息：Azure与NVIDIA部署节奏、Vera Rubin验证/量产、AI工厂、电力与网络瓶颈、企业客户采用及资本效率；用于Kioxia、H3C、NVIDIA read-through和AI资本开支链验证。",
     "category": "跨组合产业验证",
     "url": "https://ignite.microsoft.com/en-US/home",
-    "alarms": ["-P1D"]
-  },
-  {
-    "uid": "apec-ceo-summit-2026-11-17",
-    "start_utc": "2026-11-16T16:00:00Z",
-    "duration_minutes": 2880,
-    "summary": "[跨组合][已确认] APEC CEO峰会（深圳11月17—18日；PST 11月16—18日）",
-    "description": "APEC官方确认CEO Summit于深圳当地时间11月17—18日举行；按完整当地日期换算，其日历窗口从PST 11月16日08:00起。检查中美经贸、AI与数字贸易、供应链、关税和企业投资信号；与已在日历的11月18—19日APEC经济领导人会议分开记录。",
-    "category": "跨组合政策与地缘",
-    "url": "https://www.apec.org/",
     "alarms": ["-P1D"]
   },
   {
