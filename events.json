@@ -2479,16 +2479,6 @@
     "alarms": ["-P1D"]
   },
   {
-    "uid": "microsoft-ignite-2026-11-17",
-    "start_utc": "2026-11-17T08:00:00Z",
-    "duration_minutes": 5760,
-    "summary": "[跨组合][已确认] Microsoft Ignite 2026（11月17—20日）",
-    "description": "旧金山与线上会议，开幕主题演讲为11月17日10:00 PST。只记录会改变AI基础设施判断的信息：Azure与NVIDIA部署节奏、Vera Rubin验证/量产、AI工厂、电力与网络瓶颈、企业客户采用及资本效率；用于Kioxia、H3C、NVIDIA read-through和AI资本开支链验证。",
-    "category": "跨组合产业验证",
-    "url": "https://ignite.microsoft.com/en-US/home",
-    "alarms": ["-P1D"]
-  },
-  {
     "uid": "uk-cpi-2026-11-18",
     "start_utc": "2026-11-18T07:00:00Z",
     "duration_minutes": 30,
