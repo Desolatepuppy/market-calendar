@@ -2578,16 +2578,6 @@
     "alarms": ["-P1D"]
   },
   {
-    "uid": "nintendo-switch2-mkw-bundle-sale-2026-11-22",
-    "start_utc": "2026-11-22T08:00:00Z",
-    "duration_minutes": 20160,
-    "summary": "[持仓][已确认] Switch 2＋Mario Kart World假日套装促销（11月22日—12月5日）",
-    "description": "Nintendo官方确认美国市场该套装建议零售价499.99美元，较原价节省50美元，11月22日至12月5日、售完即止；精选实体游戏11月22—29日优惠20美元。检查渠道库存、缺货/补货、折扣是否由Nintendo或零售商承担、硬件拉动与软件attach rate，判断假日需求质量和毛利影响。",
-    "category": "持仓需求与渠道",
-    "url": "https://www.nintendo.com/us/whatsnew/nintendo-announces-black-friday-offers-to-help-spread-joy-this-holiday-season/",
-    "alarms": ["-P7D", "-P1D"]
-  },
-  {
     "uid": "black-friday-holiday-demand-review-2026-11-27",
     "date": "2026-11-27",
     "summary": "[持仓][研究检查] Black Friday跨持仓需求与折扣质量复核",

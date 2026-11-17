@@ -10,3 +10,4 @@
 - Use primary sources when available. Label exchange appointment dates as `[预约披露]` and unconfirmed research windows as `[预计窗口]` or `[研究检查]`.
 - Do not add airline, dividend bookkeeping, weekly oil inventory, or generic supply-chain placeholder events unless the portfolio thesis changes and the event becomes decision-relevant.
 - Prefer one decision-rich recurring review over several low-value reminders.
+- Do not represent promotions, research windows, or monitoring periods as multi-day calendar spans. Use a single start-date event or a separate one-day review checkpoint so the event does not occupy the calendar across multiple days.
