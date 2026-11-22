@@ -2588,11 +2588,21 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "vnet-q3-2026-earnings-call",
+    "start_utc": "2026-11-23T12:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[观察名单][客户][已确认] 世纪互联2026Q3财报会（PST 04:00）",
+    "description": "世纪互联官方确认11月23日07:00 ET／北京时间20:00召开2026Q3财报会，对应PST 04:00。作为HD现代电气和AI基础设施需求read-through，分列已签未投运容量、客户实际搬入、在役利用率、预付款/回款、资本开支和融资安排；仅有规划容量或签约框架不能替代投运与付款。",
+    "category": "观察名单客户财报",
+    "url": "https://ir.vnet.com/news-releases/news-release-details/vnet-announce-unaudited-third-quarter-2026-financial-results",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
     "uid": "w48-kioxia-credit-review-2026-11-23",
     "start_utc": "2026-11-23T21:00:00Z",
     "duration_minutes": 30,
     "summary": "[持仓][研究检查] W48铠侠折价、信用与市场广度复核（PST 13:00）",
-    "description": "美国常规收盘后记录铠侠ADR与东京现货折价、USD/JPY、可执行买卖价差与结算状态，并更新HY/IG信用利差、RSP/IWM/SOXX和存储链相对表现。目的是区分公司错杀、板块去杠杆与流动性噪声；不因折价或单日下跌机械加仓。",
+    "description": "美国常规收盘后记录铠侠ADR与东京现货折价、USD/JPY、可执行买卖价差与结算状态，并更新HY/IG信用利差、SOXX份额与成交量、RSP/IWM及SOXX/QQQ相对强弱。参考位：SPY 701.18／686.75／662.23，RSP 206.86，IWM 256.32；必须看收盘是否守住，区分公司错杀、板块去杠杆与流动性噪声，不因折价或单日下跌机械加仓。",
     "category": "持仓执行条件",
     "url": "https://www.kioxia-holdings.com/en-jp/ir/",
     "alarms": ["-P1D"]
@@ -2609,11 +2619,21 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "dicks-fy26-q3-earnings-2026-11-24",
+    "start_utc": "2026-11-24T13:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][同行][已确认] Dick's FY26 Q3财报会（PST 05:00）",
+    "description": "Dick's Sporting Goods官方确认11月24日08:00 ET召开FY26 Q3财报会，对应PST 05:00。作为昂跑美国批发与终端需求read-through，检查成熟门店的全价补单、On相关库存和售罄、退货、折扣、Foot Locker整合及假日指引；零售商总销售增长不能替代品牌级正价复购。",
+    "category": "持仓同行财报",
+    "url": "https://investors.dicks.com/news/press-releases/news-details/2026/DICKS-Sporting-Goods-Inc--Third-Quarter-Results-Call-Scheduled-for-November-24th/default.aspx",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
     "uid": "dell-fy27-q3-earnings-2026-11-24",
     "start_utc": "2026-11-24T21:30:00Z",
     "duration_minutes": 60,
     "summary": "[存储][同行][已确认] Dell FY27 Q3财报会（PST 13:30）",
-    "description": "Dell官方确认11月24日15:30 CST召开财报电话会，对应PST 13:30。作为铠侠和存储需求read-through，检查AI服务器/机架交付与客户验收、企业存储采购、订单取消或重新定价、组件成本、库存和现金流；同行强弱不能直接替代铠侠自身验证。",
+    "description": "Dell官方确认11月24日15:30 CST召开财报电话会，对应PST 13:30。作为铠侠和存储需求read-through，检查AI服务器/机架实际交付、客户验收与付款、应收和现金转化、企业存储真实采购、准备性订单、取消或重新定价、组件成本与库存；同行强弱不能直接替代铠侠自身净价、交货和现金验证。",
     "category": "存储同行财报",
     "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1661/dell-technologies-to-hold-conference-call-nov-24-to-discuss-third-quarter-fiscal-2027-financial-results",
     "alarms": ["-P7D", "-P1D"]
@@ -2639,6 +2659,16 @@
     "alarms": ["-P1D"]
   },
   {
+    "uid": "gds-q3-2026-earnings-call",
+    "start_utc": "2026-11-25T12:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[观察名单][客户][已确认] 万国数据2026Q3财报会（PST 04:00）",
+    "description": "万国数据官方确认11月25日07:00 ET／北京时间20:00召开2026Q3财报会，对应PST 04:00。与世纪互联按同口径比较已签未投运、实际搬入、在役利用率、客户预付款和回款、资本开支及融资；若利用率、搬入和付款同时下降，才构成对数据中心设备需求更强的负面read-through。",
+    "category": "观察名单客户财报",
+    "url": "https://investors.gds-services.com/news-releases/news-release-details/gds-report-third-quarter-2026-financial-results-open-us-market",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
     "uid": "fed-beige-book-2026-11-25",
     "start_utc": "2026-11-25T19:00:00Z",
     "duration_minutes": 30,
@@ -2646,6 +2676,16 @@
     "description": "美联储正式日历确认14:00 ET发布，对应PST 11:00。检查消费、就业、工资、价格、信贷、制造业和地区分化，结合当天GDP/PCE评估增长与通胀组合；用于Market Level与防御资产期限判断，不直接触发股票交易。",
     "category": "宏观与市场Level",
     "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "w48-midweek-flow-validation-2026-11-25",
+    "start_utc": "2026-11-25T21:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[市场Level][研究检查] W48周三收盘Flow与信用复核（PST 13:00）",
+    "description": "本周最后一个高信息量的美国完整交易日收盘复核。将世纪互联、Dell、万国数据的交付/验收/付款证据与PCE后的利率反应合并，检查SPY是否守住701.18或失守686.75，RSP/IWM是否守住206.86／256.32，SOXX/QQQ是否止跌，以及HY/IG信用利差是否停止扩大。只有广度、信用和公司现金流共同改善，才把反抽升级为可持续止稳判断；黑五半日行情不能替代本次验证。",
+    "category": "市场Level与资金流",
+    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
     "alarms": ["-P1D"]
   },
   {
