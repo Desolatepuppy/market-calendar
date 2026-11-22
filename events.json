@@ -1284,13 +1284,12 @@
   },
   {
     "uid": "xiaomi-q3-date-check-2026-10-15",
-    "start_utc": "2026-11-24T00:00:00Z",
-    "duration_minutes": 900,
-    "summary": "[持仓][已确认日期][预计窗口] 小米2026Q3业绩（PST 11月23日16:00起）",
-    "description": "港交所董事会会议名单确认小米于香港时间11月24日审议2026Q3业绩，但公司尚未确认具体披露或业绩会时刻。本事件暂按香港工作日08:00–23:00换算为洛杉矶11月23日16:00 PST至11月24日07:00 PST的预计窗口，具体时刻TBA，后续以小米IR为准。复核手机出货/ASP/毛利、内存成本传导、AIoT、汽车交付与单位经济性、库存、资本开支及现金流。",
+    "start_utc": "2026-11-24T11:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][已确认] 小米2026Q3业绩会（PST 03:30）",
+    "description": "小米IR确认香港时间11月24日19:30举行2026Q3业绩电话会，对应PST 11月24日03:30；业绩同日公布，但官方尚未确认报告发布的具体分钟。复核手机出货/ASP/毛利、内存成本传导、AIoT收入与毛利、汽车交付与单位经济性，以及集团库存、资本开支、经营现金流和自由现金流；不把标题利润机械转化为交易动作。",
     "category": "持仓财报",
-    "url": "https://www3.hkexnews.hk/reports/bmn/ebmn.htm",
-    "status": "TENTATIVE",
+    "url": "https://ir.mi.com/events/event-details/xiaomi-corporation-2026-third-quarter-results-announcement",
     "alarms": ["-P7D", "-P1D"]
   },
   {
@@ -2116,8 +2115,8 @@
     "uid": "us-pce-2026-11-25",
     "start_utc": "2026-11-25T13:30:00Z",
     "duration_minutes": 30,
-    "summary": "[宏观][已确认] 美国10月核心PCE与个人收支",
-    "description": "BEA正式日历。核对核心PCE、实际消费与收入，更新利率路径和Market Level。",
+    "summary": "[宏观][已确认] 美国Q3 GDP二次估计、企业利润与10月PCE（PST 05:30）",
+    "description": "BEA正式日历确认三组数据同在08:30 ET发布，对应PST 05:30。核对GDP内部结构、私人国内最终销售、企业利润、核心PCE、实际消费与实际收入；用于更新利率路径、盈利环境和Market Level，不把单项数据机械转化为部署动作。",
     "category": "宏观-美国",
     "url": "https://www.bea.gov/news/schedule",
     "alarms": ["-P1D"]
@@ -2544,6 +2543,217 @@
     "description": "复核Nintendo硬件/软件库存和折扣、Xiaomi海外终端促销、On全价销售与清库存迹象、YUMC消费与优惠强度。区分销量增长、渠道补库和价格换量；只有能改变收入、毛利、库存或现金流判断的信息才进入thesis，不把单日榜单机械升级为交易信号。",
     "category": "持仓需求与渠道",
     "url": "https://www.nintendo.com/us/whatsnew/nintendo-announces-black-friday-offers-to-help-spread-joy-this-holiday-season/",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "jpx-labor-thanksgiving-closure-2026-11-23",
+    "date": "2026-11-23",
+    "summary": "[市场][已确认] 东京市场休市（勤劳感谢日）",
+    "description": "JPX正式假日日历确认11月23日日本现金市场休市，假日衍生品交易亦因BCP测试暂停。铠侠东京现货价格须等11月24日日本开市后更新；周一仅可参考ADR、日元和外围风险资产，不能把陈旧日股报价当成新的市场判断。",
+    "category": "市场交易时段",
+    "url": "https://www.jpx.co.jp/english/derivatives/rules/holidaytrading/",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "eurozone-flash-pmi-2026-11-23",
+    "start_utc": "2026-11-23T09:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][预约披露] 欧元区11月Flash PMI（PST 01:00）",
+    "description": "S&P Global当前发布日程为09:00 UTC，对应PST 01:00；该日程仍标注provisional。检查制造业新订单、服务业活动、投入与产出价格以及就业，作为全球需求、通胀和市场广度的早盘背景，不独立触发交易。",
+    "category": "宏观与市场Level",
+    "url": "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "uk-flash-pmi-2026-11-23",
+    "start_utc": "2026-11-23T09:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][预约披露] 英国11月Flash PMI（PST 01:30）",
+    "description": "S&P Global当前发布日程为09:30 UTC，对应PST 01:30；该日程仍标注provisional。检查制造业、服务业、新订单、就业和价格压力，主要作为欧洲增长与利率预期的补充，不独立构成组合动作。",
+    "category": "宏观与市场Level",
+    "url": "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-flash-pmi-2026-11-23",
+    "start_utc": "2026-11-23T14:45:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][预约披露] 美国11月Flash PMI（PST 06:45）",
+    "description": "S&P Global当前发布日程为14:45 UTC，对应PST 06:45；该日程仍标注provisional。检查制造业与服务业新订单、就业、投入成本和收费价格，并与信用利差、等权指数和半导体表现交叉验证Market Level。",
+    "category": "宏观与市场Level",
+    "url": "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "w48-kioxia-credit-review-2026-11-23",
+    "start_utc": "2026-11-23T21:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[持仓][研究检查] W48铠侠折价、信用与市场广度复核（PST 13:00）",
+    "description": "美国常规收盘后记录铠侠ADR与东京现货折价、USD/JPY、可执行买卖价差与结算状态，并更新HY/IG信用利差、RSP/IWM/SOXX和存储链相对表现。目的是区分公司错杀、板块去杠杆与流动性噪声；不因折价或单日下跌机械加仓。",
+    "category": "持仓执行条件",
+    "url": "https://www.kioxia-holdings.com/en-jp/ir/",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "japan-flash-pmi-2026-11-24-jst",
+    "start_utc": "2026-11-24T00:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][预约披露] 日本11月Flash PMI（PST 11月23日16:30）",
+    "description": "S&P Global当前发布日程为日本时间11月24日09:30，对应PST 11月23日16:30；该日程仍标注provisional。东京市场于日本时间09:00重开，结合铠侠现货价格、日元、制造业新订单和产出价格判断亚洲需求及存储风险偏好。",
+    "category": "宏观与亚洲持仓",
+    "url": "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "dell-fy27-q3-earnings-2026-11-24",
+    "start_utc": "2026-11-24T21:30:00Z",
+    "duration_minutes": 60,
+    "summary": "[存储][同行][已确认] Dell FY27 Q3财报会（PST 13:30）",
+    "description": "Dell官方确认11月24日15:30 CST召开财报电话会，对应PST 13:30。作为铠侠和存储需求read-through，检查AI服务器/机架交付与客户验收、企业存储采购、订单取消或重新定价、组件成本、库存和现金流；同行强弱不能直接替代铠侠自身验证。",
+    "category": "存储同行财报",
+    "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1661/dell-technologies-to-hold-conference-call-nov-24-to-discuss-third-quarter-fiscal-2027-financial-results",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "hp-fy26-q4-earnings-2026-11-24",
+    "start_utc": "2026-11-24T22:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[存储][同行][已确认] HP FY26 Q4财报会（PST 14:00）",
+    "description": "HP官方确认11月24日17:00 ET召开财报电话会，对应PST 14:00。HP已不属于当前持仓，本事件仅作为PC与存储需求read-through：检查PC单位量/ASP、内存和存储成本传导、渠道库存、Personal Systems及Printing利润率和现金流。",
+    "category": "存储同行财报",
+    "url": "https://investor.hp.com/news-events/news/news-details/2026/HP-Inc--to-Announce-Fourth-Quarter-Fiscal-2026-Earnings-on-November-24-2026-and-to-Attend-Upcoming-Investor-Conferences/default.aspx",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "xiaomi-post-earnings-hk-open-review-2026-11-25",
+    "start_utc": "2026-11-25T01:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[持仓][研究检查] 小米财报后港股首个完整交易时段（PST 11月24日17:30）",
+    "description": "香港时间11月25日09:30、PST 11月24日17:30为小米业绩会后的首个完整港股交易时段。对照财报与电话会信息检查价格、成交量、卖方盈利修订和汽车/手机分部预期变化；市场反应用于识别预期差，不取代公司质量和赔率判断。",
+    "category": "持仓财报复盘",
+    "url": "https://ir.mi.com/events/event-details/xiaomi-corporation-2026-third-quarter-results-announcement",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "fed-beige-book-2026-11-25",
+    "start_utc": "2026-11-25T19:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 美联储褐皮书（PST 11:00）",
+    "description": "美联储正式日历确认14:00 ET发布，对应PST 11:00。检查消费、就业、工资、价格、信贷、制造业和地区分化，结合当天GDP/PCE评估增长与通胀组合；用于Market Level与防御资产期限判断，不直接触发股票交易。",
+    "category": "宏观与市场Level",
+    "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "bok-rate-decision-2026-11-26",
+    "date": "2026-11-25",
+    "summary": "[宏观][已确认日期][时间待定] 韩国央行11月决议（首尔11/26；PST周三晚）",
+    "description": "韩国央行正式会议日程确认首尔时间11月26日召开货币政策会议，但当前未确认精确发布分钟；因对应PST 11月25日晚间，先以西部时间日期事件提示并保留TBA。核对利率决定、通胀/增长路径、韩元和外资流向，评估HD现代电气及韩国风险资产估值环境。",
+    "category": "宏观与韩国观察名单",
+    "url": "https://www.bok.or.kr/eng/main/contents.do?menuNo=400020",
+    "status": "TENTATIVE",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "fudan-q3-question-deadline-2026-11-26",
+    "start_utc": "2026-11-26T08:00:00Z",
+    "duration_minutes": 15,
+    "summary": "[持仓][已确认] 复旦微电Q3说明会问题提交截止（PST 00:00）",
+    "description": "公司公告确认问题须在北京时间11月26日16:00前提交，对应PST 11月26日00:00。问题优先覆盖SLC实际成交净价、出货量与单位成本、回款与付款条件、渠道库存及FPGA重复采购；只提交能区分真实盈利质量与会计表象的问题。",
+    "category": "持仓说明会准备",
+    "url": "http://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-14/688385_20261114_I888.pdf",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "ecb-october-accounts-2026-11-26",
+    "start_utc": "2026-11-26T12:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] ECB 10月会议纪要（PST 04:30）",
+    "description": "ECB正式周历确认11月26日13:30 CET发布10月28–29日货币政策会议纪要，对应PST 04:30。检查增长、通胀、汇率与政策分歧，作为全球利率和风险偏好的补充，不单独决定组合部署。",
+    "category": "宏观与市场Level",
+    "url": "https://www.ecb.europa.eu/press/calendars/weekly/html/index.en.html",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "us-thanksgiving-market-closure-2026-11-26",
+    "date": "2026-11-26",
+    "summary": "[市场][已确认] 美国股票市场感恩节休市",
+    "description": "NYSE正式交易日历确认美国股票市场11月26日感恩节休市。亚洲与欧洲信息仍会累积，但美国现货价格和流动性无法提供当日验证；不要用假日ADR或场外稀疏成交替代正常市场信号。",
+    "category": "市场交易时段",
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "tokyo-cpi-2026-11-27-jst",
+    "start_utc": "2026-11-26T23:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 东京11月CPI（PST 11月26日15:30）",
+    "description": "日本官方统计发布日历确认日本时间11月27日08:30发布，对应PST 11月26日15:30。检查headline、除生鲜核心、除生鲜与能源核心及服务通胀，评估BOJ路径、USD/JPY以及任天堂和铠侠的汇率与估值环境。",
+    "category": "宏观与汇率",
+    "url": "https://www.e-stat.go.jp/release-calendar/detail/00200573/202611270830",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "china-industrial-profits-2026-11-27",
+    "start_utc": "2026-11-27T01:30:00Z",
+    "duration_minutes": 30,
+    "summary": "[宏观][已确认] 中国1–10月工业企业利润（PST 11月26日17:30）",
+    "description": "国家统计局2026年发布日程确认北京时间11月27日09:30公布，对应PST 11月26日17:30。检查利润增速、利润率、应收账款、库存及电子设备制造业分项，用于复核小米、复旦、紫光/H3C及中国制造业需求共因子。",
+    "category": "宏观-中国",
+    "url": "https://www.stats.gov.cn/xw/tjxw/tzgg/202512/t20251224_1962137.html",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "fudan-q3-briefing-2026-11-27",
+    "start_utc": "2026-11-27T08:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][已确认] 复旦微电2026Q3业绩说明会（PST 00:00）",
+    "description": "公司公告确认北京时间11月27日16:00–17:00举行第三季度业绩说明会，对应PST 00:00–01:00。重点核对SLC实际成交净价、出货量与单位成本、现金回款和付款条件、渠道库存、FPGA重复采购及管理层对Q4与2027年的可验证指引；不以口头乐观替代量化证据。",
+    "category": "持仓业绩说明会",
+    "url": "http://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-11-14/688385_20261114_I888.pdf",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "times-electric-q3-question-deadline-2026-11-27",
+    "start_utc": "2026-11-27T08:00:00Z",
+    "duration_minutes": 15,
+    "summary": "[持仓][已确认] 时代电气Q3说明会问题提交截止（PST 00:00）",
+    "description": "公司公告确认北京时间11月27日16:00前征集问题，对应PST 00:00。优先询问Q4经营现金流是否超过人民币2.1亿元并推动全年转正、严格自由现金流、轨交与功率半导体现金转化，以及关联方/集团业务的回款质量。",
+    "category": "持仓说明会准备",
+    "url": "https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=688187",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "nyse-early-close-2026-11-27",
+    "start_utc": "2026-11-27T18:00:00Z",
+    "duration_minutes": 15,
+    "summary": "[市场][已确认] 美国股票市场提前收盘（PST 10:00）",
+    "description": "NYSE正式日历确认感恩节后11月27日13:00 ET提前收盘，对应PST 10:00。低流动性和缩短交易时段可能放大价差与单日波动；任何执行前先核对真实买卖盘、结算与平台可用资金，不把假日行情当成充分价格发现。",
+    "category": "市场交易时段",
+    "url": "https://www.nyse.com/markets/hours-calendars",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "times-electric-q3-briefing-2026-11-30",
+    "start_utc": "2026-11-30T08:00:00Z",
+    "duration_minutes": 60,
+    "summary": "[持仓][已确认] 时代电气2026Q3业绩说明会（PST 00:00）",
+    "description": "公司公告确认北京时间11月30日16:00–17:00举行第三季度业绩说明会，对应PST 00:00–01:00。重点核对Q4经营现金流与全年转正路径、严格自由现金流、轨交装备和功率半导体订单/毛利/回款、资本开支及关联方现金质量；说明会回答须与报表现金流交叉验证。",
+    "category": "持仓业绩说明会",
+    "url": "https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=688187",
+    "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "nintendo-holiday-post-promo-review-2026-12-26",
+    "date": "2026-12-26",
+    "summary": "[持仓][研究检查] 任天堂假日促销后首轮验证",
+    "description": "以单日复核点代替跨多周促销窗口。检查促销结束后的正常周销量、Switch 2实际零售价与渠道库存、硬件/软件attach rate、第一方软件利润贡献和现金回收；区分需求前置、折扣换量与可持续sell-through，不因单周榜单机械调整thesis。",
+    "category": "持仓需求与渠道",
+    "url": "https://www.nintendo.com/us/whatsnew/",
     "alarms": ["-P7D", "-P1D"]
   }
 ]
