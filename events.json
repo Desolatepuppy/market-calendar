@@ -2135,7 +2135,7 @@
     "uid": "memory-monthly-review-2026-11",
     "date": "2026-11-30",
     "summary": "[存储][研究检查] 11月存储价格与Kioxia/复旦月检",
-    "description": "复核合约价、NAND现货、Enterprise SSD价格/库存、供给纪律和旧制程分化，并单列NOR/SLC NAND；更新Kioxia核心经营变量及上海复旦NVM需求、价格/毛利、订单和代工成本传导。",
+    "description": "复核合约价、NAND现货、Enterprise SSD价格/库存、供给纪律和旧制程分化，并单列NOR/SLC NAND；更新上海复旦NVM需求、价格/毛利、订单和代工成本传导。铠侠另核订单、实际出货、客户验收、同规格净售价、单位成本及回款，区分股价止稳、行业供需见底和公司盈利见底。11月26日公布的NVIDIA Storage-Next演示属于概念验证，不能计入量产订单；仅在客户采用、批量交付及收入可验证时更新经营假设。公司公告：https://apac.kioxia.com/en-apac/business/news/2026/20261126-1.html",
     "category": "存储监测",
     "url": "https://www.trendforce.com/presscenter/news/semiconductors/",
     "alarms": ["-P1D"]
@@ -2782,10 +2782,49 @@
     "start_utc": "2026-11-30T08:00:00Z",
     "duration_minutes": 60,
     "summary": "[持仓][已确认] 时代电气2026Q3业绩说明会（PST 00:00）",
-    "description": "公司公告确认北京时间11月30日16:00–17:00举行第三季度业绩说明会，对应PST 00:00–01:00。重点核对Q4经营现金流与全年转正路径、严格自由现金流、轨交装备和功率半导体订单/毛利/回款、资本开支及关联方现金质量；说明会回答须与报表现金流交叉验证。",
+    "description": "公司公告确认北京时间11月30日16:00–17:00举行第三季度业绩说明会，对应PST 00:00–01:00。优先核对已验收轨交项目的实际回款和账期、功率半导体盈利及产品组合，再核对Q4经营现金流转正路径、自由现金流、采购付款、资本开支及关联方现金质量；说明会回答须与报表现金流交叉验证。",
     "category": "持仓业绩说明会",
     "url": "https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=688187",
     "alarms": ["-P7D", "-P1D"]
+  },
+  {
+    "uid": "w49-post-holiday-flow-credit-review-2026-11-30",
+    "start_utc": "2026-11-30T21:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[市场Level][研究检查] 节后首个完整美股交易日：广度、信用与资金流（PST 13:00）",
+    "description": "在感恩节后首个完整美股交易日收盘，比较等权与市值加权标普、小盘及半导体相对表现、涨跌家数和新低家数。核对CCC及以下、广谱高收益和投资级OAS的数据日期，并复核AI项目再融资、10年实际收益率、SOFR相对IORB及台韩现货/期货资金流。区分月底单日波动与跨月持续压力；数据未更新则待补，不把一日反弹视为盈利修复。",
+    "category": "市场Level与资金流",
+    "url": "https://fred.stlouisfed.org/series/BAMLH0A3HYC",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "globalfoundries-ubs-fireside-2026-12-01",
+    "start_utc": "2026-12-01T19:55:00Z",
+    "duration_minutes": 30,
+    "summary": "[观察名单][已确认] 格芯 GlobalFoundries｜UBS科技与AI会议发言（PST 11:55）",
+    "description": "格芯IR确认12月1日14:55 EST（11:55 PST）开始并提供直播，日历仅预留发言时段。重点核对硅光客户认证、量产爬坡和收入确认时间、产能利用率与毛利、资本开支及客户预付款；区分技术路线图、意向、约束订单和兑现收入。只有可量化的增量证据才用于更新盈利和估值假设。",
+    "category": "观察名单公司会议",
+    "url": "https://investors.gf.com/events/event-details/ubs-global-technology-and-ai-conference",
+    "alarms": ["-P1D", "-PT30M"]
+  },
+  {
+    "uid": "xiaomi-ev-november-demand-review-2026-12-02",
+    "date": "2026-12-02",
+    "summary": "[持仓][研究检查] 小米汽车11月交付、终端动销与库存复核",
+    "description": "单日研究提醒，不是公司公告日。核对小米官方是否公布11月交付及车型结构，结合可验证的终端注册、交车周期、折扣和库存线索；按同口径跟踪单车毛利和已披露库存。交付量、积压订单、分部总存货和滞销整车不是同一个指标；未披露的库龄、整车库存及单车利润单列待核。",
+    "category": "持仓需求与渠道",
+    "url": "https://ir.mi.com/",
+    "alarms": ["-P1D"]
+  },
+  {
+    "uid": "globalfoundries-nasdaq-investor-conference-2026-12-08",
+    "start_utc": "2026-12-08T11:00:00Z",
+    "duration_minutes": 30,
+    "summary": "[观察名单][已确认] 格芯 GlobalFoundries｜Nasdaq投资者会议发言（PST 03:00）",
+    "description": "格芯IR确认12月8日06:00 EST（03:00 PST）开始并提供直播，日历仅预留发言时段。与12月1日UBS发言逐项核对，只记录有增量的硅光量产、利用率、客户预付、扩产资金来源和资本开支证据；不将重复表述当成独立确认。",
+    "category": "观察名单公司会议",
+    "url": "https://investors.gf.com/events/event-details/55th-annual-nasdaq-investor-conference",
+    "alarms": ["-P1D", "-PT30M"]
   },
   {
     "uid": "nintendo-holiday-post-promo-review-2026-12-26",
